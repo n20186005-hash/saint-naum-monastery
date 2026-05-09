@@ -272,8 +272,29 @@
     "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
+  "footer": {
+    "logo": "圣诺姆修道院",
+    "rights": "© 2026 圣诺姆修道院独立游客指南。保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "cookies": "Cookie 设置",
+    "disclaimer": "免责声明：本网站为独立运营的游客指南，与北马其顿政府、奥赫里德旅游局及圣诺姆修道院官方管理机构无任何隶属关系。本站提供的信息仅供旅行参考，开放时间及票价可能随季节变化，建议出行前通过官方渠道进行核实。",
+    "officialResourcesTitle": "官方旅游资源",
+    "officialLinks": {
+      "council": "北马其顿国家旅游局",
+      "tourism": "奥赫里德官方旅游指南",
+      "england": "马其顿东正教会"
+    }
+  },
   "officialManagement": {
     "title": "关于圣诺姆修道院",
     "text": "圣诺姆修道院（Манастир Свети Наум）由中世纪学者及传教士圣诺姆于公元 905 年建立，是斯拉夫东正教最古老、最重要的文化与宗教中心之一。修道院坐落在奥赫里德湖最南端，作为北马其顿的文化遗产，吸引着来自世界各地的朝圣者和游客。"
+  },
+  "header": {
+    "home": "首页",
+    "gallery": "图集",
+    "reviews": "评价",
+    "map": "地图",
+    "backToHome": "返回首页"
   }
 }

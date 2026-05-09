@@ -272,8 +272,29 @@
     "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
+  "footer": {
+    "logo": "St. Naum Monastery",
+    "rights": "© 2026 Independent Visitor Guide to St. Naum Monastery. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "disclaimer": "Disclaimer: This website is an independent visitor guide and is not affiliated with the Government of North Macedonia, Ohrid Tourism Board, or the official management of St. Naum Monastery. Information provided is for travel reference only. Opening hours and ticket prices may vary by season. We recommend verifying with official sources before your visit.",
+    "officialResourcesTitle": "Official Tourism Resources",
+    "officialLinks": {
+      "council": "North Macedonia National Tourism Board",
+      "tourism": "Ohrid Official Travel Guide",
+      "england": "Macedonian Orthodox Church"
+    }
+  },
   "officialManagement": {
     "title": "About St. Naum Monastery",
     "text": "St. Naum Monastery (Манастир Свети Наум) is one of the oldest and most important spiritual and cultural centers of Slavic Orthodoxy, founded in 905 by St. Naum of Ohrid. Located at the southernmost tip of Lake Ohrid, the monastery is managed as a cultural heritage site of North Macedonia, attracting pilgrims and tourists from around the world."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
   }
 }
