@@ -311,49 +311,71 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last Updated: May 9, 2026",
+    "lastUpdated": "Last Updated: May 2026",
     "sections": [
       {
-        "heading": "Information Collection",
-        "content": "As an independent visitor guide, we do not actively collect personally identifiable information. We may use anonymous analytics tools to improve user experience."
+        "heading": "Information We Collect",
+        "content": "We only collect the minimum amount of data necessary to provide our services. This data may include: browsing data (IP address, browser type, pages visited), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
       },
       {
-        "heading": "Data Usage",
-        "content": "Any anonymous data collected is used solely to analyze website traffic and improve content, and is not shared with third parties."
+        "heading": "How We Use Your Information",
+        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+      },
+      {
+        "heading": "Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+      },
+      {
+        "heading": "Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
       }
     ]
   },
   "terms": {
     "title": "Terms of Service",
-    "lastUpdated": "Last Updated: May 9, 2026",
+    "lastUpdated": "Last Updated: March 2026",
     "sections": [
       {
-        "heading": "Terms of Use",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service. This site serves only as an independent visitor guide for St. Naum Monastery."
+        "heading": "Content Usage",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. All content on this website is for informational purposes only. We are an independent third-party travel information website, unaffiliated with any tourist attraction, government agency, or commercial operator."
       },
       {
-        "heading": "Disclaimer",
-        "content": "While we strive for accuracy, we are not responsible for discrepancies in opening hours, ticket prices, or other information caused by seasonal changes or official policy updates."
+        "heading": "Accuracy of Information",
+        "content": "We strive to provide accurate and timely information, but cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Please verify important information through official channels before your trip."
+      },
+      {
+        "heading": "Intellectual Property",
+        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used with permission. The use of Google Maps data complies with Google's Terms of Service."
+      },
+      {
+        "heading": "Limitation of Liability",
+        "content": "This website is provided 'as is' without any warranties. We are not responsible for any losses incurred from the use of information on this website, including but not limited to travel decisions made based on the content of this site."
       }
     ]
   },
   "cookieSettings": {
     "title": "Cookie Settings",
-    "description": "Manage your cookie preferences. You can choose to enable or disable non-essential cookies.",
+    "description": "Last Updated: March 2026. We use cookies to improve your browsing experience. You can manage your preferences below.",
     "essential": {
       "title": "Essential Cookies",
-      "description": "These cookies are necessary for the website to function properly and cannot be disabled.",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
       "alwaysActive": "Always Active"
     },
     "analytics": {
       "title": "Analytics Cookies",
-      "description": "Help us understand how visitors interact with the website to improve user experience."
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data."
+    },
+    "preferences": {
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences. Save your language preferences and website settings."
     },
     "marketing": {
       "title": "Marketing Cookies",
-      "description": "Used to deliver relevant advertisements and marketing content."
+      "description": "They are used to display relevant ads and measure the effectiveness of advertising campaigns. They can show you relevant ads based on your interests."
     },
-    "save": "Save Settings",
+    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling some cookies may affect the functionality of the website.",
+    "save": "Save Preferences",
+    "rejectAll": "Reject All",
     "saved": "Settings Saved!"
   }
 }

@@ -56,6 +56,7 @@ export default function CookieSettingsClient() {
   const homeHref = locale === 'it' ? '/' : `/${locale}`;
 
   const [analytics, setAnalytics] = useState(false);
+  const [preferences, setPreferences] = useState(false);
   const [marketing, setMarketing] = useState(false);
   const [saved, setSaved] = useState(false);
 
@@ -63,12 +64,22 @@ export default function CookieSettingsClient() {
     try {
       const prefs = JSON.parse(localStorage.getItem('cookiePrefs') || '{}');
       if (prefs.analytics) setAnalytics(true);
+      if (prefs.preferences) setPreferences(true);
       if (prefs.marketing) setMarketing(true);
     } catch {}
   }, []);
 
   function handleSave() {
-    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, marketing }));
+    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics, preferences, marketing }));
+    setSaved(true);
+    setTimeout(() => setSaved(false), 2000);
+  }
+
+  function handleRejectAll() {
+    setAnalytics(false);
+    setPreferences(false);
+    setMarketing(false);
+    localStorage.setItem('cookiePrefs', JSON.stringify({ analytics: false, preferences: false, marketing: false }));
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
   }
@@ -101,13 +112,19 @@ export default function CookieSettingsClient() {
             enabled={true}
             onToggle={() => {}}
             locked={true}
-            badge={t('essential.badge')}
+            badge={t('essential.alwaysActive')}
           />
           <CookieToggle
             label={t('analytics.title')}
             description={t('analytics.description')}
             enabled={analytics}
             onToggle={() => setAnalytics(!analytics)}
+          />
+          <CookieToggle
+            label={t('preferences.title')}
+            description={t('preferences.description')}
+            enabled={preferences}
+            onToggle={() => setPreferences(!preferences)}
           />
           <CookieToggle
             label={t('marketing.title')}
@@ -117,13 +134,26 @@ export default function CookieSettingsClient() {
           />
         </div>
 
-        <button
-          onClick={handleSave}
-          className="px-6 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
-          style={{ background: 'var(--accent)' }}
-        >
-          {saved ? t('saved') : t('save')}
-        </button>
+        <div className="mb-6">
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{t('consentManagement')}</p>
+        </div>
+
+        <div className="flex flex-wrap gap-4">
+          <button
+            onClick={handleSave}
+            className="px-6 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
+            style={{ background: 'var(--accent)' }}
+          >
+            {saved ? t('saved') : t('save')}
+          </button>
+          <button
+            onClick={handleRejectAll}
+            className="px-6 py-2.5 rounded-full text-sm font-medium transition-colors"
+            style={{ color: 'var(--text-primary)', border: '1px solid var(--border-color)', background: 'var(--bg-secondary)' }}
+          >
+            {t('rejectAll')}
+          </button>
+        </div>
       </div>
     </div>
   );
