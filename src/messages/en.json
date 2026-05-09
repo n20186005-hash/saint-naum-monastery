@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "title": "Petrovaradin Fortress Clock Tower (The Drunken Clock)｜Novi Sad's Iconic Landmark & Danube Panorama - Best European Spots",
+    "description": "Complete guide to Petrovaradin Fortress Clock Tower in Novi Sad, Serbia. Learn about opening hours, transportation, ticket prices, tour tips and stunning photos. The legendary 'Drunken Clock' with breathtaking Danube views."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Petrovaradin Fortress Clock",
+    "subtitle": "The Legendary 'Drunken Clock' & Danube River Panorama in Novi Sad, Serbia",
+    "rating": "4.8(14,043)",
+    "reviewCount": "14,043 reviews",
+    "hours": "Open 24 hours",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Discover the Charm of the Drunken Clock",
+    "description": "Climb up more than two hundred stone steps, and when you finally catch your breath at the top of Petrovaradin Fortress, the famous black-and-white 'Drunken Clock' will stand right before your eyes. But what's even more breathtaking is the unobstructed panoramic view that stretches out before you.\n\nFrom here, the Danube River flows gracefully at your feet, its broad surface reflecting the colors of the sky. Across the river, the red-roofed buildings, church spires, and modern bridges of Novi Sad's old town unfold in a magnificent tableau.\n\nThe clock tower was designed with remarkable tenderness: the long hand points to the hours so that Danube sailors and townspeople across the river could tell the time at a glance, even from a distance. As you listen to the ancient mechanism's ticking and sip coffee at an outdoor café nearby, you'll understand why Novi Sad was chosen as the European Capital of Culture.",
+    "visitGuide": {
+      "title": "Visit Tips",
+      "items": [
+        "Strongly recommended to arrive half an hour before sunset for the best views of Novi Sad's skyline and Danube sunset",
+        "The fortress and clock tower exterior are free to visit, no admission fee required",
+        "The fortress top has no shade in summer, sun protection is essential",
+        "The cobblestone steps can be slippery in rain or snow, wear anti-slip shoes"
+      ]
+    },
+    "highlights": {
+      "title": "Highlights",
+      "items": [
+        "'Gibraltar of the Danube' and symbol of Novi Sad",
+        "'Drunken Clock' - unique design with long hand for hours, short hand for minutes",
+        "18th-century Baroque architecture, white tower with red walls",
+        "Venue of EXIT Festival, iconic backdrop of European Capital of Culture"
+      ]
+    },
+    "aboutTitle": "About Petrovaradin Fortress Clock Tower",
+    "aboutText": "The Petrovaradin Fortress Clock Tower is managed and maintained by the City of Novi Sad, Serbia, and is one of the most important historical and cultural heritage sites in Novi Sad. As the most recognizable landmark clock tower in Serbia, Petrovaradin Fortress Clock Tower has witnessed over 300 years of history of this Danube riverside city. Today, the clock tower is open to the public free of charge, serving as the core panoramic viewpoint for Novi Sad citizens overlooking the city and the Danube, as well as an important window for visitors from around the world to learn about Serbian history and culture.",
+    "alsoKnownAs": {
+      "title": "Also Known As",
+      "items": [
+        "Drunken Clock",
+        "Gibraltar of the Danube"
+      ]
+    }
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Sahat kula / Pijani sat (Clock Tower / Drunken Clock)",
+    "type": "Attraction Type",
+    "typeValue": "Historic Landmark, Panoramic City Viewpoint, Baroque Military Architecture",
+    "country": "Country",
+    "countryValue": "Serbia",
+    "city": "City",
+    "cityValue": "Novi Sad, Vojvodina Autonomous Province",
+    "googleRating": "Google Rating",
+    "ratingValue": "4.8 (14,043 reviews)",
+    "phone": "Phone",
+    "phoneValue": "+381-21-6433-145",
+    "address": "Address",
+    "addressValue": "Petrovaradinska tvrđava, Petrovaradin 21131, Serbia"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "fortress": "Fortress & Clock Tower",
+    "fortressDesc": "Open 24 hours, 7 days a week, no access restrictions",
+    "fortressTime": "24 hours",
+    "cafe": "Cafés & Panoramic Restaurants",
+    "cafeDesc": "Monday - Sunday (extended hours in summer)",
+    "cafeTime": "09:00-23:00",
+    "tip": "Strongly recommended to arrive half an hour before sunset for the best views of Novi Sad's skyline and Danube sunset.",
+    "summer": "Fortress Viewpoint (Summer)",
+    "summerTime": "24 Hours",
+    "winter": "Fortress Viewpoint (Winter)",
+    "winterTime": "24 Hours",
+    "christmas": "Underground Catacombs",
+    "christmasTime": "09:00 - 17:00 (Guided only)",
+    "rosenborg": "Panoramic Restaurants & Cafés",
+    "rosenborgTime": "09:00 - 23:00"
+  },
+  "tickets": {
+    "title": "Ticket Prices",
+    "fortress": "Fortress & Clock Tower",
+    "free": "Free Admission",
+    "fortressDesc": "The fortress grounds and clock tower exterior are free to visit. No admission fee required.",
+    "catacombs": "Military Catacombs",
+    "catacombsDesc": "Separate tickets required for the underground military tunnels (Catacombs) or Novi Sad City Museum.",
+    "catacombsNote": "Guided tours are strongly recommended for the underground tunnels.",
+    "garden": "Fortress Grounds & Clock Tower",
+    "gardenPrice": "Free",
+    "rosenborg": "Underground Military Tunnels",
+    "adults": "Adults",
+    "adultsPrice": "300 RSD",
+    "students": "Students/Children",
+    "studentsPrice": "150 RSD",
+    "under17": "Children under 7",
+    "under17Price": "Free",
+    "card": "Novi Sad City Museum Ticket",
+    "cardPrice": "Included with museum admission"
+  },
+  "transport": {
+    "title": "How to Get Here",
+    "walking": {
+      "title": "Walking (Highly Recommended)",
+      "badge": "Recommended",
+      "desc": "Starting from Danube Park in central Novi Sad, walk east across the Varadin Bridge over the Danube, then climb the steps (~214 steps) at the fortress base. The 20-30 minute walk leads directly to the top observation platform with the clock tower."
+    },
+    "bus": "Car / Taxi",
+    "car": {
+      "title": "Car / Taxi",
+      "desc": "Vehicles can drive up the winding mountain road to the fortress. Free or paid parking is available near the clock tower. Taxis from central Novi Sad take only 10 minutes to the fortress top."
+    },
+    "metro": "Walking (Highly Recommended)",
+    "metroDesc": "From Danube Park, walk across Varadin Bridge and climb ~214 steps to the top.",
+    "train": "Bus",
+    "trainDesc": "Take bus 3, 9, 61, 62, or 64 across the river and walk up from the first stop.",
+    "busDesc": "Drive up the winding road to the fortress parking, or take a 10-min taxi from the city center.",
+    "taxi": "Tour Bus",
+    "taxiDesc": "Large tour buses can park at the designated parking lot below the fortress.",
+    "rideshare": "Rideshare",
+    "rideshareDesc": "Use Yandex Go or local taxi apps for a quick ride to the fortress top.",
+    "cycling": "Cycling",
+    "cyclingDesc": "Cycling is allowed, but the steep climb is recommended only for experienced cyclists.",
+    "fromStation": "From Train Station",
+    "fromStationDesc": "About 3.5 km away; take bus 61 or 62, or a taxi.",
+    "fromNyhavn": "From Liberty Square",
+    "fromNyhavnDesc": "About 2 km away; a 25-30 minute scenic walk through the old town and across the river."
+  },
+  "footer": {
+    "logo": "Petrovaradin Fortress Clock",
+    "rights": "© 2026 Petrovaradin Fortress Clock Tower Independent Travel Research Association · All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "officialResourcesTitle": "Related Resources & Information",
+    "officialLinks": {
+      "council": "Serbia Tourism",
+      "tourism": "Novi Sad Tourism",
+      "england": "Visit Serbia"
+    },
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "1. Information Collection",
+        "content": "We generally do not actively collect users' personally identifiable information. Any information you provide through contact forms or email will be kept strictly confidential."
+      },
+      {
+        "heading": "2. Information Usage",
+        "content": "Information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+      },
+      {
+        "heading": "3. Cookies & Tracking Technologies",
+        "content": "We use Cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent."
+      },
+      {
+        "heading": "4. Data Security",
+        "content": "The security of your data is important to us. We strive to use commercially acceptable means to protect your personal data, but no method of transmission over the Internet is 100% secure."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: May 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service."
+      },
+      {
+        "heading": "2. Use of Service",
+        "content": "This website is an independent third-party travel information project. Information provided is for general reference only. You agree to use this website responsibly and lawfully."
+      },
+      {
+        "heading": "3. Intellectual Property",
+        "content": "All content on this website (including text, images, and logos) is the property of the website owner (unless stated otherwise). Unauthorized use, reproduction, or distribution is strictly prohibited."
+      },
+      {
+        "heading": "4. Limitation of Liability",
+        "content": "We shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained therein."
+      }
+    ]
+  },
+  "officialManagement": {
+    "title": "About Petrovaradin Fortress Clock Tower",
+    "text": "The Petrovaradin Fortress Clock Tower is managed and maintained by the City of Novi Sad, Serbia, and is one of the most important historical and cultural heritage sites in Novi Sad. As the most recognizable landmark clock tower in Serbia, Petrovaradin Fortress Clock Tower has witnessed over 300 years of history of this Danube riverside city. Today, the clock tower is open to the public free of charge, serving as the core panoramic viewpoint for Novi Sad citizens overlooking the city and the Danube, as well as an important window for visitors from around the world to learn about Serbian history and culture."
+  }
+}

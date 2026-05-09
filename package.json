@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3000",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:all": "node scripts/check-all.js",
+    "check:json": "node scripts/validate-json.js",
+    "check:links": "node scripts/check-links.js",
+    "check:build": "node scripts/check-build.js"
   },
   "dependencies": {
     "next": "^15.1.0",

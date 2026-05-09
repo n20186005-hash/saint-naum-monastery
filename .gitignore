@@ -1,0 +1,126 @@
+# ===== Next.js & Build Artifacts =====
+# Next.js build output
+.next/
+out/
+dist/
+build/
+
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js/
+
+# ===== Environment & Secrets =====
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# ===== Logs & Databases =====
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== Cache & Temp Files =====
+# Build caches
+.cache/
+.next/cache/
+.vuepress/cache/
+.pytest_cache/
+.mocha_cache/
+
+# Temp files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# ===== OS & System Files =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+.directory
+.fuse_hidden*
+
+# ===== IDE & Editor Files =====
+# VSCode
+.vscode/
+*.code-workspace
+
+# WebStorm / IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Vim
+*.swp
+*.swo
+.vim/
+
+# Emacs
+*~
+.#*
+
+# ===== Testing & Coverage =====
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# Test reports
+test-results/
+jest-stare/
+
+# ===== Misc =====
+# Package lock files (uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Docker
+Dockerfile*
+.dockerignore
+docker-compose*.yml
+
+# Misc configs
+*.bak
+*.backup
+*.orig
+
+# ===== Project Specific =====
+# Backup files
+backup/
+*.bak
+
+# Old/unused scripts
+fix_*.js
+update_*.js
+
+# Source maps
+*.map
+
+# Image optimization
+*.optimized
