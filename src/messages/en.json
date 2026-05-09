@@ -224,14 +224,26 @@
     ],
     "viewAll": "View on Google Maps",
     "photos": [
-      { "src": "/gallery/saint-naum-monastery-01.jpg", "alt": "Monastery Overview" },
-      { "src": "/gallery/saint-naum-monastery-02.jpg", "alt": "Peacocks in the Garden" },
+      { "src": "/gallery/saint-naum-monastery-01.jpg", "alt": "Monastery Panorama" },
+      { "src": "/gallery/saint-naum-monastery-02.jpg", "alt": "Peacocks in Courtyard" },
       { "src": "/gallery/saint-naum-monastery-03.jpg", "alt": "Church Interior Frescoes" },
       { "src": "/gallery/saint-naum-monastery-04.jpg", "alt": "Lake Ohrid View" },
       { "src": "/gallery/saint-naum-monastery-05.jpg", "alt": "Black Drin Springs" },
       { "src": "/gallery/saint-naum-monastery-06.jpg", "alt": "Monastery Exterior" },
-      { "src": "/gallery/saint-naum-monastery-07.jpg", "alt": "Rowboat on Springs" },
-      { "src": "/gallery/saint-naum-monastery-08.jpg", "alt": "Sunset at Lake Ohrid" }
+      { "src": "/gallery/saint-naum-monastery-07.jpg", "alt": "Springs Wooden Boat" },
+      { "src": "/gallery/saint-naum-monastery-08.jpg", "alt": "Lakeside Sunset" },
+      { "src": "/gallery/saint-naum-monastery-09.jpg", "alt": "Monastery Scenery" },
+      { "src": "/gallery/saint-naum-monastery-10.jpg", "alt": "Peacock Close-up" },
+      { "src": "/gallery/saint-naum-monastery-11.jpg", "alt": "Frescoes Detail" },
+      { "src": "/gallery/saint-naum-monastery-12.jpg", "alt": "Lake Distant View" },
+      { "src": "/gallery/saint-naum-monastery-13.jpg", "alt": "Springs" },
+      { "src": "/gallery/saint-naum-monastery-14.jpg", "alt": "Architecture" },
+      { "src": "/gallery/saint-naum-monastery-15.jpg", "alt": "Wooden Boat" },
+      { "src": "/gallery/saint-naum-monastery-16.jpg", "alt": "Lakeside" },
+      { "src": "/gallery/saint-naum-monastery-17.jpg", "alt": "Monastery" },
+      { "src": "/gallery/saint-naum-monastery-18.jpg", "alt": "Peacock" },
+      { "src": "/gallery/saint-naum-monastery-19.jpg", "alt": "Landscape" },
+      { "src": "/gallery/saint-naum-monastery-20.jpg", "alt": "Architecture Panorama" }
     ]
   },
   "reviews": {
@@ -269,7 +281,7 @@
     "title": "How to Get Here",
     "subtitle": "Ljubaništa 6000, North Macedonia",
     "openMaps": "View on Google Maps",
-    "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
+    "openMapsUrl": "https://maps.app.goo.gl/b1AbhMTMrkztvPqg9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
   "footer": {
@@ -296,5 +308,52 @@
     "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: May 9, 2026",
+    "sections": [
+      {
+        "heading": "Information Collection",
+        "content": "As an independent visitor guide, we do not actively collect personally identifiable information. We may use anonymous analytics tools to improve user experience."
+      },
+      {
+        "heading": "Data Usage",
+        "content": "Any anonymous data collected is used solely to analyze website traffic and improve content, and is not shared with third parties."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: May 9, 2026",
+    "sections": [
+      {
+        "heading": "Terms of Use",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service. This site serves only as an independent visitor guide for St. Naum Monastery."
+      },
+      {
+        "heading": "Disclaimer",
+        "content": "While we strive for accuracy, we are not responsible for discrepancies in opening hours, ticket prices, or other information caused by seasonal changes or official policy updates."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Manage your cookie preferences. You can choose to enable or disable non-essential cookies.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are necessary for the website to function properly and cannot be disabled.",
+      "alwaysActive": "Always Active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "Help us understand how visitors interact with the website to improve user experience."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "Used to deliver relevant advertisements and marketing content."
+    },
+    "save": "Save Settings",
+    "saved": "Settings Saved!"
   }
 }

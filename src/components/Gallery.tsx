@@ -43,7 +43,7 @@ export default function Gallery() {
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {photos.slice(0, 8).map((photo: any, i: number) => (
+              {photos.slice(0, 9).map((photo: any, i: number) => (
                 <div
                   key={i}
                   className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
@@ -89,7 +89,7 @@ export default function Gallery() {
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
-                href="https://maps.app.goo.gl/KU48bLAQn5GmfQQU9"
+                href="https://maps.app.goo.gl/b1AbhMTMrkztvPqg9"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm hover:underline"

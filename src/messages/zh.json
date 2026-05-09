@@ -10,7 +10,7 @@
     "reviewCount": "11,529 条真实评价",
     "hours": "夏季 09:00-18:00 / 冬季 09:00-16:00",
     "openMaps": "查看位置",
-    "bgImage": "/gallery/images (1).jpg"
+    "bgImage": "/gallery/saint-naum-monastery-01.jpg"
   },
   "intro": {
     "aboutTitle": "关于圣诺姆修道院",
@@ -231,7 +231,19 @@
       { "src": "/gallery/saint-naum-monastery-05.jpg", "alt": "黑德林河泉水" },
       { "src": "/gallery/saint-naum-monastery-06.jpg", "alt": "修道院外观" },
       { "src": "/gallery/saint-naum-monastery-07.jpg", "alt": "泉水区木船" },
-      { "src": "/gallery/saint-naum-monastery-08.jpg", "alt": "湖畔日落" }
+      { "src": "/gallery/saint-naum-monastery-08.jpg", "alt": "湖畔日落" },
+      { "src": "/gallery/saint-naum-monastery-09.jpg", "alt": "修道院风景" },
+      { "src": "/gallery/saint-naum-monastery-10.jpg", "alt": "孔雀特写" },
+      { "src": "/gallery/saint-naum-monastery-11.jpg", "alt": "壁画细节" },
+      { "src": "/gallery/saint-naum-monastery-12.jpg", "alt": "湖泊远景" },
+      { "src": "/gallery/saint-naum-monastery-13.jpg", "alt": "泉水" },
+      { "src": "/gallery/saint-naum-monastery-14.jpg", "alt": "建筑" },
+      { "src": "/gallery/saint-naum-monastery-15.jpg", "alt": "木船" },
+      { "src": "/gallery/saint-naum-monastery-16.jpg", "alt": "湖畔" },
+      { "src": "/gallery/saint-naum-monastery-17.jpg", "alt": "修道院" },
+      { "src": "/gallery/saint-naum-monastery-18.jpg", "alt": "孔雀" },
+      { "src": "/gallery/saint-naum-monastery-19.jpg", "alt": "风光" },
+      { "src": "/gallery/saint-naum-monastery-20.jpg", "alt": "建筑全景" }
     ]
   },
   "reviews": {
@@ -269,7 +281,7 @@
     "title": "交通指南",
     "subtitle": "Ljubaništa 6000, North Macedonia",
     "openMaps": "在 Google Maps 查看",
-    "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
+    "openMapsUrl": "https://maps.app.goo.gl/b1AbhMTMrkztvPqg9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
   "footer": {
@@ -296,5 +308,52 @@
     "reviews": "评价",
     "map": "地图",
     "backToHome": "返回首页"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "lastUpdated": "最后更新：2026年5月9日",
+    "sections": [
+      {
+        "heading": "信息收集",
+        "content": "我们作为独立的游客指南网站，不会主动收集您的个人身份信息。我们可能使用匿名分析工具来优化用户体验。"
+      },
+      {
+        "heading": "数据使用",
+        "content": "收集到的任何匿名数据仅用于分析网站流量和改进内容，不会分享给第三方。"
+      }
+    ]
+  },
+  "terms": {
+    "title": "服务条款",
+    "lastUpdated": "最后更新：2026年5月9日",
+    "sections": [
+      {
+        "heading": "使用条款",
+        "content": "访问和使用本网站即表示您同意受这些服务条款的约束。本网站仅作为圣诺姆修道院的独立游客指南提供信息参考。"
+      },
+      {
+        "heading": "免责声明",
+        "content": "尽管我们努力保持信息的准确性，但不对开放时间、票价或其他由于季节和官方政策变动引起的信息误差负责。"
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie 设置",
+    "description": "管理您的 Cookie 首选项。您可以选择启用或禁用非必要的 Cookie。",
+    "essential": {
+      "title": "必要 Cookie",
+      "description": "这些 Cookie 是网站正常运行所必需的，无法关闭。",
+      "alwaysActive": "始终启用"
+    },
+    "analytics": {
+      "title": "分析 Cookie",
+      "description": "帮助我们了解访问者如何与网站互动，以改善用户体验。"
+    },
+    "marketing": {
+      "title": "营销 Cookie",
+      "description": "用于提供相关的广告和营销内容。"
+    },
+    "save": "保存设置",
+    "saved": "设置已保存！"
   }
 }
