@@ -6,11 +6,11 @@
   "hero": {
     "title": "圣诺姆修道院",
     "subtitle": "奥赫里德湖畔的千年圣地与孔雀庄园，北马其顿",
-    "rating": "4.8(11,200)",
-    "reviewCount": "11,200 条评价",
+    "rating": "4.8(11,529)",
+    "reviewCount": "11,529 条真实评价",
     "hours": "夏季 09:00-18:00 / 冬季 09:00-16:00",
     "openMaps": "查看位置",
-    "bgImage": "/gallery/saint-naum-monastery-01.jpg"
+    "bgImage": "/gallery/images (1).jpg"
   },
   "intro": {
     "aboutTitle": "关于圣诺姆修道院",
@@ -53,9 +53,9 @@
     "country": "国家",
     "countryValue": "北马其顿共和国",
     "city": "城市 / 位置",
-    "cityValue": "柳巴尼什塔（奥赫里德以南 29 公里），北马其顿",
+    "cityValue": "奥赫里德（*注：景点实际位于奥赫里德市区以南约 29 公里处的奥赫里德湖畔，紧邻阿尔巴尼亚边境，并不在比托拉市。）",
     "googleRating": "谷歌评分",
-    "ratingValue": "4.8 (11,200条评价)",
+    "ratingValue": "4.8 (11,529 条真实评价)",
     "phone": "联系电话",
     "phoneValue": "+389 46 253 020（奥赫里德旅游信息中心）",
     "address": "地址",
@@ -117,7 +117,7 @@
     "trainDesc": "沿着奥赫里德湖东岸公路向南行驶，路况良好，风景极佳。修道院外设有大型收费停车场（停车费约 50 第纳尔）。",
     "busDesc": "从奥赫里德市中心搭乘本地巴士，45分钟，110第纳尔单程。价格实惠，沿途风景优美。",
     "taxi": "从奥赫里德机场出发",
-    "taxiDesc": "奥赫里德机场（OHD）距离修道院约 38 公里。建议先打车到奥赫里德市中心（15分钟，10-15欧元），再转乘；直接从机场打车至修道院约 30-40 欧元。",
+    "taxiDesc": "奥赫里德“使徒圣保罗”机场（OHD）距离圣诺姆修道院约 38 公里。由于无直达修道院的机场大巴，最便捷的路线是在航站楼外搭乘出租车先前往奥赫里德市中心（车程 15 分钟，约 10-15 欧元），然后再从市区换乘公交、游船或继续打车前往修道院；若直接从机场打车至修道院，车程约 45 分钟，费用约 30-40 欧元。",
     "rideshare": "停车场",
     "rideshareDesc": "修道院外有大型收费停车场，停车费约 50 第纳尔。旺季可能会车位紧张。",
     "cycling": "从停车场步行",
@@ -125,7 +125,7 @@
     "fromStation": "从奥赫里德市中心出发",
     "fromStationDesc": "约 29 公里。可乘巴士（45分钟）、游船（1.5-2小时）或自驾（35分钟）抵达。",
     "fromNyhavn": "从机场出发",
-    "fromNyhavnDesc": "奥赫里德“使徒圣保罗”机场（OHD）约 38 公里。先打车到市中心再转乘，或直接打车 30-40 欧元。"
+    "fromNyhavnDesc": "奥赫里德“使徒圣保罗”机场（OHD）距离圣诺姆修道院约 38 公里。由于无直达修道院的机场大巴，最便捷的路线是在航站楼外搭乘出租车先前往奥赫里德市中心（车程 15 分钟，约 10-15 欧元），然后再从市区换乘公交、游船或继续打车前往修道院；若直接从机场打车至修道院，车程约 45 分钟，费用约 30-40 欧元。"
   },
   "knowledge": {
     "title": "圣诺姆修道院的历史与文化",
@@ -269,7 +269,7 @@
     "title": "交通指南",
     "subtitle": "Ljubaništa 6000, North Macedonia",
     "openMaps": "在 Google Maps 查看",
-    "openMapsUrl": "https://maps.app.goo.gl/KU48bLAQn5GmfQQU9",
+    "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
   "officialManagement": {

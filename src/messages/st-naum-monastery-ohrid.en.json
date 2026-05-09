@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "St. Naum Monastery, Ohrid｜Peacock Estate & Millennium Sanctuary on Lake Ohrid - Must-Visit in the Balkans",
+    "title": "St. Naum Monastery｜Millennium Sanctuary and Peacock Estate on Lake Ohrid - A Must-Visit in the Balkans",
     "description": "Complete guide to St. Naum Monastery in Ohrid, North Macedonia. Learn about opening hours, transportation, ticket prices, tour routes, photo spots and accommodation. The peacock estate and spiritual sanctuary on Lake Ohrid."
   },
   "hero": {
     "title": "St. Naum Monastery",
     "subtitle": "Millennium Sanctuary and Peacock Estate on Lake Ohrid, North Macedonia",
-    "rating": "4.8(11,200)",
-    "reviewCount": "11,200 reviews",
+    "rating": "4.8(11,529)",
+    "reviewCount": "11,529 real reviews",
     "hours": "Summer 09:00-18:00 / Winter 09:00-16:00",
     "openMaps": "View Location",
-    "bgImage": "/gallery/saint-naum-monastery-01.jpg"
+    "bgImage": "/gallery/images (1).jpg"
   },
   "intro": {
     "aboutTitle": "About St. Naum Monastery",
@@ -53,9 +53,9 @@
     "country": "Country",
     "countryValue": "North Macedonia",
     "city": "City / Location",
-    "cityValue": "Ljubaništa (29 km south of Ohrid), North Macedonia",
+    "cityValue": "Ohrid (Note: The attraction is actually located on Lake Ohrid, about 29 km south of Ohrid city, near the Albanian border, not in Bitola.)",
     "googleRating": "Google Rating",
-    "ratingValue": "4.8 (11,200 reviews)",
+    "ratingValue": "4.8 (11,529 real reviews)",
     "phone": "Phone",
     "phoneValue": "+389 46 253 020 (Ohrid Tourist Info)",
     "address": "Address",
@@ -117,7 +117,7 @@
     "trainDesc": "Drive south along the eastern shore of Lake Ohrid. Well-maintained road, highly scenic. Large paid parking lot available (approx. 50 MKD).",
     "busDesc": "Local bus from Ohrid center, 45 mins, 110 MKD one way. Very affordable and scenic.",
     "taxi": "From Ohrid Airport (OHD)",
-    "taxiDesc": "About 38 km from the airport. Take a taxi to Ohrid center first (15 mins, 10-15 EUR), then transfer. A direct taxi to the monastery costs 30-40 EUR.",
+    "taxiDesc": "From Ohrid St. Paul the Apostle Airport (OHD): The airport is about 38 km away. Take a taxi to Ohrid city center first (15 mins, 10-15 EUR), then transfer to a boat, bus, or taxi. A direct taxi from the airport to the monastery takes about 45 mins and costs 30-40 EUR.",
     "rideshare": "Parking",
     "rideshareDesc": "Large paid parking lot outside the monastery. Parking fee approx. 50 MKD. Can get crowded in peak season.",
     "cycling": "Walking (from parking lot)",
@@ -125,7 +125,7 @@
     "fromStation": "From Ohrid City Center",
     "fromStationDesc": "About 29 km south of Ohrid. By bus (45 mins), by boat (1.5-2 hours), or by car (35 mins).",
     "fromNyhavn": "From the Airport",
-    "fromNyhavnDesc": "Ohrid St. Paul the Apostle Airport (OHD) is about 38 km away. Taxi to center then transfer, or direct taxi 30-40 EUR."
+    "fromNyhavnDesc": "From Ohrid St. Paul the Apostle Airport (OHD): The airport is about 38 km away. Take a taxi to Ohrid city center first (15 mins, 10-15 EUR), then transfer to a boat, bus, or taxi. A direct taxi from the airport to the monastery takes about 45 mins and costs 30-40 EUR."
   },
   "knowledge": {
     "title": "The History & Culture of St. Naum Monastery",
@@ -269,7 +269,7 @@
     "title": "How to Get Here",
     "subtitle": "Ljubaništa 6000, North Macedonia",
     "openMaps": "View on Google Maps",
-    "openMapsUrl": "https://maps.app.goo.gl/KU48bLAQn5GmfQQU9",
+    "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
   "officialManagement": {
