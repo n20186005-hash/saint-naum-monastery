@@ -15,10 +15,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   
-  // 默认加载通用翻译文件
+  // 加载 Saint Naum Monastery 的翻译文件
   const messages = (await import(`@/messages/${locale}.json`)).default;
   
-  const baseUrl = 'https://petrovaradintower.com';
+  const baseUrl = 'https://stnaummonastery.com'; // 请替换为实际域名
 
   const zhUrl = `${baseUrl}/zh`;
   const enUrl = `${baseUrl}/en`;
@@ -39,7 +39,7 @@ export async function generateMetadata({
       title: messages.meta.title,
       description: messages.meta.description,
       url: selfUrl,
-      siteName: "Petrovaradin Fortress Clock",
+      siteName: "St. Naum Monastery",
       locale: locale === 'zh' ? 'zh_CN' : 'en_US',
       type: 'website',
     },

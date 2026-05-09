@@ -8,12 +8,6 @@ export const routing = defineRouting({
   },
   pathnames: {
     '/': '/',
-    '/st-naum-monastery-ohrid': '/st-naum-monastery-ohrid',
-    '/st-naum-monastery-ohrid/privacy-policy': '/st-naum-monastery-ohrid/privacy-policy',
-    '/st-naum-monastery-ohrid/terms-of-service': '/st-naum-monastery-ohrid/terms-of-service',
-    '/petrovaradin-fortress-clock': '/petrovaradin-fortress-clock',
-    '/petrovaradin-fortress-clock/privacy-policy': '/petrovaradin-fortress-clock/privacy-policy',
-    '/petrovaradin-fortress-clock/terms-of-service': '/petrovaradin-fortress-clock/terms-of-service',
     '/privacy-policy': '/privacy-policy',
     '/terms-of-service': '/terms-of-service',
     '/cookie-settings': '/cookie-settings',

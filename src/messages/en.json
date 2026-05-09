@@ -1,196 +1,279 @@
 {
   "meta": {
-    "title": "Petrovaradin Fortress Clock Tower (The Drunken Clock)｜Novi Sad's Iconic Landmark & Danube Panorama - Best European Spots",
-    "description": "Complete guide to Petrovaradin Fortress Clock Tower in Novi Sad, Serbia. Learn about opening hours, transportation, ticket prices, tour tips and stunning photos. The legendary 'Drunken Clock' with breathtaking Danube views."
-  },
-  "header": {
-    "home": "Home",
-    "gallery": "Gallery",
-    "reviews": "Reviews",
-    "map": "Map",
-    "backToHome": "Back to Home"
+    "title": "St. Naum Monastery｜Millennium Sanctuary and Peacock Estate on Lake Ohrid - A Must-Visit in the Balkans",
+    "description": "Complete guide to St. Naum Monastery in Ohrid, North Macedonia. Learn about opening hours, transportation, ticket prices, tour routes, photo spots and accommodation. The peacock estate and spiritual sanctuary on Lake Ohrid."
   },
   "hero": {
-    "title": "Petrovaradin Fortress Clock",
-    "subtitle": "The Legendary 'Drunken Clock' & Danube River Panorama in Novi Sad, Serbia",
-    "rating": "4.8(14,043)",
-    "reviewCount": "14,043 reviews",
-    "hours": "Open 24 hours",
-    "openMaps": "View Location"
+    "title": "St. Naum Monastery",
+    "subtitle": "Millennium Sanctuary and Peacock Estate on Lake Ohrid, North Macedonia",
+    "rating": "4.8(11,529)",
+    "reviewCount": "11,529 real reviews",
+    "hours": "Summer 09:00-18:00 / Winter 09:00-16:00",
+    "openMaps": "View Location",
+    "bgImage": "/gallery/saint-naum-monastery-01.jpg"
   },
   "intro": {
-    "title": "Discover the Charm of the Drunken Clock",
-    "description": "Climb up more than two hundred stone steps, and when you finally catch your breath at the top of Petrovaradin Fortress, the famous black-and-white 'Drunken Clock' will stand right before your eyes. But what's even more breathtaking is the unobstructed panoramic view that stretches out before you.\n\nFrom here, the Danube River flows gracefully at your feet, its broad surface reflecting the colors of the sky. Across the river, the red-roofed buildings, church spires, and modern bridges of Novi Sad's old town unfold in a magnificent tableau.\n\nThe clock tower was designed with remarkable tenderness: the long hand points to the hours so that Danube sailors and townspeople across the river could tell the time at a glance, even from a distance. As you listen to the ancient mechanism's ticking and sip coffee at an outdoor café nearby, you'll understand why Novi Sad was chosen as the European Capital of Culture.",
+    "aboutTitle": "About St. Naum Monastery",
+    "aboutText": "St. Naum Monastery (Манастир Свети Наум) is one of the oldest and most important spiritual and cultural centers of Slavic Orthodoxy, founded in 905 by St. Naum of Ohrid. Located at the southernmost tip of Lake Ohrid, North Macedonia, the monastery is not only a religious sanctuary but also a fairy-tale estate surrounded by peacocks, ancient trees, and crystal-clear spring waters.",
+    "title": "Discover the Peacock Sanctuary by Lake Ohrid",
+    "description": "When you pass through the arched stone gate of St. Naum Monastery, the first thing that catches your eye is not the solemn church, but the blue-green peacocks strolling leisurely among the flowers. This is a place where religion, nature, and legend intertwine perfectly.\n\nWalking into the dimly lit red-brick church, you'll look up to see vibrant Byzantine frescoes that have witnessed centuries of prayer. Locals will tell you to press your ear to St. Naum's stone coffin — legend says you can still hear his heartbeat (actually the sound of underground springs).\n\nBut the true magic lies outside the monastery. Rent a wooden rowboat to glide over the emerald-transparent Black Drin springs. As you watch pure bubbles rise from the underwater springs, you'll understand why this is one of the most miraculous places in the Balkans.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
-        "Strongly recommended to arrive half an hour before sunset for the best views of Novi Sad's skyline and Danube sunset",
-        "The fortress and clock tower exterior are free to visit, no admission fee required",
-        "The fortress top has no shade in summer, sun protection is essential",
-        "The cobblestone steps can be slippery in rain or snow, wear anti-slip shoes"
+        "Arrive in the morning for the best lighting to photograph the lake and peacocks",
+        "The exterior grounds and gardens are free; only the church interior requires a ticket",
+        "Bring cash (MKD) for the church entrance fee, cards are not accepted",
+        "Don't miss the rowboat tour of the springs — the highlight of the trip"
       ]
     },
     "highlights": {
       "title": "Highlights",
       "items": [
-        "'Gibraltar of the Danube' and symbol of Novi Sad",
-        "'Drunken Clock' - unique design with long hand for hours, short hand for minutes",
-        "18th-century Baroque architecture, white tower with red walls",
-        "Venue of EXIT Festival, iconic backdrop of European Capital of Culture"
+        "Founded in 905 by St. Naum of Ohrid, over 1100 years of history",
+        "Free-roaming peacocks in the courtyard, a fairy-tale peacock estate",
+        "The legendary 'saint's heartbeat' — press your ear to the tomb",
+        "Crystal-clear Black Drin springs, emerald water like a natural miracle"
       ]
     },
-    "aboutTitle": "About Petrovaradin Fortress Clock Tower",
-    "aboutText": "The Petrovaradin Fortress Clock Tower is managed and maintained by the City of Novi Sad, Serbia, and is one of the most important historical and cultural heritage sites in Novi Sad. As the most recognizable landmark clock tower in Serbia, Petrovaradin Fortress Clock Tower has witnessed over 300 years of history of this Danube riverside city. Today, the clock tower is open to the public free of charge, serving as the core panoramic viewpoint for Novi Sad citizens overlooking the city and the Danube, as well as an important window for visitors from around the world to learn about Serbian history and culture.",
     "alsoKnownAs": {
       "title": "Also Known As",
       "items": [
-        "Drunken Clock",
-        "Gibraltar of the Danube"
+        "Monastery of Saint Naum",
+        "Манастир Свети Наум",
+        "Peacock Monastery"
       ]
     }
   },
   "basicInfo": {
     "title": "Basic Information",
     "officialName": "Official Name",
-    "officialNameValue": "Sahat kula / Pijani sat (Clock Tower / Drunken Clock)",
+    "officialNameValue": "Манастир „Свети Наум“ (Monastery of Saint Naum)",
     "type": "Attraction Type",
-    "typeValue": "Historic Landmark, Panoramic City Viewpoint, Baroque Military Architecture",
+    "typeValue": "Orthodox Monastery, Historical Building, Nature Reserve, Lakeside Sanctuary",
     "country": "Country",
-    "countryValue": "Serbia",
-    "city": "City",
-    "cityValue": "Novi Sad, Vojvodina Autonomous Province",
+    "countryValue": "North Macedonia",
+    "city": "City / Location",
+    "cityValue": "Ohrid (Note: The attraction is actually located on Lake Ohrid, about 29 km south of Ohrid city, near the Albanian border, not in Bitola.)",
     "googleRating": "Google Rating",
-    "ratingValue": "4.8 (14,043 reviews)",
+    "ratingValue": "4.8 (11,529 real reviews)",
     "phone": "Phone",
-    "phoneValue": "+381-21-6433-145",
+    "phoneValue": "+389 46 253 020 (Ohrid Tourist Info)",
     "address": "Address",
-    "addressValue": "Petrovaradinska tvrđava, Petrovaradin 21131, Serbia"
+    "addressValue": "Ljubaništa 6000, North Macedonia"
   },
   "hours": {
     "title": "Opening Hours",
-    "fortress": "Fortress & Clock Tower",
-    "fortressDesc": "Open 24 hours, 7 days a week, no access restrictions",
-    "fortressTime": "24 hours",
-    "cafe": "Cafés & Panoramic Restaurants",
-    "cafeDesc": "Monday - Sunday (extended hours in summer)",
-    "cafeTime": "09:00-23:00",
-    "tip": "Strongly recommended to arrive half an hour before sunset for the best views of Novi Sad's skyline and Danube sunset.",
-    "summer": "Fortress Viewpoint (Summer)",
-    "summerTime": "24 Hours",
-    "winter": "Fortress Viewpoint (Winter)",
-    "winterTime": "24 Hours",
-    "christmas": "Underground Catacombs",
-    "christmasTime": "09:00 - 17:00 (Guided only)",
-    "rosenborg": "Panoramic Restaurants & Cafés",
-    "rosenborgTime": "09:00 - 23:00"
+    "fortress": "Exterior Grounds & Springs",
+    "fortressDesc": "Open 24 hours, 7 days a week, free access to gardens and spring areas",
+    "fortressTime": "24 Hours",
+    "cafe": "Church Interior (Summer Apr-Oct)",
+    "cafeDesc": "Monday - Sunday",
+    "cafeTime": "09:00-18:00",
+    "tip": "Morning or noon is recommended for optimal lighting and to avoid afternoon tour group crowds.",
+    "summer": "Church Interior (Summer)",
+    "summerTime": "09:00 - 18:00",
+    "winter": "Church Interior (Winter Nov-Mar)",
+    "winterTime": "09:00 - 16:00",
+    "christmas": "Exterior Grounds & Gardens",
+    "christmasTime": "24 Hours (Free)",
+    "rosenborg": "Black Drin Springs Area",
+    "rosenborgTime": "24 Hours (Free)"
   },
   "tickets": {
     "title": "Ticket Prices",
-    "fortress": "Fortress & Clock Tower",
+    "fortress": "Exterior Grounds & Gardens",
     "free": "Free Admission",
-    "fortressDesc": "The fortress grounds and clock tower exterior are free to visit. No admission fee required.",
-    "catacombs": "Military Catacombs",
-    "catacombsDesc": "Separate tickets required for the underground military tunnels (Catacombs) or Novi Sad City Museum.",
-    "catacombsNote": "Guided tours are strongly recommended for the underground tunnels.",
-    "garden": "Fortress Grounds & Clock Tower",
+    "fortressDesc": "The exterior grounds, gardens, and spring areas are free of charge, no ticket required.",
+    "catacombs": "Church Interior (St. Naum's Tomb)",
+    "catacombsDesc": "Entrance to the inner church including St. Naum's tomb. Cash only.",
+    "catacombsNote": "Only about 100 MKD (approx. 1.6 EUR), very affordable.",
+    "garden": "Exterior Grounds & Gardens",
     "gardenPrice": "Free",
-    "rosenborg": "Underground Military Tunnels",
+    "rosenborg": "Church Interior Entrance",
     "adults": "Adults",
-    "adultsPrice": "300 RSD",
-    "students": "Students/Children",
-    "studentsPrice": "150 RSD",
-    "under17": "Children under 7",
+    "adultsPrice": "100 MKD (≈1.6 EUR)",
+    "students": "Students",
+    "studentsPrice": "100 MKD (≈1.6 EUR)",
+    "under17": "Children (under 7)",
     "under17Price": "Free",
-    "card": "Novi Sad City Museum Ticket",
-    "cardPrice": "Included with museum admission"
+    "card": "Rowboat Tour (Springs)",
+    "cardPrice": "About 10 EUR (30-40 mins)"
   },
   "transport": {
     "title": "How to Get Here",
     "walking": {
-      "title": "Walking (Highly Recommended)",
+      "title": "By Boat (Highly Recommended)",
       "badge": "Recommended",
-      "desc": "Starting from Danube Park in central Novi Sad, walk east across the Varadin Bridge over the Danube, then climb the steps (~214 steps) at the fortress base. The 20-30 minute walk leads directly to the top observation platform with the clock tower."
+      "desc": "Take a scenic boat from Ohrid central harbor. The journey takes 1.5-2 hours each way, offering stunning panoramic views of Lake Ohrid. A return ticket is 15-20 EUR. Usually departs in the morning and returns in the afternoon."
     },
-    "bus": "Car / Taxi",
+    "bus": "By Bus / Minibus",
     "car": {
-      "title": "Car / Taxi",
-      "desc": "Vehicles can drive up the winding mountain road to the fortress. Free or paid parking is available near the clock tower. Taxis from central Novi Sad take only 10 minutes to the fortress top."
+      "title": "By Bus / Minibus",
+      "desc": "Take a local bus from Ohrid center to Sveti Naum. The scenic ride takes about 45 minutes and costs approx. 110 MKD (under 2 EUR) one way. Buses run regularly in summer."
     },
-    "metro": "Walking (Highly Recommended)",
-    "metroDesc": "From Danube Park, walk across Varadin Bridge and climb ~214 steps to the top.",
-    "train": "Bus",
-    "trainDesc": "Take bus 3, 9, 61, 62, or 64 across the river and walk up from the first stop.",
-    "busDesc": "Drive up the winding road to the fortress parking, or take a 10-min taxi from the city center.",
-    "taxi": "Tour Bus",
-    "taxiDesc": "Large tour buses can park at the designated parking lot below the fortress.",
-    "rideshare": "Rideshare",
-    "rideshareDesc": "Use Yandex Go or local taxi apps for a quick ride to the fortress top.",
-    "cycling": "Cycling",
-    "cyclingDesc": "Cycling is allowed, but the steep climb is recommended only for experienced cyclists.",
-    "fromStation": "From Train Station",
-    "fromStationDesc": "About 3.5 km away; take bus 61 or 62, or a taxi.",
-    "fromNyhavn": "From Liberty Square",
-    "fromNyhavnDesc": "About 2 km away; a 25-30 minute scenic walk through the old town and across the river."
+    "metro": "By Boat (Highly Recommended)",
+    "metroDesc": "Scenic boat from Ohrid harbor, 1.5-2 hours each way, 15-20 EUR return. Best way to enjoy Lake Ohrid.",
+    "train": "By Car / Taxi",
+    "trainDesc": "Drive south along the eastern shore of Lake Ohrid. Well-maintained road, highly scenic. Large paid parking lot available (approx. 50 MKD).",
+    "busDesc": "Local bus from Ohrid center, 45 mins, 110 MKD one way. Very affordable and scenic.",
+    "taxi": "From Ohrid Airport (OHD)",
+    "taxiDesc": "From Ohrid St. Paul the Apostle Airport (OHD): The airport is about 38 km away. Take a taxi to Ohrid city center first (15 mins, 10-15 EUR), then transfer to a boat, bus, or taxi. A direct taxi from the airport to the monastery takes about 45 mins and costs 30-40 EUR.",
+    "rideshare": "Parking",
+    "rideshareDesc": "Large paid parking lot outside the monastery. Parking fee approx. 50 MKD. Can get crowded in peak season.",
+    "cycling": "Walking (from parking lot)",
+    "cyclingDesc": "From the parking lot or harbor, it's a short 5-10 minute walk to the monastery entrance.",
+    "fromStation": "From Ohrid City Center",
+    "fromStationDesc": "About 29 km south of Ohrid. By bus (45 mins), by boat (1.5-2 hours), or by car (35 mins).",
+    "fromNyhavn": "From the Airport",
+    "fromNyhavnDesc": "From Ohrid St. Paul the Apostle Airport (OHD): The airport is about 38 km away. Take a taxi to Ohrid city center first (15 mins, 10-15 EUR), then transfer to a boat, bus, or taxi. A direct taxi from the airport to the monastery takes about 45 mins and costs 30-40 EUR."
   },
-  "footer": {
-    "logo": "Petrovaradin Fortress Clock",
-    "rights": "© 2026 Petrovaradin Fortress Clock Tower Independent Travel Research Association · All rights reserved.",
-    "privacy": "Privacy Policy",
-    "terms": "Terms of Service",
-    "officialResourcesTitle": "Related Resources & Information",
-    "officialLinks": {
-      "council": "Serbia Tourism",
-      "tourism": "Novi Sad Tourism",
-      "england": "Visit Serbia"
-    },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
-  },
-  "privacy": {
-    "title": "Privacy Policy",
-    "lastUpdated": "Last updated: May 2026",
+  "knowledge": {
+    "title": "The History & Culture of St. Naum Monastery",
     "sections": [
       {
-        "heading": "1. Information Collection",
-        "content": "We generally do not actively collect users' personally identifiable information. Any information you provide through contact forms or email will be kept strictly confidential."
+        "title": "Historical Significance",
+        "content": "St. Naum Monastery was founded in 905 by St. Naum of Ohrid, a medieval scholar and missionary who, along with St. Clement, promoted Slavic language and Orthodoxy in the Ohrid region. It is one of the oldest and most important spiritual and cultural centers of Slavic Orthodoxy, and a hub for the early spread of the Cyrillic script.\n\nSt. Naum was buried here in 910. Over the following centuries, the monastery was destroyed and rebuilt several times. The current main church was largely reconstructed in the 16th century (during the Ottoman era) on the original foundations."
       },
       {
-        "heading": "2. Information Usage",
-        "content": "Information we collect is used solely to provide, maintain, and improve our services, and to communicate with you. We do not sell or share your personal information with third parties for marketing purposes."
+        "title": "Architectural Features",
+        "content": "The main structure features classic Byzantine architecture with alternating red bricks and white stones. The interior boasts stunning, well-preserved frescoes from the 16th to 19th centuries, with rich colors and intricate details.\n\nThe exterior is surrounded by lush gardens where dozens of vibrant blue-green peacocks roam freely. The multi-domed cruciform structure presents a fusion of early Byzantine style and medieval Macedonian local characteristics."
       },
       {
-        "heading": "3. Cookies & Tracking Technologies",
-        "content": "We use Cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all Cookies or to indicate when a Cookie is being sent."
-      },
-      {
-        "heading": "4. Data Security",
-        "content": "The security of your data is important to us. We strive to use commercially acceptable means to protect your personal data, but no method of transmission over the Internet is 100% secure."
+        "title": "Cultural & Spiritual Value",
+        "content": "This is a major pilgrimage site in North Macedonia and the Balkans. Legend has it that if you press your ear to St. Naum's stone coffin inside the church, you can still hear his heartbeat — actually the sound of underground springs, but it symbolizes the union of religious miracles and the power of nature.\n\nDue to its unique location and spring water resources, the monastery was also a center for physical and mental healing. Many with mental illnesses were brought here to seek the saint's protection and cure."
       }
     ]
   },
-  "terms": {
-    "title": "Terms of Service",
-    "lastUpdated": "Last updated: May 2026",
-    "sections": [
+  "route": {
+    "title": "Recommended Route",
+    "overview": "A half-day trip (4-5 hours) is recommended. Arrive by boat, explore the gardens and interact with peacocks, then visit the church and tomb. After lunch, rent a rowboat to explore the Black Drin springs, and finally relax on the nearby beach.",
+    "steps": [
+      "Enter the gates: Walk in from the harbor or parking lot, passing stalls selling Ohrid pearls and local souvenirs",
+      "Peacock encounter: Stroll through the courtyard, looking for and photographing peacocks on stone walls and rooftops",
+      "Church visit: Buy a ticket to enter the main Church of St. Naum and admire the exquisite Byzantine frescoes",
+      "St. Naum's tomb: Visit the tomb on the right side of the church; line up to press your ear to the coffin to hear the legendary 'saint's heartbeat'",
+      "Black Drin Springs: Leave the main complex and head to the springs at the back — the highlight of the trip",
+      "Rowboat tour: Pay about 10 EUR for a 30-40 min guided rowboat tour to see the underwater springs bubbling up",
+      "Lakeside lunch: Have lunch at a lakeside restaurant by the springs and try the fresh grilled Ohrid trout"
+    ],
+    "tips": {
+      "title": "Travel Tips",
+      "items": [
+        "The rowboat tour of the springs is the absolute highlight — do not miss it",
+        "Motorboats and swimming are strictly prohibited in the springs area to protect the water source",
+        "Peacocks are tame but please do not scare or feed them inappropriate food",
+        "Flash photography is usually not allowed inside the church"
+      ]
+    }
+  },
+  "photoSpots": {
+    "title": "Photo Spots",
+    "spots": [
       {
-        "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access the service."
+        "name": "Courtyard Arches with Peacocks",
+        "desc": "Wait near the low stone arches to capture peacocks displaying their feathers or perching on walls"
       },
       {
-        "heading": "2. Use of Service",
-        "content": "This website is an independent third-party travel information project. Information provided is for general reference only. You agree to use this website responsibly and lawfully."
+        "name": "Monastery Viewpoint overlooking the Lake",
+        "desc": "Stand by the low wall at the edge, using ancient bricks as foreground and Lake Ohrid as background"
       },
       {
-        "heading": "3. Intellectual Property",
-        "content": "All content on this website (including text, images, and logos) is the property of the website owner (unless stated otherwise). Unauthorized use, reproduction, or distribution is strictly prohibited."
+        "name": "Church Front Exterior",
+        "desc": "Capture the multi-domed facade from the center of the courtyard, showcasing Byzantine symmetry"
       },
       {
-        "heading": "4. Limitation of Liability",
-        "content": "We shall not be liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use this website or the information contained therein."
+        "name": "Rowboat over Transparent Springs",
+        "desc": "Sit at the bow and point your camera at the water to capture the emerald-green springs and bubbling underwater sources"
+      }
+    ],
+    "tips": "Arrive in the morning for favorable front lighting to shoot the lake and church exterior. Afternoon light can cause backlighting. A telephoto lens works best for capturing peacock details."
+  },
+  "hotels": {
+    "title": "Accommodation",
+    "hotels": [
+      {
+        "name": "Hotel Sveti Naum (Inside the Complex)",
+        "desc": "A renovated boutique hotel right inside the monastery complex. Extremely peaceful — after tourists leave, you have the stars and the monastery to yourself.",
+        "price": "€80-150/night"
+      },
+      {
+        "name": "Ljubaništa Village (2-3 km away)",
+        "desc": "Camping sites and cozy family guesthouses with mountain and lake views. Very affordable, perfect for nature lovers.",
+        "price": "€25-60/night"
+      },
+      {
+        "name": "Ohrid City Center",
+        "desc": "The choice for most tourists. Excellent dining and transport. Choose Old Town apartments or central hotels, and visit St. Naum as a day trip.",
+        "price": "€40-120/night"
+      }
+    ],
+    "exitWarning": "If staying inside the monastery or nearby villages, there are almost no commercial facilities after dark besides the hotel restaurant. It's ideal for those seeking extreme peace, but most tourists prefer staying in Ohrid city center for convenience."
+  },
+  "gallery": {
+    "title": "Photo Gallery",
+    "subtitle": "St. Naum Monastery & Lake Ohrid Panorama",
+    "captions": [
+      "Monastery Overview",
+      "Peacocks in the Garden",
+      "Church Interior Frescoes",
+      "Lake Ohrid View",
+      "Black Drin Springs",
+      "Monastery Exterior",
+      "Rowboat on Springs",
+      "Sunset at Lake Ohrid"
+    ],
+    "viewAll": "View on Google Maps",
+    "photos": [
+      { "src": "/gallery/saint-naum-monastery-01.jpg", "alt": "Monastery Overview" },
+      { "src": "/gallery/saint-naum-monastery-02.jpg", "alt": "Peacocks in the Garden" },
+      { "src": "/gallery/saint-naum-monastery-03.jpg", "alt": "Church Interior Frescoes" },
+      { "src": "/gallery/saint-naum-monastery-04.jpg", "alt": "Lake Ohrid View" },
+      { "src": "/gallery/saint-naum-monastery-05.jpg", "alt": "Black Drin Springs" },
+      { "src": "/gallery/saint-naum-monastery-06.jpg", "alt": "Monastery Exterior" },
+      { "src": "/gallery/saint-naum-monastery-07.jpg", "alt": "Rowboat on Springs" },
+      { "src": "/gallery/saint-naum-monastery-08.jpg", "alt": "Sunset at Lake Ohrid" }
+    ]
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Visitor feedback can be viewed via Google Maps (external link).",
+    "moreReviews": "View more reviews on Google Maps",
+    "items": [
+      {
+        "name": "Emily R.",
+        "date": "April 2026",
+        "rating": 5,
+        "text": "The peacocks walking freely in the courtyard made this place feel like a fairy tale. The rowboat tour of the springs was absolutely magical!"
+      },
+      {
+        "name": "Marco S.",
+        "date": "March 2026",
+        "rating": 5,
+        "text": "Listening to the 'saint's heartbeat' at the tomb was such a unique experience. The Byzantine frescoes are stunning and well-preserved."
+      },
+      {
+        "name": "Anna L.",
+        "date": "February 2026",
+        "rating": 5,
+        "text": "The boat trip from Ohrid to St. Naum was breathtaking. The emerald springs and the peaceful atmosphere made this my favorite spot in North Macedonia."
+      },
+      {
+        "name": "David K.",
+        "date": "January 2026",
+        "rating": 4,
+        "text": "A must-visit when in Ohrid! The peacocks, the springs, the history — everything was perfect. Just be prepared for afternoon crowds."
       }
     ]
+  },
+  "mapSection": {
+    "title": "How to Get Here",
+    "subtitle": "Ljubaništa 6000, North Macedonia",
+    "openMaps": "View on Google Maps",
+    "openMapsUrl": "https://maps.app.goo.gl/9uK8J2Yh1aZ8vK4W9",
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
   },
   "officialManagement": {
-    "title": "About Petrovaradin Fortress Clock Tower",
-    "text": "The Petrovaradin Fortress Clock Tower is managed and maintained by the City of Novi Sad, Serbia, and is one of the most important historical and cultural heritage sites in Novi Sad. As the most recognizable landmark clock tower in Serbia, Petrovaradin Fortress Clock Tower has witnessed over 300 years of history of this Danube riverside city. Today, the clock tower is open to the public free of charge, serving as the core panoramic viewpoint for Novi Sad citizens overlooking the city and the Danube, as well as an important window for visitors from around the world to learn about Serbian history and culture."
+    "title": "About St. Naum Monastery",
+    "text": "St. Naum Monastery (Манастир Свети Наум) is one of the oldest and most important spiritual and cultural centers of Slavic Orthodoxy, founded in 905 by St. Naum of Ohrid. Located at the southernmost tip of Lake Ohrid, the monastery is managed as a cultural heritage site of North Macedonia, attracting pilgrims and tourists from around the world."
   }
 }

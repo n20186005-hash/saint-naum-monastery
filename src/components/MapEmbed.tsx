@@ -25,21 +25,21 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src={t('embedUrl') || "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.7428646544687!2d12.5784!3d55.6863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652530c9481c2e5%3A0xab2d1a2e93b70a85!2sKongens%20Have!5e0!3m2!1sen!2sdk!4v1700000000000!5m2!1sen!2sdk"}
+            src={t('embedUrl')}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Tourist Attraction"
+            title="Google Maps - St. Naum Monastery"
           />
         </div>
 
         {/* Open in Google Maps */}
         <div className="mt-6 flex justify-center">
           <a
-            href={t('openMapsUrl') || "https://maps.app.goo.gl/tBYxnMmu8qMX3yGa6"}
+            href={t('openMapsUrl')}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"

@@ -9,17 +9,13 @@ export default function Gallery() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
 
-  // 从 messages 中读取图片列表，如果不存在则使用默认值
-  const photos = messages?.gallery?.photos || [
-    { src: '/gallery/images (1).jpg', alt: 'Photo 1' },
-    { src: '/gallery/images (2).jpg', alt: 'Photo 2' },
-    { src: '/gallery/images (3).jpg', alt: 'Photo 3' },
-    { src: '/gallery/images (4).jpg', alt: 'Photo 4' },
-    { src: '/gallery/images (5).jpg', alt: 'Photo 5' },
-    { src: '/gallery/images (6).jpg', alt: 'Photo 6' },
-    { src: '/gallery/images (7).jpg', alt: 'Photo 7' },
-    { src: '/gallery/images (8).jpg', alt: 'Photo 8' },
-  ];
+  // 从 messages 中读取图片列表
+  const photos = messages?.gallery?.photos || [];
+  
+  // 如果没有配置图片，显示提示
+  if (photos.length === 0) {
+    console.warn('No photos configured in translation file');
+  }
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));

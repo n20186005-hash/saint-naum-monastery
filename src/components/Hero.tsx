@@ -9,8 +9,8 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src={t('bgImage') || "/gallery/images (1).jpg"}
-          alt={locale === 'zh' ? '旅游景点' : 'Tourist Attraction'}
+          src={t('bgImage') || "/gallery/saint-naum-monastery-01.jpg"}
+          alt={locale === 'zh' ? '圣诺姆修道院' : 'St. Naum Monastery'}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
