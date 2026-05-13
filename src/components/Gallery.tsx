@@ -8,14 +8,25 @@ export default function Gallery() {
   const messages = useMessages();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(0);
 
   // 从 messages 中读取图片列表
   const photos = messages?.gallery?.photos || [];
+  const ITEMS_PER_PAGE = 9;
+  const totalPages = Math.ceil(photos.length / ITEMS_PER_PAGE);
   
   // 如果没有配置图片，显示提示
   if (photos.length === 0) {
     console.warn('No photos configured in translation file');
   }
+
+  const prevPage = useCallback(() => {
+    setCurrentPage((prev) => (prev === 0 ? totalPages - 1 : prev - 1));
+  }, [totalPages]);
+
+  const nextPage = useCallback(() => {
+    setCurrentPage((prev) => (prev === totalPages - 1 ? 0 : prev + 1));
+  }, [totalPages]);
 
   const goToPrevious = useCallback(() => {
     setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
@@ -43,49 +54,56 @@ export default function Gallery() {
 
           <div className="relative">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {photos.slice(0, 9).map((photo: any, i: number) => (
-                <div
-                  key={i}
-                  className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
-                  onClick={() => {
-                    setCurrentIndex(i);
-                    openLightbox();
-                  }}
-                >
-                  <img
-                    src={photo.src}
-                    alt={photo.alt}
-                    className="w-full h-full object-cover rounded-lg"
-                    style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                    loading="lazy"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
-                    <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                      {photo.alt}
-                    </p>
+              {photos.slice(currentPage * ITEMS_PER_PAGE, (currentPage + 1) * ITEMS_PER_PAGE).map((photo: any, i: number) => {
+                const globalIndex = currentPage * ITEMS_PER_PAGE + i;
+                return (
+                  <div
+                    key={globalIndex}
+                    className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
+                    onClick={() => {
+                      setCurrentIndex(globalIndex);
+                      openLightbox();
+                    }}
+                  >
+                    <img
+                      src={photo.src}
+                      alt={photo.alt}
+                      className="w-full h-full object-cover rounded-lg"
+                      style={{ minHeight: i === 0 ? '400px' : '180px' }}
+                      loading="lazy"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
+                      <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
+                        {photo.alt}
+                      </p>
+                    </div>
                   </div>
-                </div>
-              ))}
+                );
+              })}
             </div>
 
-            <button
-              onClick={goToPrevious}
-              className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Previous photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="15 18 9 12 15 6" />
-              </svg>
-            </button>
-            <button
-              onClick={goToNext}
-              className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors"
-              aria-label="Next photo"
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                <polyline points="9 18 15 12 9 6" />
-              </svg>
-            </button>
+            {totalPages > 1 && (
+              <>
+                <button
+                  onClick={prevPage}
+                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors z-10"
+                  aria-label="Previous page"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="15 18 9 12 15 6" />
+                  </svg>
+                </button>
+                <button
+                  onClick={nextPage}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors z-10"
+                  aria-label="Next page"
+                >
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                </button>
+              </>
+            )}
 
             <div className="flex justify-center mt-6 gap-4 items-center">
               <a
