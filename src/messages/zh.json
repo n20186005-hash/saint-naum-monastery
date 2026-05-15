@@ -6,8 +6,8 @@
   "hero": {
     "title": "圣诺姆修道院",
     "subtitle": "奥赫里德湖畔的千年圣地与孔雀庄园，北马其顿",
-    "rating": "4.8(11,529)",
-    "reviewCount": "11,529 条真实评价",
+    "rating": "4.6(13,430)",
+    "reviewCount": "13,430 条评价",
     "hours": "夏季 09:00-18:00 / 冬季 09:00-16:00",
     "openMaps": "查看位置",
     "bgImage": "/gallery/saint-naum-monastery-01.jpg"
@@ -47,19 +47,19 @@
   "basicInfo": {
     "title": "基础信息",
     "officialName": "正式名称",
-    "officialNameValue": "Манастир „Свети Наум“（圣诺姆修道院）",
+    "officialNameValue": "Манастир „Свети Наум“（英文：Monastery of Saint Naum / St. Naum Monastery，中文：圣瑙姆修道院 / 圣诺姆修道院）",
     "type": "景点类型",
-    "typeValue": "东正教修道院、历史建筑、自然保护区、湖畔圣地",
+    "typeValue": "东正教修道院、历史建筑、自然保护区、湖畔圣地、世界文化遗产（奥赫里德湖区域）",
     "country": "国家",
     "countryValue": "北马其顿共和国",
     "city": "城市 / 位置",
-    "cityValue": "奥赫里德（*注：景点实际位于奥赫里德市区以南约 29 公里处的奥赫里德湖畔，紧邻阿尔巴尼亚边境，并不在比托拉市。）",
+    "cityValue": "奥赫里德（* 注：位于奥赫里德市区以南约 29 km，奥赫里德湖最南端，紧邻阿尔巴尼亚边境，行政上属于 Ljubaništa 村， 不在比托拉市 。）",
     "googleRating": "谷歌评分",
-    "ratingValue": "4.8 (11,529 条真实评价)",
+    "ratingValue": "4.6/5 (13,430 条评价)",
     "phone": "联系电话",
-    "phoneValue": "+389 46 253 020（奥赫里德旅游信息中心）",
+    "phoneValue": "+389 46 253 020 （奥赫里德旅游局 / 修道院管理处）",
     "address": "地址",
-    "addressValue": "Ljubaništa 6000, North Macedonia"
+    "addressValue": "Ljubaništa, Ohrid 6000, North Macedonia"
   },
   "hours": {
     "title": "开放时间",

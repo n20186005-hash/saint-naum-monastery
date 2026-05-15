@@ -6,8 +6,8 @@
   "hero": {
     "title": "St. Naum Monastery",
     "subtitle": "Millennium Sanctuary and Peacock Estate on Lake Ohrid, North Macedonia",
-    "rating": "4.8(11,529)",
-    "reviewCount": "11,529 real reviews",
+    "rating": "4.6(13,430)",
+    "reviewCount": "13,430 reviews",
     "hours": "Summer 09:00-18:00 / Winter 09:00-16:00",
     "openMaps": "View Location",
     "bgImage": "/gallery/saint-naum-monastery-01.jpg"
@@ -47,19 +47,19 @@
   "basicInfo": {
     "title": "Basic Information",
     "officialName": "Official Name",
-    "officialNameValue": "Манастир „Свети Наум“ (Monastery of Saint Naum)",
+    "officialNameValue": "Манастир „Свети Наум“ (English: Monastery of Saint Naum / St. Naum Monastery, Chinese: 圣瑙姆修道院 / 圣诺姆修道院)",
     "type": "Attraction Type",
-    "typeValue": "Orthodox Monastery, Historical Building, Nature Reserve, Lakeside Sanctuary",
+    "typeValue": "Orthodox Monastery, Historical Building, Nature Reserve, Lakeside Sanctuary, World Heritage Site (Lake Ohrid region)",
     "country": "Country",
-    "countryValue": "North Macedonia",
+    "countryValue": "Republic of North Macedonia",
     "city": "City / Location",
-    "cityValue": "Ohrid (Note: The attraction is actually located on Lake Ohrid, about 29 km south of Ohrid city, near the Albanian border, not in Bitola.)",
+    "cityValue": "Ohrid (* Note: Located about 29 km south of Ohrid city center, at the southernmost tip of Lake Ohrid, near the Albanian border. Administratively belongs to Ljubaništa village, not Bitola city.)",
     "googleRating": "Google Rating",
-    "ratingValue": "4.8 (11,529 real reviews)",
+    "ratingValue": "4.6/5 (13,430 reviews)",
     "phone": "Phone",
-    "phoneValue": "+389 46 253 020 (Ohrid Tourist Info)",
+    "phoneValue": "+389 46 253 020 (Ohrid Tourism Board / Monastery Management)",
     "address": "Address",
-    "addressValue": "Ljubaništa 6000, North Macedonia"
+    "addressValue": "Ljubaništa, Ohrid 6000, North Macedonia"
   },
   "hours": {
     "title": "Opening Hours",
