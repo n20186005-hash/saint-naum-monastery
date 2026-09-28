@@ -122,5 +122,14 @@ update_*.js
 # Source maps
 *.map
 
+# ===== Cloudflare Workers / OpenNext (generated during deploy) =====
+.open-next/
+.wrangler/
+.dev.vars
+.dev.vars.*
+wrangler.jsonc
+wrangler.toml
+open-next.config.ts
+
 # Image optimization
 *.optimized
