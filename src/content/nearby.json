@@ -1,0 +1,282 @@
+{
+  "labels": {
+    "zh": {
+      "heading": "从圣瑙姆继续探索",
+      "intro": "先看修道院旁的泉水，再按兴趣选择考古博物馆或独立的山地行程。",
+      "nearby": "周边探索",
+      "read": "阅读游览指南",
+      "home": "圣瑙姆修道院指南",
+      "local": "修道院紧邻区域",
+      "regional": "另行规划的区域出游",
+      "plan": "游览准备",
+      "sources": "官方参考资料",
+      "faq": "出发前的问题",
+      "related": "继续探索",
+      "back": "返回周边探索"
+    },
+    "en": {
+      "heading": "Explore beyond Saint Naum",
+      "intro": "Start with the springs beside the monastery, then choose an archaeological visit or a separate mountain outing.",
+      "nearby": "Explore nearby",
+      "read": "Read the visitor guide",
+      "home": "Saint Naum monastery guide",
+      "local": "Beside the monastery",
+      "regional": "A separate regional outing",
+      "plan": "Before you go",
+      "sources": "Official references",
+      "faq": "Questions before visiting",
+      "related": "Keep exploring",
+      "back": "Back to nearby places"
+    }
+  },
+  "places": [
+    {
+      "slug": "saint-naum-springs",
+      "kind": "local",
+      "sources": [
+        {
+          "url": "https://galicica.org.mk/en/galicica-atrakcii/tourist-complex-sv-naum/",
+          "zh": "加利奇察国家公园：圣瑙姆游客区",
+          "en": "Galičica National Park: Saint Naum visitor complex"
+        }
+      ],
+      "zh": {
+        "title": "圣瑙姆泉群",
+        "subtitle": "在修道院以东，放慢脚步观察湖岸水景。",
+        "description": "圣瑙姆泉群游览指南：泉水与岩石的看点、与修道院的地点关系，以及安排湖岸停留的准备。",
+        "intro": "加利奇察国家公园将泉群定位在修道院以东的紧邻区域。地表泉与水下泉汇入奥赫里德湖，形成与教堂建筑不同的自然景观。",
+        "sections": [
+          {
+            "title": "把水景留作单独的一站",
+            "body": "参观修道院后，可以把注意力从建筑转向水面与水下。对照岸边环境、岩石和水流观察，比只在入口拍一张照片更容易认识这里的特点。实际停留时间按自己的节奏和当天情况安排。"
+          },
+          {
+            "title": "留意岩石上的颜色",
+            "body": "国家公园说明，水下岩石上的不同藻类形成了多样的颜色。观察时可比较水面反光与水下细节；光照和水面状态会改变观看效果，不必期待每次都看到相同颜色。"
+          },
+          {
+            "title": "湖岸停留与登山是两种安排",
+            "body": "泉群适合与修道院在同一次到访中考虑；国家公园的山口与徒步线路则需要另选起点。不要用湖岸环境的直观感受推断山地路线是否轻松或适合自己。"
+          }
+        ],
+        "tips": [
+          "沿现场允许通行的区域观察，留意湿滑水边。",
+          "不要为了拍照角度踩入水中或干扰水生环境。",
+          "如考虑水上活动，先向具体运营方确认当天是否提供、线路、费用与返程，再决定安排。"
+        ],
+        "faqs": [
+          {
+            "q": "泉群和修道院在同一片区域吗？",
+            "a": "官方资料将泉群描述为修道院以东的紧邻区域，适合合并考虑。到达后按现场指引选择通行区域。"
+          },
+          {
+            "q": "参观教堂是否包含其他活动？",
+            "a": "教堂参观与任何具体水上活动应分别咨询。确定服务内容后再作安排，不把两者视为一套已确认的门票。"
+          }
+        ]
+      },
+      "en": {
+        "title": "Saint Naum Springs",
+        "subtitle": "Slow down beside the water immediately east of the monastery.",
+        "description": "A visitor guide to Saint Naum Springs: water and rock features, the relationship to the monastery and practical lakeshore planning.",
+        "intro": "Galičica National Park places the springs immediately east of the monastery. Surface and underwater springs flow into Lake Ohrid, creating a natural stop with a different focus from the church buildings.",
+        "sections": [
+          {
+            "title": "Give the water its own stop",
+            "body": "After visiting the monastery, shift your attention from architecture to the water. Compare the shoreline, rocks and flow instead of treating the entire complex as a single photograph. Let your interests and the day's conditions determine the length of the stop."
+          },
+          {
+            "title": "Observe color below the reflections",
+            "body": "The park explains that different algae color the submerged rocks. Compare reflections at the surface with details below it; changing light and surface conditions mean the view will not always look the same."
+          },
+          {
+            "title": "Separate the lakeshore from a mountain walk",
+            "body": "The springs can be considered alongside the monastery visit. The national park's passes and hiking routes need a separate starting point and plan. The appearance of the shoreline does not establish whether a mountain route is easy or suitable for you."
+          }
+        ],
+        "tips": [
+          "Use areas open to visitors and take care near wet edges.",
+          "Avoid entering the water or disturbing aquatic habitat for a photograph.",
+          "If considering a water activity, ask the specific operator about availability that day, route, charges and return arrangements before deciding."
+        ],
+        "faqs": [
+          {
+            "q": "Are the springs in the same area as the monastery?",
+            "a": "The park describes them as immediately east of the monastery, making them a natural companion to the visit. Follow local visitor signs on arrival."
+          },
+          {
+            "q": "Does church admission include another activity?",
+            "a": "Ask about church admission and any specific water activity separately. Confirm the service rather than assuming a combined ticket."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "bay-of-bones",
+      "kind": "regional",
+      "sources": [
+        {
+          "url": "https://muzejohrid.mk/museum-on-water/",
+          "zh": "奥赫里德研究所与博物馆：水上博物馆",
+          "en": "Ohrid Institute and Museum: Museum on Water"
+        }
+      ],
+      "zh": {
+        "title": "骨湾水上博物馆",
+        "subtitle": "在 Gradishte 理解湖上桩屋与水下考古。",
+        "description": "奥赫里德骨湾水上博物馆指南：如何理解重建桩屋与考古遗迹，并把 Gradishte 安排为独立湖岸停靠点。",
+        "intro": "骨湾水上博物馆位于奥赫里德湖 Gradishte、靠近 Peshtani。博物馆介绍的遗址包含晚青铜时代至早铁器时代的桩屋聚落遗迹；湖上展示的木屋为现代重建。",
+        "sections": [
+          {
+            "title": "先区分原址发现和重建展示",
+            "body": "湖上房屋帮助游客理解桩屋聚落的形式，并非完整保存至今的史前木屋。先阅读展陈介绍，再看建筑与水面之间的关系，会更容易把眼前展示和水下考古发现联系起来。"
+          },
+          {
+            "title": "综合体不只有木屋",
+            "body": "官方介绍还列出博物馆展陈，以及 Gradishte 高处保存修复的罗马 castrum 遗址。到达后依当天开放区域选择参观顺序，将湖岸展示与地方历史一并理解。"
+          },
+          {
+            "title": "把它安排为另一处湖岸目的地",
+            "body": "博物馆地址为 Peshtani、Gradishte，与修道院紧邻的泉群不同。若想同日参观两处，先确认实际抵达方式和返程，再安排先后顺序，避免把两个地点当作同一处院落中的短停留。"
+          }
+        ],
+        "tips": [
+          "出发前向博物馆确认计划日期的开放安排与参观费用。",
+          "分别确认前往 Gradishte 和离开的交通，为两站之间的衔接留出余量。",
+          "水下旅游设施的介绍不等于普通参观包含潜水或可自由入水，具体活动另行咨询。"
+        ],
+        "faqs": [
+          {
+            "q": "湖上的木屋是史前原物吗？",
+            "a": "不是。馆方将湖上聚落描述为基于考古研究进行的重建，应与水下遗址和出土发现区分。"
+          },
+          {
+            "q": "能把这里当作修道院旁的步行景点吗？",
+            "a": "请将其按另一个目的地规划，先确认到 Gradishte 的实际交通。这里不提供从修道院出发的步行连线或固定车程。"
+          }
+        ]
+      },
+      "en": {
+        "title": "Bay of Bones Museum on Water",
+        "subtitle": "Understand lake dwellings and underwater archaeology at Gradishte.",
+        "description": "Plan a Bay of Bones Museum on Water visit, distinguish reconstructed dwellings from archaeological remains and arrange a separate lakeshore stop.",
+        "intro": "The Museum on Water is at Gradishte near Peshtani on Lake Ohrid. Its archaeological site includes remains of a Late Bronze and Early Iron Age pile-dwelling settlement; the houses displayed over the water are modern reconstructions.",
+        "sections": [
+          {
+            "title": "Distinguish the discovery from the reconstruction",
+            "body": "The waterfront houses explain a form of settlement; they are not prehistoric timber buildings preserved intact to the present. Read the interpretation before viewing them to connect the display with the underwater archaeological discoveries."
+          },
+          {
+            "title": "Look beyond the houses",
+            "body": "The museum also describes exhibition facilities and a conserved and restored Roman castrum on the higher ground at Gradishte. Follow the areas open on the day and connect the lakeside display with the site's wider history."
+          },
+          {
+            "title": "Treat this as another lakeshore destination",
+            "body": "The museum's address is Peshtani, Gradishte. It differs from the springs immediately beside the monastery. Before combining both visits, confirm arrival and return arrangements rather than treating them as short stops within a single complex."
+          }
+        ],
+        "tips": [
+          "Confirm opening and admission arrangements with the museum for your intended date.",
+          "Check travel to and from Gradishte separately and leave room between the visits.",
+          "The mention of underwater tourism facilities does not establish that ordinary admission includes diving or access to the water. Ask about any specific activity separately."
+        ],
+        "faqs": [
+          {
+            "q": "Are the houses the original prehistoric structures?",
+            "a": "No. The museum describes the waterfront settlement as a reconstruction based on archaeological research. Distinguish it from the submerged remains and finds."
+          },
+          {
+            "q": "Is this a short walk inside the monastery area?",
+            "a": "Plan it as a separate destination and confirm how you will reach Gradishte. No monastery-to-museum walking connection or fixed journey time is supplied here."
+          }
+        ]
+      }
+    },
+    {
+      "slug": "galicica-national-park",
+      "kind": "regional",
+      "sources": [
+        {
+          "url": "https://galicica.org.mk/en/information/",
+          "zh": "加利奇察国家公园：公园概况",
+          "en": "Galičica National Park: general information"
+        },
+        {
+          "url": "https://galicica.org.mk/pateki-nash-predlog/",
+          "zh": "加利奇察国家公园：步道目录（马其顿语）",
+          "en": "Galičica National Park: trail directory (Macedonian)"
+        }
+      ],
+      "zh": {
+        "title": "加利奇察国家公园",
+        "subtitle": "在奥赫里德湖与普雷斯帕湖之间，另留一段山地行程。",
+        "description": "加利奇察国家公园游览准备：区分湖岸与山地体验、选择明确的路线起点，并安排适合自己的区域出游。",
+        "intro": "加利奇察国家公园于 1958 年设立，保护奥赫里德湖与普雷斯帕湖之间的山地自然环境。修道院旁的泉群只是这片广阔区域的一种景观，山地活动需要单独规划。",
+        "sections": [
+          {
+            "title": "先决定想看什么",
+            "body": "湖岸观察、自然游览和山地徒步有不同的准备要求。先确定这次想做的活动，再选择一个明确目的地，比只把“国家公园”当作导航终点更容易安排行程。"
+          },
+          {
+            "title": "路线起点比景区名称更具体",
+            "body": "查看公园的步道目录后，向公园确认选定路线的起点、终点与当前条件。不要把修道院入口默认成山地线路的起点，也不要假设湖岸停留可自然衔接到任何峰顶。"
+          },
+          {
+            "title": "把返程纳入计划",
+            "body": "进入路线之前，确认如何到达起点和离开终点。根据实际路线、天气和自己的经验准备装备；如果条件不合适，保留调整行程的余地。"
+          }
+        ],
+        "tips": [
+          "选定具体活动与路线，向公园核对当日开放和天气条件。",
+          "独立安排起终点交通，不预设固定公共接驳或直达连线。",
+          "按已确认的路况准备鞋服、饮水和导航，不用寺院庭院的条件推断山地条件。"
+        ],
+        "faqs": [
+          {
+            "q": "看过圣瑙姆泉群就算走完国家公园了吗？",
+            "a": "泉群只是公园相关景观中的一处。公园范围广大，山地线路和湖岸观景是不同的活动。"
+          },
+          {
+            "q": "山地出游能和修道院放在同一天吗？",
+            "a": "先确定具体路线、当前条件和交通，再决定是否同日安排；不要在尚未选定活动时承诺整套行程的用时。"
+          }
+        ]
+      },
+      "en": {
+        "title": "Galičica National Park",
+        "subtitle": "Give the mountains between Lakes Ohrid and Prespa their own place in the itinerary.",
+        "description": "Prepare a Galičica National Park outing: distinguish lakeshore and mountain activities, select a specific starting point and plan a separate regional visit.",
+        "intro": "Established in 1958, Galičica National Park protects the mountain landscape between Lakes Ohrid and Prespa. The springs beside the monastery are one part of a much wider area; mountain activities need their own plan.",
+        "sections": [
+          {
+            "title": "Choose an experience first",
+            "body": "Lakeshore observation, a nature visit and a mountain hike require different preparation. Decide what you want to do and select a specific destination rather than using only 'the national park' as a navigation endpoint."
+          },
+          {
+            "title": "Find the actual starting point",
+            "body": "Use the park's trail directory, then ask the park about the chosen route's start, finish and current conditions. Do not assume that a mountain walk starts at the monastery gate or connects directly from a lakeshore stop to a summit."
+          },
+          {
+            "title": "Include the return journey",
+            "body": "Before entering a route, establish how you will reach its start and leave its finish. Prepare for the actual route, weather and your experience, and leave room to change the plan if conditions are unsuitable."
+          }
+        ],
+        "tips": [
+          "Select a specific activity and route, then check current access and weather with the park.",
+          "Arrange transport to the start and from the finish without assuming a fixed public connection.",
+          "Prepare footwear, clothing, drinking water and navigation for the confirmed route; courtyard conditions do not establish mountain conditions."
+        ],
+        "faqs": [
+          {
+            "q": "Does visiting the springs cover the whole park?",
+            "a": "The springs are one part of the wider protected landscape. Mountain routes and lakeshore observation are different activities."
+          },
+          {
+            "q": "Can a mountain outing share a day with the monastery?",
+            "a": "Choose a route, check conditions and confirm transport before deciding. The duration of a combined day cannot be settled before the activity is selected."
+          }
+        ]
+      }
+    }
+  ]
+}

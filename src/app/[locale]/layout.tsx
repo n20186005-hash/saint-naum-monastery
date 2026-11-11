@@ -3,6 +3,7 @@ import { getMessages, setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata } from 'next';
+import { isLocale, metadataFor } from '@/lib/site';
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -14,36 +15,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  
-  // 加载 Saint Naum Monastery 的翻译文件
+  if (!isLocale(locale)) notFound();
   const messages = (await import(`@/messages/${locale}.json`)).default;
-  
-  const baseUrl = 'https://stnaummonastery.com'; // 请替换为实际域名
-
-  const zhUrl = `${baseUrl}/zh`;
-  const enUrl = `${baseUrl}/en`;
-  const selfUrl = locale === 'zh' ? zhUrl : enUrl;
-
-  return {
-    title: messages.meta.title,
-    description: messages.meta.description,
-    alternates: {
-      canonical: selfUrl,
-      languages: {
-        'zh': zhUrl,
-        'en': enUrl,
-        'x-default': zhUrl,
-      },
-    },
-    openGraph: {
-      title: messages.meta.title,
-      description: messages.meta.description,
-      url: selfUrl,
-      siteName: "St. Naum Monastery",
-      locale: locale === 'zh' ? 'zh_CN' : 'en_US',
-      type: 'website',
-    },
-  };
+  return metadataFor(locale, '', messages.meta.title, messages.meta.description);
 }
 
 export default async function LocaleLayout({
@@ -55,7 +29,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  if (!routing.locales.includes(locale as any)) {
+  if (!isLocale(locale)) {
     notFound();
   }
 

@@ -1,12 +1,14 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { localPath } from '@/lib/site';
 import LanguageToggle from './LanguageToggle';
 import ThemeToggle from './ThemeToggle';
 import { useState, useEffect } from 'react';
 
-export default function Header({ locale = 'en' }: { locale?: string }) {
+export default function Header({ solid = false }: { solid?: boolean }) {
+  const locale = useLocale();
   const t = useTranslations('header');
   const tPetro = useTranslations('hero');
   const [scrolled, setScrolled] = useState(false);
@@ -21,25 +23,25 @@ export default function Header({ locale = 'en' }: { locale?: string }) {
     <header
       className="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
       style={{
-        background: scrolled ? 'var(--bg-secondary)' : 'transparent',
-        borderBottom: scrolled ? '1px solid var(--border-color)' : 'none',
-        backdropFilter: scrolled ? 'blur(12px)' : 'none',
+        background: (solid || scrolled) ? 'var(--bg-secondary)' : 'transparent',
+        borderBottom: (solid || scrolled) ? '1px solid var(--border-color)' : 'none',
+        backdropFilter: (solid || scrolled) ? 'blur(12px)' : 'none',
       }}
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-        <Link href="/petrovaradin-fortress-clock" className="font-display text-lg font-semibold tracking-tight" style={{ color: scrolled ? 'var(--text-primary)' : '#fff' }}>
+        <Link href="/" className="font-display text-base sm:text-lg font-semibold tracking-tight max-w-[48%] leading-tight" style={{ color: (solid || scrolled) ? 'var(--text-primary)' : '#fff' }}>
           {tPetro('title')}
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
-          {(['gallery', 'reviews', 'map'] as const).map((section) => (
+          {(['nearby', 'gallery', 'reviews', 'map'] as const).map((section) => (
             <a
               key={section}
-              href={`/#${section}`}
+              href={localPath(locale) + '#' + section}
               className="text-sm font-medium transition-colors"
-              style={{ color: scrolled ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
+              style={{ color: (solid || scrolled) ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >
-              {t(section)}
+              {section === 'nearby' ? (locale === 'zh' ? '周边探索' : 'Explore nearby') : t(section)}
             </a>
           ))}
         </nav>

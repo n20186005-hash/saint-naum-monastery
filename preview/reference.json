@@ -1,0 +1,238 @@
+{
+  "baseCandidate": "ea7113c0bd69af6d89c339a41e5aae0dc376ddf9",
+  "publicBaseline": "79f1b0d554ec630b696059955052f45aae763454",
+  "approvedFeatureBranch": "relay/row33-saintnaum-rebuild-20261111",
+  "formalSite": "https://www.saintnaummonastery.com",
+  "rootScripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "check:all": "node scripts/check-all.js",
+    "check:json": "node scripts/validate-json.js",
+    "check:links": "node scripts/check-links.js",
+    "check:build": "node scripts/check-build.js"
+  },
+  "originalImages": [
+    {
+      "path": "public/gallery/saint-naum-monastery-01.jpg",
+      "bytes": 549875,
+      "git_blob": "2a3680f969cc65bfa99ccf2ad7939e9ccd27de9f",
+      "sha256": "a9937431a0e48ade415a05e1ae430bcbcfaa4388b8ace3abd25196247b4aa396",
+      "pixels": [
+        1290,
+        920
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-02.jpg",
+      "bytes": 1891485,
+      "git_blob": "5def90d41abfcf80d5cc42e4ac31535d29b4007c",
+      "sha256": "2495438f3d5900e34dec2f9ed06bbaac6740a8215ce351104ed963372132aa1e",
+      "pixels": [
+        1920,
+        1080
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-03.jpg",
+      "bytes": 6433256,
+      "git_blob": "fa8acdfa58ffc7e9cfbbb2f61af4ac9dc13f3c98",
+      "sha256": "cc176f8472880965368a0f8b5cf81e0b37c23aafb452957d4d6fac943bff7e24",
+      "pixels": [
+        3000,
+        2008
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-04.jpg",
+      "bytes": 2764144,
+      "git_blob": "6f754187fe8235f8e01123b26df9187d65c4baca",
+      "sha256": "b217e09c28925b080b3037ba56ced9bda2ac3f17e009090e9fba40e8f4646b95",
+      "pixels": [
+        3024,
+        4032
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-05.jpg",
+      "bytes": 3508555,
+      "git_blob": "616df05279cc0982f402b16b2d73d5353077b89a",
+      "sha256": "061d9441fe7722c3e495d3679a0cb9b17efa37e9e673582309ed8fcb55cab1c0",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-06.jpg",
+      "bytes": 1949480,
+      "git_blob": "e88436661c7b142879236a8972d15ee834919b14",
+      "sha256": "c32af44c50b788e4d5e1c2d08d97ebbff25f706bae02d538bc4da1267d18b504",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-07.jpg",
+      "bytes": 4318761,
+      "git_blob": "2823bae2cf8b7c646277cebf2a26066a9dae8608",
+      "sha256": "288f3a8997d9177dd42c9723ca4001fce46bbd91dc1503c01cf7f54ba5f13f82",
+      "pixels": [
+        4080,
+        3060
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-08.jpg",
+      "bytes": 2386595,
+      "git_blob": "000c7ba807d42696cfcbe514c60f369d52ee6b3e",
+      "sha256": "af093484edfe6bf2bb5b956e728f151ce4d7d5f7c89530fd9c61ba96bab337c4",
+      "pixels": [
+        1920,
+        1088
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-09.jpg",
+      "bytes": 3621469,
+      "git_blob": "5d4aa96d0bacbc3a18312121b9fbe6c2e087e1e2",
+      "sha256": "ae4c8d2297308f2f63048d5e215f09bf462cbccbf8fc199f411a227c4a5193e1",
+      "pixels": [
+        3024,
+        2881
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-10.jpg",
+      "bytes": 5029256,
+      "git_blob": "6c28da7c36dfbb629903843780e435b8c5ceee69",
+      "sha256": "5a91df2c6187f3f58d8adec4d6ff773eb8ec672ae42439392c81db9fa90cdb5f",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-11.jpg",
+      "bytes": 3981597,
+      "git_blob": "716c225572544aa7b6b2fd38be58de500b1ff834",
+      "sha256": "0d12c5cbcaae6c16e1f5c5d88b1f8b5f4d402359c3ae9d1f053a175db23249d4",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-12.jpg",
+      "bytes": 8355674,
+      "git_blob": "bef6ce372c7601c6a14c57ed0fa4c9acdad606c9",
+      "sha256": "8bb123e02735b6434e1a107635612bbef0ad6048980860f8b831e5b95af5eb5c",
+      "pixels": [
+        4096,
+        3072
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-13.jpg",
+      "bytes": 3271650,
+      "git_blob": "ede90487b7b468c29a4e1ac09645a564d482bb4e",
+      "sha256": "e7ce65e224bc81141f9a61b623ab43c460c88e69ec9cfcf26afdf05e9c2a48b0",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-14.jpg",
+      "bytes": 1473233,
+      "git_blob": "73b728298b147d31704e58486d344ea81f2b641f",
+      "sha256": "07a83b0c1ff5683ce8cc2f45519427e3741b3f0828aad69eb1c9a2af0eb8855a",
+      "pixels": [
+        1920,
+        1080
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-15.jpg",
+      "bytes": 3622923,
+      "git_blob": "6fa2be79b6edf4dcf443a62dbd016a0c53cb3d2b",
+      "sha256": "ab2ed28312179969b5fdc7fd5ba3654c57431345e6112d60ce9b807e7b925caa",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-16.jpg",
+      "bytes": 2132027,
+      "git_blob": "160caaae373055fe715ac05688aa475314ed275c",
+      "sha256": "48311f07b893343f182fde3da3c336c9854959049dfb35035d4bb9fabf9cfd6e",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-17.jpg",
+      "bytes": 22465992,
+      "git_blob": "80d45a7c4eadff527e55b7bb2ca418ca8d1f12bf",
+      "sha256": "17e0a7a7b60ca6bffe26adf5a187765b00f4929c7c81cbd4d4114e469ee377fe",
+      "pixels": [
+        11332,
+        8499
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-18.jpg",
+      "bytes": 6064417,
+      "git_blob": "51bcd6d4e36cce9da9b2f8cab380fc0c522e5c77",
+      "sha256": "f32b19591765a00da45cdb7e68002fd94614df532a6235fc5b46c7ad84cf410d",
+      "pixels": [
+        4032,
+        3024
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-19.jpg",
+      "bytes": 4005890,
+      "git_blob": "bf0f859f01ccd49ad0d15e21805eb4ff3baf2eed",
+      "sha256": "ced0840b2191403448d0d9ab49962581aa3a0421e54356fcf03af98b82732c4c",
+      "pixels": [
+        4640,
+        3472
+      ],
+      "format": "JPEG"
+    },
+    {
+      "path": "public/gallery/saint-naum-monastery-20.jpg",
+      "bytes": 785596,
+      "git_blob": "1970a5292c3d5decfd55b1889e8cebb375da211a",
+      "sha256": "ac958f2ef440256750c3bf5c30fad5aa6bba9c35fcd255d5bb8eba5716822a59",
+      "pixels": [
+        1280,
+        720
+      ],
+      "format": "JPEG"
+    }
+  ]
+}

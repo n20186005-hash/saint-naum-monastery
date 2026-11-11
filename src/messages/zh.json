@@ -213,37 +213,109 @@
     "title": "精彩照片",
     "subtitle": "圣诺姆修道院与奥赫里德湖全景",
     "captions": [
-      "修道院全景",
-      "庭院中的孔雀",
-      "教堂内部壁画",
-      "奥赫里德湖景",
-      "黑德林河泉水",
-      "修道院外观",
-      "泉水区木船",
-      "湖畔日落"
+      "修道院教堂与奥赫里德湖",
+      "教堂外墙旁的树木",
+      "砖石教堂外立面",
+      "庭院柱廊与钟楼",
+      "湖岸上方的修道院建筑群",
+      "教堂内部壁画与圣像",
+      "教堂外观与庭院",
+      "花园中的石景",
+      "教堂塔楼与花园绿植",
+      "绿篱后方的教堂砖石外墙",
+      "花园中的岩石水景",
+      "湖岸树荫下的水道",
+      "石铺小径与庭院门口",
+      "教堂塔楼与砖石结构",
+      "庭院花园中的雕像",
+      "教堂内的彩绘圣像屏风",
+      "壁画覆盖的教堂内景",
+      "树荫下的庭院石景",
+      "清澈水边的有顶平台",
+      "教堂壁画细节"
     ],
     "viewAll": "在 Google Maps 查看位置",
     "photos": [
-      { "src": "/gallery/saint-naum-monastery-01.jpg", "alt": "修道院全景" },
-      { "src": "/gallery/saint-naum-monastery-02.jpg", "alt": "庭院中的孔雀" },
-      { "src": "/gallery/saint-naum-monastery-03.jpg", "alt": "教堂内部壁画" },
-      { "src": "/gallery/saint-naum-monastery-04.jpg", "alt": "奥赫里德湖景" },
-      { "src": "/gallery/saint-naum-monastery-05.jpg", "alt": "黑德林河泉水" },
-      { "src": "/gallery/saint-naum-monastery-06.jpg", "alt": "修道院外观" },
-      { "src": "/gallery/saint-naum-monastery-07.jpg", "alt": "泉水区木船" },
-      { "src": "/gallery/saint-naum-monastery-08.jpg", "alt": "湖畔日落" },
-      { "src": "/gallery/saint-naum-monastery-09.jpg", "alt": "修道院风景" },
-      { "src": "/gallery/saint-naum-monastery-10.jpg", "alt": "孔雀特写" },
-      { "src": "/gallery/saint-naum-monastery-11.jpg", "alt": "壁画细节" },
-      { "src": "/gallery/saint-naum-monastery-12.jpg", "alt": "湖泊远景" },
-      { "src": "/gallery/saint-naum-monastery-13.jpg", "alt": "泉水" },
-      { "src": "/gallery/saint-naum-monastery-14.jpg", "alt": "建筑" },
-      { "src": "/gallery/saint-naum-monastery-15.jpg", "alt": "木船" },
-      { "src": "/gallery/saint-naum-monastery-16.jpg", "alt": "湖畔" },
-      { "src": "/gallery/saint-naum-monastery-17.jpg", "alt": "修道院" },
-      { "src": "/gallery/saint-naum-monastery-18.jpg", "alt": "孔雀" },
-      { "src": "/gallery/saint-naum-monastery-19.jpg", "alt": "风光" },
-      { "src": "/gallery/saint-naum-monastery-20.jpg", "alt": "建筑全景" }
+      {
+        "src": "/gallery/saint-naum-monastery-01.jpg",
+        "alt": "修道院教堂与奥赫里德湖"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-02.jpg",
+        "alt": "教堂外墙旁的树木"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-03.jpg",
+        "alt": "砖石教堂外立面"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-04.jpg",
+        "alt": "庭院柱廊与钟楼"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-05.jpg",
+        "alt": "湖岸上方的修道院建筑群"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-06.jpg",
+        "alt": "教堂内部壁画与圣像"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-07.jpg",
+        "alt": "教堂外观与庭院"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-08.jpg",
+        "alt": "花园中的石景"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-09.jpg",
+        "alt": "教堂塔楼与花园绿植"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-10.jpg",
+        "alt": "绿篱后方的教堂砖石外墙"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-11.jpg",
+        "alt": "花园中的岩石水景"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-12.jpg",
+        "alt": "湖岸树荫下的水道"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-13.jpg",
+        "alt": "石铺小径与庭院门口"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-14.jpg",
+        "alt": "教堂塔楼与砖石结构"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-15.jpg",
+        "alt": "庭院花园中的雕像"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-16.jpg",
+        "alt": "教堂内的彩绘圣像屏风"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-17.jpg",
+        "alt": "壁画覆盖的教堂内景"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-18.jpg",
+        "alt": "树荫下的庭院石景"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-19.jpg",
+        "alt": "清澈水边的有顶平台"
+      },
+      {
+        "src": "/gallery/saint-naum-monastery-20.jpg",
+        "alt": "教堂壁画细节"
+      }
     ]
   },
   "reviews": {
@@ -281,8 +353,8 @@
     "title": "交通指南",
     "subtitle": "Ljubaništa 6000, North Macedonia",
     "openMaps": "在 Google Maps 查看",
-    "openMapsUrl": "https://maps.app.goo.gl/b1AbhMTMrkztvPqg9",
-    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12000!2d20.7658!3d40.9108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135b5d5a5a5a5a5a%3A0x5a5a5a5a5a5a5a5a!2sSt.+Naum+Monastery!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+    "openMapsUrl": "https://maps.app.goo.gl/s8JhZaSRJxDGzAvX6",
+    "embedUrl": "https://www.google.com/maps?q=Saint+Naum+Monastery+North+Macedonia&z=15&output=embed"
   },
   "footer": {
     "logo": "圣诺姆修道院",
