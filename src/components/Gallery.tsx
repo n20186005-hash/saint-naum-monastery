@@ -1,173 +1,76 @@
 'use client';
 
-import { useTranslations, useMessages } from 'next-intl';
-import { useState, useCallback } from 'react';
+import { useTranslations, useMessages, useLocale } from 'next-intl';
+import { useState, useRef, useEffect, useCallback } from 'react';
 
+type Photo = { src: string; alt: string };
 export default function Gallery() {
   const t = useTranslations('gallery');
-  const messages = useMessages();
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [isLightboxOpen, setIsLightboxOpen] = useState(false);
-  const [currentPage, setCurrentPage] = useState(0);
-
-  // 从 messages 中读取图片列表
-  const photos = messages?.gallery?.photos || [];
-  const ITEMS_PER_PAGE = 9;
-  const totalPages = Math.ceil(photos.length / ITEMS_PER_PAGE);
-  
-  // 如果没有配置图片，显示提示
-  if (photos.length === 0) {
-    console.warn('No photos configured in translation file');
-  }
-
-  const prevPage = useCallback(() => {
-    setCurrentPage((prev) => (prev === 0 ? totalPages - 1 : prev - 1));
-  }, [totalPages]);
-
-  const nextPage = useCallback(() => {
-    setCurrentPage((prev) => (prev === totalPages - 1 ? 0 : prev + 1));
-  }, [totalPages]);
-
-  const goToPrevious = useCallback(() => {
-    setCurrentIndex((prev) => (prev === 0 ? photos.length - 1 : prev - 1));
-  }, [photos.length]);
-
-  const goToNext = useCallback(() => {
-    setCurrentIndex((prev) => (prev === photos.length - 1 ? 0 : prev + 1));
-  }, [photos.length]);
-
-  const openLightbox = () => setIsLightboxOpen(true);
-  const closeLightbox = () => setIsLightboxOpen(false);
-
+  const locale = useLocale();
+  const messages = useMessages() as unknown as { gallery?: { photos?: Photo[] } };
+  const photos = messages.gallery?.photos || [];
+  const [page, setPage] = useState(0);
+  const [index, setIndex] = useState(0);
+  const [open, setOpen] = useState(false);
+  const dialog = useRef<HTMLDialogElement>(null);
+  const closeButton = useRef<HTMLButtonElement>(null);
+  const trigger = useRef<HTMLButtonElement | null>(null);
+  const size = 9;
+  const count = Math.ceil(photos.length / size);
+  const text = locale === 'zh'
+    ? { open: '查看大图', close: '关闭照片浏览器', previous: '上一张照片', next: '下一张照片', previousPage: '上一组照片', nextPage: '下一组照片', dialog: '照片浏览器', page: '组' }
+    : { open: 'Open photo', close: 'Close photo viewer', previous: 'Previous photo', next: 'Next photo', previousPage: 'Previous gallery page', nextPage: 'Next gallery page', dialog: 'Photo viewer', page: 'Page' };
+  const previous = useCallback(() => setIndex((i) => (i + photos.length - 1) % photos.length), [photos.length]);
+  const next = useCallback(() => setIndex((i) => (i + 1) % photos.length), [photos.length]);
+  useEffect(() => {
+    if (!open || !dialog.current) return;
+    const element = dialog.current;
+    const priorOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    element.showModal();
+    closeButton.current?.focus({ preventScroll: true });
+    return () => {
+      element.close();
+      document.body.style.overflow = priorOverflow;
+      trigger.current?.focus({ preventScroll: true });
+    };
+  }, [open]);
+  if (!photos.length) return null;
   return (
     <>
       <section id="gallery" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
         <div className="max-w-6xl mx-auto">
-          <h2
-            className="font-display text-3xl sm:text-4xl font-semibold mb-2"
-            style={{ color: 'var(--text-primary)' }}
-          >
-            {t('title')}
-          </h2>
+          <h2 className="font-display text-3xl sm:text-4xl font-semibold mb-2">{t('title')}</h2>
           <p className="mb-8" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
           <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
-
-          <div className="relative">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
-              {photos.slice(currentPage * ITEMS_PER_PAGE, (currentPage + 1) * ITEMS_PER_PAGE).map((photo: any, i: number) => {
-                const globalIndex = currentPage * ITEMS_PER_PAGE + i;
-                return (
-                  <div
-                    key={globalIndex}
-                    className={`gallery-item relative group cursor-pointer ${i === 0 ? 'col-span-2 row-span-2' : ''}`}
-                    onClick={() => {
-                      setCurrentIndex(globalIndex);
-                      openLightbox();
-                    }}
-                  >
-                    <img
-                      src={photo.src}
-                      alt={photo.alt}
-                      className="w-full h-full object-cover rounded-lg"
-                      style={{ minHeight: i === 0 ? '400px' : '180px' }}
-                      loading="lazy"
-                    />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-colors rounded-lg flex items-end">
-                      <p className="text-white text-sm p-3 opacity-0 group-hover:opacity-100 transition-opacity">
-                        {photo.alt}
-                      </p>
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-
-            {totalPages > 1 && (
-              <>
-                <button
-                  onClick={prevPage}
-                  className="absolute left-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors z-10"
-                  aria-label="Previous page"
-                >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polyline points="15 18 9 12 15 6" />
-                  </svg>
-                </button>
-                <button
-                  onClick={nextPage}
-                  className="absolute right-2 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 hover:bg-white rounded-full shadow-lg flex items-center justify-center transition-colors z-10"
-                  aria-label="Next page"
-                >
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <polyline points="9 18 15 12 9 6" />
-                  </svg>
-                </button>
-              </>
-            )}
-
-            <div className="flex justify-center mt-6 gap-4 items-center">
-              <a
-                href="https://maps.app.goo.gl/b1AbhMTMrkztvPqg9"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm hover:underline"
-                style={{ color: 'var(--accent)' }}
-              >
-                {t('viewAll')}
-              </a>
-            </div>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
+            {photos.slice(page * size, (page + 1) * size).map((photo, i) => (
+              <button type="button" key={photo.src} className={`gallery-item photo-tile ${i === 0 ? 'photo-featured' : ''}`}
+                aria-label={text.open + ': ' + photo.alt} aria-haspopup="dialog"
+                onClick={(event) => { trigger.current = event.currentTarget; setIndex(page * size + i); setOpen(true); }}>
+                <img src={photo.src} alt={photo.alt} className="w-full h-full object-cover" loading="lazy" />
+              </button>
+            ))}
           </div>
+          {count > 1 && <div className="flex items-center justify-center gap-5 mt-6">
+            <button type="button" className="photo-page-control" aria-label={text.previousPage} onClick={() => setPage((p) => (p + count - 1) % count)}>←</button>
+            <span aria-live="polite" className="text-sm">{text.page} {page + 1} / {count}</span>
+            <button type="button" className="photo-page-control" aria-label={text.nextPage} onClick={() => setPage((p) => (p + 1) % count)}>→</button>
+          </div>}
+          <div className="text-center mt-6"><a href="https://maps.app.goo.gl/s8JhZaSRJxDGzAvX6" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline" style={{ color: 'var(--accent)' }}>{t('viewAll')}</a></div>
         </div>
       </section>
-
-      {isLightboxOpen && (
-        <div
-          className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center"
-          onClick={closeLightbox}
-        >
-          <button
-            onClick={closeLightbox}
-            className="absolute top-4 right-4 w-10 h-10 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Close lightbox"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-              <line x1="18" y1="6" x2="6" y2="18" />
-              <line x1="6" y1="6" x2="18" y2="18" />
-            </svg>
-          </button>
-
-          <button
-            onClick={(e) => { e.stopPropagation(); goToPrevious(); }}
-            className="absolute left-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Previous photo"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-              <polyline points="15 18 9 12 15 6" />
-            </svg>
-          </button>
-
-          <img
-            src={photos[currentIndex].src}
-            alt={photos[currentIndex].alt}
-            className="max-w-[90vw] max-h-[85vh] object-contain rounded-lg"
-            onClick={(e) => e.stopPropagation()}
-          />
-
-          <button
-            onClick={(e) => { e.stopPropagation(); goToNext(); }}
-            className="absolute right-4 w-12 h-12 bg-white/20 hover:bg-white/30 rounded-full flex items-center justify-center transition-colors"
-            aria-label="Next photo"
-          >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2">
-              <polyline points="9 18 15 12 9 6" />
-            </svg>
-          </button>
-
-          <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
-            {currentIndex + 1} / {photos.length}
-          </div>
-        </div>
-      )}
+      {open && <dialog ref={dialog} className="photo-dialog" aria-label={text.dialog}
+        onCancel={() => setOpen(false)} onClose={() => setOpen(false)}
+        onClick={(event) => { if (event.target === event.currentTarget) setOpen(false); }}
+        onKeyDown={(event) => {
+          if (event.key === 'ArrowLeft') { event.preventDefault(); previous(); }
+          if (event.key === 'ArrowRight') { event.preventDefault(); next(); }
+        }}>
+        <button ref={closeButton} type="button" className="photo-close" aria-label={text.close} onClick={() => setOpen(false)}>×</button>
+        <figure className="photo-figure"><img src={photos[index].src} alt={photos[index].alt} /><figcaption aria-live="polite">{photos[index].alt} · {index + 1} / {photos.length}</figcaption></figure>
+        <div className="photo-actions"><button type="button" aria-label={text.previous} onClick={previous}>←</button><button type="button" aria-label={text.next} onClick={next}>→</button></div>
+      </dialog>}
     </>
   );
 }

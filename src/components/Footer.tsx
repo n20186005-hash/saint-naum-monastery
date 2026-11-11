@@ -1,7 +1,8 @@
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 
-export default function Footer() {
+export default function Footer({ compact = false }: { compact?: boolean }) {
+  const locale = useLocale();
   const t = useTranslations('footer');
 
   return (
@@ -13,7 +14,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-start gap-8 mb-8">
           <div className="max-w-md">
             <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
-              {t('logo') || 'Petrovaradin Fortress Clock'}
+              {t('logo')}
             </h3>
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
               {t('officialResourcesTitle')}
@@ -47,8 +48,8 @@ export default function Footer() {
           className="pt-6 text-center text-sm space-y-4"
           style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
         >
-          <p>{t('rights')}</p>
-          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
+          <p>{compact ? (locale === 'zh' ? '© 2026 圣瑙姆修道院游客指南' : '© 2026 Saint Naum Monastery Visitor Guide') : t('rights')}</p>
+          {!compact && <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>}
         </div>
       </div>
     </footer>

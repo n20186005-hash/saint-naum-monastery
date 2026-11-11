@@ -15,6 +15,7 @@ import Reviews from '@/components/Reviews';
 import MapEmbed from '@/components/MapEmbed';
 import Recommendations from '@/components/Recommendations';
 import Footer from '@/components/Footer';
+import NearbyGuides from '@/components/NearbyGuides';
 
 export default async function StNaumPage({
   params,
@@ -41,6 +42,7 @@ export default async function StNaumPage({
         <Gallery />
         <Reviews />
         <MapEmbed />
+        <NearbyGuides />
         <Recommendations />
       </main>
       <Footer />
