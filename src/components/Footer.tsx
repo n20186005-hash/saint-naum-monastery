@@ -48,7 +48,7 @@ export default function Footer({ compact = false }: { compact?: boolean }) {
           className="pt-6 text-center text-sm space-y-4"
           style={{ borderTop: '1px solid var(--border-color)', color: 'var(--text-muted)' }}
         >
-          <p>{compact ? (locale === 'zh' ? '© 2026 圣瑙姆修道院游客指南' : '© 2026 Saint Naum Monastery Visitor Guide') : t('rights')}</p>
+          <p>{compact ? (locale === 'zh' ? '© 2026 圣瑙姆修道院游客指南。保留所有权利。' : '© 2026 Saint Naum Monastery Visitor Guide. All rights reserved.') : t('rights')}</p>
           {!compact && <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>}
         </div>
       </div>
