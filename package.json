@@ -13,6 +13,7 @@
     "check:build": "node scripts/check-build.js"
   },
   "dependencies": {
+    "@swc/helpers": "0.5.24",
     "next": "^15.1.0",
     "next-intl": "^4.11.1",
     "react": "^19.0.0",
