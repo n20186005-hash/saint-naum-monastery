@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-start gap-8 mb-8">
           <div className="max-w-md">
             <h3 className="font-display text-lg font-semibold mb-1" style={{ color: 'var(--text-primary)' }}>
-              {t('logo') || 'Petrovaradin Fortress Clock'}
+              {t('logo')}
             </h3>
             <p className="text-xs mb-4" style={{ color: 'var(--text-muted)' }}>
               {t('officialResourcesTitle')}

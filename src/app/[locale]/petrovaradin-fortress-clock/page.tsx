@@ -50,5 +50,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: messages.meta.title,
     description: messages.meta.description,
+    robots: { index: false, follow: true },
   };
 }

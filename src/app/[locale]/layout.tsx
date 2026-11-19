@@ -18,9 +18,9 @@ export async function generateMetadata({
   // 加载 Saint Naum Monastery 的翻译文件
   const messages = (await import(`@/messages/${locale}.json`)).default;
   
-  const baseUrl = 'https://stnaummonastery.com'; // 请替换为实际域名
+  const baseUrl = 'https://www.saintnaummonastery.com';
 
-  const zhUrl = `${baseUrl}/zh`;
+  const zhUrl = `${baseUrl}/`;
   const enUrl = `${baseUrl}/en`;
   const selfUrl = locale === 'zh' ? zhUrl : enUrl;
 

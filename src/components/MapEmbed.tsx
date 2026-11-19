@@ -32,7 +32,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - St. Naum Monastery"
+            title={t('title')}
           />
         </div>
 

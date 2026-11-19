@@ -18,6 +18,7 @@ function CookieToggle({
   locked?: boolean;
   badge?: string;
 }) {
+  const locale = useLocale();
   return (
     <div
       className="flex items-start justify-between gap-4 p-5 sm:p-6 rounded-xl"
@@ -42,7 +43,7 @@ function CookieToggle({
       <button
         onClick={locked ? undefined : onToggle}
         className={`cookie-toggle flex-shrink-0 ${enabled ? 'active' : ''} ${locked ? 'opacity-60 cursor-not-allowed' : ''}`}
-        aria-label={`Toggle ${label}`}
+        aria-label={locale === 'zh' ? `切换${label}` : `Toggle ${label}`}
         disabled={locked}
       />
     </div>
@@ -53,7 +54,7 @@ export default function CookieSettingsClient() {
   const t = useTranslations('cookieSettings');
   const ht = useTranslations('header');
   const locale = useLocale();
-  const homeHref = locale === 'it' ? '/' : `/${locale}`;
+  const homeHref = `/${locale}`;
 
   const [analytics, setAnalytics] = useState(false);
   const [preferences, setPreferences] = useState(false);

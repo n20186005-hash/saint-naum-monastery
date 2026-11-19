@@ -47,13 +47,13 @@
   "basicInfo": {
     "title": "Basic Information",
     "officialName": "Official Name",
-    "officialNameValue": "Манастир „Свети Наум“ (English: Monastery of Saint Naum / St. Naum Monastery, Chinese: 圣瑙姆修道院 / 圣诺姆修道院)",
+    "officialNameValue": "Monastery of Saint Naum (Macedonian: Манастир „Свети Наум“)",
     "type": "Attraction Type",
     "typeValue": "Orthodox Monastery, Historical Building, Nature Reserve, Lakeside Sanctuary, World Heritage Site (Lake Ohrid region)",
     "country": "Country",
     "countryValue": "Republic of North Macedonia",
     "city": "City / Location",
-    "cityValue": "Ohrid (* Note: Located about 29 km south of Ohrid city center, at the southernmost tip of Lake Ohrid, near the Albanian border. Administratively belongs to Ljubaništa village, not Bitola city.)",
+    "cityValue": "Ljubaništa, Municipality of Ohrid, about 29 km south of Ohrid city centre near the Albanian border",
     "googleRating": "Google Rating",
     "ratingValue": "4.6/5 (13,430 reviews)",
     "phone": "Phone",
@@ -303,11 +303,21 @@
     "text": "St. Naum Monastery (Манастир Свети Наум) is one of the oldest and most important spiritual and cultural centers of Slavic Orthodoxy, founded in 905 by St. Naum of Ohrid. Located at the southernmost tip of Lake Ohrid, the monastery is managed as a cultural heritage site of North Macedonia, attracting pilgrims and tourists from around the world."
   },
   "header": {
+    "guide": "Visit guide",
+    "nearby": "Explore",
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
     "map": "Map",
     "backToHome": "Back to Home"
+  },
+  "a11y": {
+    "theme": "Toggle theme",
+    "previousPage": "Previous page",
+    "nextPage": "Next page",
+    "closeLightbox": "Close photo viewer",
+    "previousPhoto": "Previous photo",
+    "nextPhoto": "Next photo"
   },
   "privacy": {
     "title": "Privacy Policy",

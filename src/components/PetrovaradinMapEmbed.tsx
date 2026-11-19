@@ -30,7 +30,7 @@ export default function PetrovaradinMapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Petrovaradin Fortress Clock"
+            title={t('title')}
           />
         </div>
 
