@@ -1,5 +1,6 @@
 'use client';
 
+import { useParams } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -14,6 +15,7 @@ export default function LanguageToggle() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const { slug } = useParams<{ slug?: string }>();
   const [open, setOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
   const ref = useRef<HTMLDivElement>(null);
@@ -34,16 +36,22 @@ export default function LanguageToggle() {
     if (next === locale) return;
 
     startTransition(() => {
-      // @ts-ignore
-      router.replace(pathname, { locale: next });
+      if (pathname === '/nearby/[slug]' && slug) {
+        router.replace({ pathname, params: { slug } }, { locale: next });
+      } else if (pathname !== '/nearby/[slug]') {
+        router.replace(pathname, { locale: next });
+      }
     });
   }
 
   return (
-    <div ref={ref} className="relative">
+    <div ref={ref} className="relative" onKeyDown={(event) => { if (event.key === 'Escape') { setOpen(false); (ref.current?.querySelector('button') as HTMLButtonElement | null)?.focus({ preventScroll: true }); } }}>
       <button
         onClick={() => setOpen(!open)}
         className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm font-medium transition-colors"
+        aria-expanded={open}
+        aria-controls="language-options"
+        disabled={isPending}
         style={{
           background: 'var(--tag-bg)',
           color: 'var(--tag-text)',
@@ -63,6 +71,7 @@ export default function LanguageToggle() {
 
       {open && (
         <div
+          id="language-options"
           className="absolute right-0 mt-2 w-40 rounded-lg shadow-lg overflow-hidden z-50"
           style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}
         >

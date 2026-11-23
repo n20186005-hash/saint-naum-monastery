@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next';
-import { nearbyPlaces } from '@/lib/nearby';
+import { guidePaths } from '@/lib/nearby';
 
 const base = 'https://www.saintnaummonastery.com';
 
@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...localized('', 1),
     ...localized('st-naum-monastery-ohrid', 0.9),
     ...localized('guide/visiting-st-naum', 0.85),
-    ...nearbyPlaces.flatMap(place => localized(`nearby/${place.slug}`, 0.8)),
+    ...guidePaths.flatMap(path => localized(path.slice(1), 0.8)),
     ...localized('privacy-policy', 0.2),
     ...localized('terms-of-service', 0.2),
     ...localized('cookie-settings', 0.2),

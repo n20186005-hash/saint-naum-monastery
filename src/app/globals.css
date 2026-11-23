@@ -190,3 +190,20 @@ h1, h2, h3, h4, h5, h6 {
 a {
   transition: color 0.2s ease;
 }
+/* Regional guides use the site's existing palette. */
+html { scroll-padding-top: 5rem; scrollbar-gutter: stable; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.nearby-section { background: var(--bg-tertiary); }
+.guide-kicker { display: block; color: var(--accent); font-size: .76rem; font-weight: 700; letter-spacing: .08em; line-height: 1.6; }
+.guide-card { display: flex; flex-direction: column; padding: 2rem; border: 1px solid var(--border-color); border-radius: 1rem; background: var(--card-bg); color: var(--text-primary); box-shadow: var(--card-shadow); transition: border-color .2s, transform .2s; }
+.guide-card:hover { border-color: var(--accent); transform: translateY(-3px); }
+.guide-number { display: block; color: var(--text-muted); font-family: var(--font-display); font-size: 2rem; margin-bottom: 1.4rem; }
+.guide-action { margin-top: auto; color: var(--accent); font-size: .875rem; font-weight: 600; }
+.guide-hero { padding: 2rem 1.5rem 4rem; border-bottom: 1px solid var(--border-color); background: linear-gradient(130deg, var(--bg-tertiary), var(--bg-secondary)); }
+.guide-hero nav, .guide-hero > div > p:last-child { color: var(--text-secondary); }
+.guide-panel { padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 1rem; background: var(--card-bg); overflow-wrap: anywhere; }
+.guide-faq { border-top: 1px solid var(--border-color); padding: 1.1rem 0; }
+.guide-faq:last-child { border-bottom: 1px solid var(--border-color); }
+.guide-faq summary { cursor: pointer; font-weight: 600; line-height: 1.6; }
+#nearby-explore { scroll-margin-top: 4rem; }
+@media (min-width: 768px) { .guide-hero { padding: 2.5rem 2rem 5rem; } }

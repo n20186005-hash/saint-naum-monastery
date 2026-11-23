@@ -1,0 +1,782 @@
+{
+  "peshtani": {
+    "en": {
+      "history": "Peštani belongs to the chain of east-shore settlements where proximity to fishing grounds helped shape village life. The nearby pile-dwelling museum interprets a much older settlement at Gradište.",
+      "observation": "Notice where residential lanes meet the narrow shoreline, and compare this working village frontage with the reconstructed houses at the museum.",
+      "tip": "If travelling on to the museum by car or bus, use its separate entrance on the shore road.",
+      "routeSteps": [
+        "Start at the village turnoff",
+        "Use a public lane down to the water",
+        "Return to the main road for the onward journey"
+      ]
+    },
+    "zh": {
+      "history": "佩什塔尼是奥赫里德湖东岸的传统聚落之一，靠近渔场的地形塑造了村庄生活。附近的水上博物馆展示的是格拉迪什特一处年代更早的桩居遗址。",
+      "observation": "留意居民街巷与窄湖岸的交接处，并把真实村庄的滨水空间与博物馆重建的桩屋对照。",
+      "tip": "如要继续乘车去水上博物馆，请使用湖岸公路上另外标示的博物馆入口。",
+      "routeSteps": [
+        "由村口岔路进入",
+        "沿公共街巷下行到湖岸",
+        "返回主路继续行程"
+      ]
+    }
+  },
+  "trpejca": {
+    "en": {
+      "history": "Fishing was historically important to Trpejca, one of the small settlements occupying the narrow ground between Lake Ohrid and Galičica.",
+      "observation": "From above, compare the row of houses stepping down the slope with the narrow beach at the bottom. The best overview takes in both the buildings and the waterline.",
+      "tip": "If the shore is your main stop, save energy for the climb back to the main road and use public access routes.",
+      "routeSteps": [
+        "Begin at the signed village approach",
+        "Descend the public lane to the beach",
+        "Return the same way if another path is unsigned"
+      ]
+    },
+    "zh": {
+      "history": "特尔佩伊察位于奥赫里德湖与加利奇察山之间，夹在山湖间的有限空间形成紧凑的村落格局，渔业曾是重要生计。",
+      "observation": "在高处同时观察顺山坡错落的民居和下方窄滩。取景时把房屋和水线置于同一个画面，更能看清地势。",
+      "tip": "如果主要到湖边停留，请为返回公路的上坡留出体力，走公共通道。",
+      "routeSteps": [
+        "从有标示的村口出发",
+        "沿公共街巷下至湖滩",
+        "其他小路无标示时原路返回"
+      ]
+    }
+  },
+  "ljubanista-beach": {
+    "en": {
+      "history": "Ljubaništa is among the southern lakeside settlements historically associated with fishing. The broader shore here contrasts with the constricted beach below Trpejca.",
+      "observation": "Look for the change from the shallow lake edge to the Galičica backdrop. Photograph along the shore so that both are visible, especially in low-angle light.",
+      "tip": "Look for the public access sign at the entrance, as individual facilities along the shore can set their own rules.",
+      "routeSteps": [
+        "Take the Ljubaništa turnoff",
+        "Identify the open stretch of shore",
+        "Follow the dry shoreline back to the access point"
+      ]
+    },
+    "zh": {
+      "history": "柳巴尼什塔是湖南端历史上与捕鱼相关的聚落之一。这里较为开阔的岸线与特尔佩伊察坡脚的狭窄湖滩形成对照。",
+      "observation": "观察浅水岸线向加利奇察山体的过渡。低角度光线下沿岸横向取景，可把两者一起拍入。",
+      "tip": "进入前留意公共通道标示，岸边各处设施可能有各自的使用规则。",
+      "routeSteps": [
+        "经柳巴尼什塔岔口抵达",
+        "辨认开放的湖岸区段",
+        "沿干燥岸线返回入口"
+      ]
+    }
+  },
+  "velestovo": {
+    "en": {
+      "history": "Studies of traditional Ohrid-area housing identify Velestovo as a village whose dwellings adapted to steep ground. Its hillside setting offers a useful contrast with the fishing settlements below.",
+      "observation": "Observe how the lanes and buildings occupy different heights. A public viewpoint with an uninterrupted downslope view helps trace Ohrid’s urban shoreline.",
+      "tip": "Treat this as a village walk unless you have checked a separate hiking route. Keep gateways and roads clear.",
+      "routeSteps": [
+        "Take the uphill village road from Ohrid",
+        "Walk on the public lanes around the village",
+        "Pause at an open viewing point before returning downhill"
+      ]
+    },
+    "zh": {
+      "history": "奥赫里德地区传统民居研究把韦莱斯托沃列为住宅顺应陡坡地形的村落之一。它与山下沿湖分布的渔村形成对照。",
+      "observation": "留意街巷与建筑在不同高度上的分布。在无遮挡的公共停留点向下看，可辨认奥赫里德的城市湖岸线。",
+      "tip": "如未事先查过独立登山路线，可把这里安排成村内散步。停留时留出道路和住户入口。",
+      "routeSteps": [
+        "由奥赫里德走上坡村道",
+        "沿村内公共街巷散步",
+        "下山前在开阔的公共点位观湖"
+      ]
+    }
+  },
+  "magaro": {
+    "en": {
+      "history": "Magaro lies along the protected Galičica massif between Ohrid and Prespa. Geomorphological studies identify a glacial cirque between the peak and the karst field of Lipova Livada.",
+      "observation": "Above the wooded slopes, the exposed ridge emphasizes the shape of both lake basins. A marked stopping point is enough for a panorama without stepping off the route.",
+      "tip": "Check the access road and visibility through the park before setting out, and turn back at your scheduled time even if the summit is close.",
+      "routeSteps": [
+        "Ask the park where the marked trail begins",
+        "Follow the designated route above the forest",
+        "Turn around on the same trail when conditions or time require"
+      ],
+      "manager": "Galičica National Park manages access to this protected mountain route and publishes its entry arrangements."
+    },
+    "zh": {
+      "history": "马加罗峰位于奥赫里德湖与普雷斯帕湖之间的加利奇察保护山地。地貌研究记录了峰顶与利波瓦利瓦达喀斯特洼地之间的冰斗。",
+      "observation": "林带上方开敞的山脊让两侧湖盆地形更容易辨认。在路线上的稳定停留点即可拍摄全景。",
+      "tip": "出发前向园方确认道路与能见度，预先设定折返时间，即使接近峰顶也按时返回。",
+      "routeSteps": [
+        "向园方核实标记步道起点",
+        "沿指定路线进入林带上方",
+        "时间或天气需要时按原路线折返"
+      ],
+      "manager": "加利奇察国家公园管理这条受保护的登山路线，并发布入山安排。"
+    }
+  },
+  "golem-grad": {
+    "en": {
+      "history": "Golem Grad is the Prespa island included in Galičica National Park. The park identifies archaeological remains from multiple periods alongside the island’s protected natural habitats.",
+      "observation": "From the water, compare the sheer rocky rim with the vegetation above it. Where landing is allowed, look for archaeological features from within the designated visitor area.",
+      "tip": "Ask the park about the permitted landing and check boat arrangements before committing to a date. Lake and landing conditions can determine whether the boat stops.",
+      "routeSteps": [
+        "Reach the agreed launch point on the Prespa shore",
+        "View the island from the boat",
+        "If landing is permitted, follow the marked route and return to the agreed boarding point"
+      ],
+      "manager": "Galičica National Park is the protected-area manager and provides visitor arrangements for the island."
+    },
+    "zh": {
+      "history": "戈莱姆格拉德是划入加利奇察国家公园的普雷斯帕湖岛屿。园方将岛上多个年代的遗存与受保护的自然栖息地一并介绍。",
+      "observation": "从水上比较陡峭石岸与其上植被。获准登岛时，在指定游览范围内观察考古遗存。",
+      "tip": "确定日期前向园方核实获准登岛点和船只安排。湖况与靠岸条件会影响能否停靠。",
+      "routeSteps": [
+        "抵达事先约定的普雷斯帕湖上船点",
+        "从船上观察岛岸",
+        "如获准登岛，沿指定路线游览后回到约定登船点"
+      ],
+      "manager": "加利奇察国家公园负责这片保护区，并提供岛屿游览安排。"
+    }
+  },
+  "kalista-monastery": {
+    "en": {
+      "history": "Kališta preserves an Orthodox cave-church tradition beside the lake. The rock chapel dedicated to the Nativity of the Mother of God forms part of the monastery visit.",
+      "observation": "Look at the lakeside buildings before approaching the rock chapel. Seeing the two levels together explains how the monastery grounds fit into the slope.",
+      "tip": "Check with the monastery before climbing to the chapel and follow local photography and worship instructions.",
+      "routeSteps": [
+        "Follow the village approach to the lakefront",
+        "Pass through open monastery areas",
+        "Use the chapel steps only when marked as open"
+      ],
+      "manager": "The Orthodox monastery community handles visits and services. The Ohrid Institute and Museum has cultural-heritage protection responsibilities in the Struga area."
+    },
+    "zh": {
+      "history": "卡利什塔保留了湖畔的东正教洞窟教堂传统。纪念圣母诞生的岩壁小教堂是修道院参观的一部分。",
+      "observation": "先观察临湖建筑，再走向岩壁小教堂。对照高低两层空间，可明白修道院如何依坡布置。",
+      "tip": "上台阶前先确认礼拜堂开放情况，拍摄和参观以院方安排为准。",
+      "routeSteps": [
+        "沿村道前往湖畔",
+        "穿过对外开放的修道院区域",
+        "台阶开放时再前往岩壁小教堂"
+      ],
+      "manager": "东正教修道院团体负责参观与礼拜安排。奥赫里德文化古迹保护研究所与博物馆在斯特鲁加地区承担文化遗产保护职责。"
+    }
+  },
+  "radozda-cave-church": {
+    "en": {
+      "history": "This medieval cave sanctuary stands above Radožda, a west-shore village traditionally associated with fishing. Its location is one example of the lake region’s rock-church tradition.",
+      "observation": "At the approach, study how the chapel enclosure meets the natural rock. Look back toward the village to see the height difference between the waterfront and the sanctuary.",
+      "tip": "Confirm interior access before leaving the village and use public paths to reach the chapel.",
+      "routeSteps": [
+        "Start at the village waterfront",
+        "Follow local directions uphill to the chapel approach",
+        "Return by the same signed route"
+      ],
+      "manager": "The Ohrid Institute and Museum is responsible for regional heritage protection, including in Struga. Confirm access to the chapel locally."
+    },
+    "zh": {
+      "history": "这座中世纪洞窟圣所位于西岸传统渔村拉多日达上方，是奥赫里德湖区岩壁教堂传统的一例。",
+      "observation": "抵达前观察礼拜堂围合结构如何与天然岩壁相接，再回望村庄，辨认湖岸与圣所的高差。",
+      "tip": "离村登坡前核实室内是否开放，沿公共路径到访。",
+      "routeSteps": [
+        "从村庄湖岸出发",
+        "按当地指示上坡抵达教堂入口",
+        "沿原有标示路线返回"
+      ],
+      "manager": "奥赫里德文化古迹保护研究所与博物馆承担包括斯特鲁加在内的区域遗产保护工作。教堂开放安排请在当地核实。"
+    }
+  },
+  "black-drin-outflow": {
+    "en": {
+      "history": "The Black Drin begins at Lake Ohrid in Struga and gives the town its distinctive riverfront. The outflow is where the town’s lakeshore and river corridor meet.",
+      "observation": "From a pedestrian bridge, look lakeward first and then downstream. The two views show the change from broad water and horizon to streets fronting a confined channel.",
+      "tip": "Walk the two banks if time allows. Take photos from the pedestrian area without leaning over the railing.",
+      "routeSteps": [
+        "Start on the public shore near the outflow",
+        "Use a pedestrian crossing to compare views",
+        "Follow one bank into town"
+      ]
+    },
+    "zh": {
+      "history": "黑德林河在斯特鲁加流出奥赫里德湖，形成市区河岸。这里正是城镇湖岸与河道衔接的位置。",
+      "observation": "在人行桥上先朝湖面看，再转向下游。对照两侧，可见宽阔的水面如何收束为两岸沿街分布的河道。",
+      "tip": "时间允许可分走两岸。拍摄时留在人行范围内，避免探身越过栏杆。",
+      "routeSteps": [
+        "从出湖口附近公共岸段出发",
+        "走可供行人的桥比较方向",
+        "沿一侧河岸步行进城"
+      ]
+    }
+  },
+  "vevcani-springs": {
+    "en": {
+      "history": "The springs above Vevčani were first designated a natural monument in 1997 and were redeclared a protected natural monument in 2012. Smaller springs come together to feed the village river.",
+      "observation": "At the upstream bridges, watch how separate channels converge, then compare the flow beside the inhabited lanes below.",
+      "tip": "Spring often brings more running water. Keep to the paths and avoid wet stone edges when photographing cascades.",
+      "routeSteps": [
+        "Walk uphill from the village lanes",
+        "Cross the open bridges beside the springs",
+        "Trace the channel back downhill where the path permits"
+      ],
+      "manager": "The Municipality of Vevčani manages the Vevčani Springs Natural Monument and implements the protected-area management plan."
+    },
+    "zh": {
+      "history": "韦夫查尼村上方的泉群于1997年被列为自然纪念地，2012年重新确立保护地地位。较小的泉眼在这里交汇，汇成流经村落的河流。",
+      "observation": "在上游小桥处观察支流汇合，随后回到村巷，比较水流进入聚落后的形态。",
+      "tip": "春季水量通常更大。拍摄跌水时留在步道上，避开湿滑石缘。",
+      "routeSteps": [
+        "沿村巷上坡",
+        "走泉群旁开放的小桥",
+        "沿允许通行的路段顺水返回"
+      ],
+      "manager": "韦夫查尼市镇管理韦夫查尼泉群自然纪念地，并执行保护地管理计划。"
+    }
+  },
+  "drilon": {
+    "en": {
+      "history": "Drilon is a karst spring system whose channels discharge into southeastern Lake Ohrid. The springs were included in the extension of the World Heritage property to the Albanian shore.",
+      "observation": "Look for the change from the narrow, shaded spring channels to the wider lakeside setting. Small bridges offer a view of water and reflection without accessing the banks.",
+      "tip": "Allow time for the waterways within the park before continuing to Tushemisht. Check boat availability locally if that is part of your visit.",
+      "routeSteps": [
+        "Enter from the Pogradec–Tushemisht road",
+        "Walk the paths and open crossings around the channels",
+        "Return to the entrance or continue to Tushemisht where the road is suitable"
+      ],
+      "manager": "The Korça Regional Administration of Protected Areas manages the Pogradec Protected Landscape, which includes the Drilon spring area."
+    },
+    "zh": {
+      "history": "德里隆是喀斯特泉群，泉水经水渠流入奥赫里德湖东南一带。世界遗产范围延伸至阿尔巴尼亚岸时，将德里隆泉群纳入其中。",
+      "observation": "比较狭窄、林荫覆盖的泉渠与更开阔的湖边空间。从小桥观察水面倒影，无需下到岸缘。",
+      "tip": "前往图舍米什特前，留时间走走园内水渠。计划划船时在现场核实营业情况。",
+      "routeSteps": [
+        "从波格拉德茨至图舍米什特道路进入",
+        "沿水渠步道与开放小桥散步",
+        "回到原入口，或在道路适合步行时继续去图舍米什特"
+      ],
+      "manager": "科尔察地区保护区管理机构负责波格拉德茨保护景观的管理，保护范围涵盖德里隆泉区。"
+    }
+  },
+  "tushemisht": {
+    "en": {
+      "history": "Tushemisht is known for its springs and the Albanian film character Teto Ollga, played by Violeta Manushi. A village tribute commemorates both the character and the actress.",
+      "observation": "Compare the water channels that edge the village lanes with the open shore. At street level, the stone facades and running water can fit within one frame.",
+      "tip": "Allow time to walk the village separately from Drilon. Keep to public lanes around the houses and springs.",
+      "routeSteps": [
+        "Start in the village centre",
+        "Find the Teto Ollga tribute",
+        "Follow public lanes toward the lake before returning to the main road"
+      ]
+    },
+    "zh": {
+      "history": "图舍米什特以泉水和阿尔巴尼亚电影角色奥尔加大婶为人所知。村内纪念物让人联想到这一角色及其扮演者维奥莱塔·马努希。",
+      "observation": "比较村巷边的水渠与开阔湖岸。站在街道层面，可在同一画面里兼顾石墙立面与流水。",
+      "tip": "给村庄本身留出游览时间，可与德里隆分开看。民居与泉渠附近只走公共街巷。",
+      "routeSteps": [
+        "从村中心出发",
+        "寻找奥尔加大婶纪念物",
+        "沿公共巷道朝湖边走，再返回主路"
+      ]
+    }
+  },
+  "lin-basilica": {
+    "en": {
+      "history": "This sixth-century basilica survives above Lin in its foundations and mosaic floors. UNESCO notes similarities between the mosaics here and those of early basilicas on the Ohrid side of the lake.",
+      "observation": "From the permitted perimeter, read the building’s ground plan and look for animal, botanical and geometric patterns where the mosaics are exposed.",
+      "tip": "Mosaics may be covered for protection. Check the entrance arrangement before climbing and never enter a closed conservation area.",
+      "routeSteps": [
+        "Start in the lower village",
+        "Walk up to the archaeological entrance",
+        "Pause at an open overlook on the way back down"
+      ],
+      "manager": "The Regional Directorate of Cultural Heritage in Korça shares responsibility for the Lin peninsula with the regional protected-area authority and the Municipality of Pogradec."
+    },
+    "zh": {
+      "history": "这座六世纪的巴西利卡位于林村高处，现存基址与马赛克地坪。联合国教科文组织指出，其马赛克与湖对岸奥赫里德早期教堂的作品有相似之处。",
+      "observation": "在允许停留的外围观察建筑平面。马赛克展示时，可辨认其动物、植物和几何纹样。",
+      "tip": "马赛克可能因保护而覆盖。上坡前可先了解入场情况，勿进入关闭的保护区。",
+      "routeSteps": [
+        "由村落低处出发",
+        "步行上坡至考古遗址入口",
+        "下坡时在开放的观景点短停"
+      ],
+      "manager": "科尔察地区文化遗产机构与地区保护区管理机构、波格拉德茨市共同承担林半岛的管理职责。"
+    }
+  },
+  "pogradec-waterfront": {
+    "en": {
+      "history": "Pogradec grew on the Albanian shore of Lake Ohrid. The Albanian part of the lake was included in the transboundary World Heritage property in 2019, placing this urban waterfront within a broader heritage landscape.",
+      "observation": "See how the city opens to the lake between the built-up streets and the promenade. A view along the path shows the sweep of shore toward the mountains.",
+      "tip": "Start near the centre if you want a level walk and leave the castle climb for a separate outing.",
+      "routeSteps": [
+        "Head from the central streets to Rruga 1 Qershori",
+        "Follow the open sections of the promenade",
+        "Choose a public side street to return to the centre"
+      ]
+    },
+    "zh": {
+      "history": "波格拉德茨沿奥赫里德湖阿尔巴尼亚一侧发展。2019年，阿尔巴尼亚湖岸纳入跨境世界遗产范围，城市水岸由此置于更广阔的湖区遗产景观中。",
+      "observation": "留意密集街道经湖滨步道向水面打开的空间变化。沿步道取景可拍出湖岸向山地延展的弧线。",
+      "tip": "想走较平缓的路线，可从市中心直接到湖边，把登城堡山另作安排。",
+      "routeSteps": [
+        "由市中心街道走到六月一日街",
+        "沿开放步道步行",
+        "从公共支路返回市中心"
+      ]
+    }
+  },
+  "pogradec-castle": {
+    "en": {
+      "history": "The castle is a Category I monument in Albania. The national tourism agency describes an early fortified settlement and later defensive works rebuilt along earlier wall lines.",
+      "observation": "Look for wall lines and changes in terrain rather than an intact structure. Take in the lake and the town from the same permitted viewpoint to understand the position of the fort.",
+      "tip": "Ask locally which access is open, especially after rain, and allow enough daylight to descend.",
+      "routeSteps": [
+        "Identify the public uphill approach from Pogradec",
+        "Stop at the permitted ruins and overlook",
+        "Return to the centre on the established path"
+      ]
+    },
+    "zh": {
+      "history": "波格拉德茨城堡属于阿尔巴尼亚一级文物。阿尔巴尼亚国家旅游局介绍，此处曾有早期设防聚落，后来的防御工事曾沿早期墙线重建。",
+      "observation": "重点观察墙线和地形变化。可以在同一处允许到达的观景点看清湖面与城区，理解堡址为何选在这里。",
+      "tip": "尤其在雨后，应先在当地核实哪条路线开放，并预留足够日光下山。",
+      "routeSteps": [
+        "从波格拉德茨找到公共上山路",
+        "在开放遗址及观景点短停",
+        "经既有步道下山回到市中心"
+      ]
+    }
+  },
+  "kaneo": {
+    "en": {
+      "history": "The medieval church takes its name from the Kaneo quarter and is dedicated to Saint John the Theologian. It anchors the western end of the historic waterfront.",
+      "observation": "From the uphill path, look at the pointed gables around the drum and the changing bands of brick and stone. From above, the bluff forms a frame around the roof.",
+      "tip": "Check the stair routes and any posted access restrictions. Photograph the whole setting from the uphill path while keeping the route clear.",
+      "routeSteps": [
+        "Start at Saint Sophia in the old town.",
+        "Follow the lanes through Kaneo and climb to the church.",
+        "Leave by the signed uphill path towards Plaošnik if open."
+      ],
+      "manager": "The Ohrid Institute for Protection of Monuments of Culture and Museum is responsible for regional cultural conservation. Follow church notices for worship and access."
+    },
+    "zh": {
+      "history": "这座中世纪教堂以卡内奥街区命名，奉献给神学家圣约翰，是老城西端湖岸的醒目标志。",
+      "observation": "从上坡小径看鼓座四周的尖山墙以及砖石交替的纹理，再从高处观察屋顶如何嵌在临湖崖岸之间。",
+      "tip": "先看台阶和现场通行指示。可在上坡小径拍摄教堂与湖景全貌，注意给行人留出通道。",
+      "routeSteps": [
+        "从老城圣索菲亚教堂出发。",
+        "沿街巷穿过卡内奥，上坡到教堂。",
+        "如上坡小径开放，可循标示继续前往普劳什尼克。"
+      ],
+      "manager": "奥赫里德文化古迹保护与博物馆研究所承担区域文化遗产保护，礼拜和入内参观依教堂现场公告。"
+    }
+  },
+  "samuel-fortress": {
+    "en": {
+      "history": "The enclosure carries the name of Tsar Samuel, whose rule is associated with medieval Ohrid. The defences developed over successive periods; the walls visible today include rebuilt fabric.",
+      "observation": "Start with the position of the towers on the ridge, then look back down the slope to see what a watch from the walls could cover.",
+      "tip": "Take the uphill lanes slowly and keep to the permitted wall walks. The broader city panorama is easier to read before photographing individual towers.",
+      "routeSteps": [
+        "Enter the old quarter at Upper Gate.",
+        "Follow Samuilova uphill to the fortress entrance.",
+        "Descend by the marked lanes towards the Ancient Theatre."
+      ],
+      "manager": "The Ohrid Institute for Protection of Monuments of Culture and Museum documents and conserves archaeological heritage in Ohrid. Consult the fortress entrance for visitor arrangements."
+    },
+    "zh": {
+      "history": "堡垒以与中世纪奥赫里德关系密切的沙皇萨穆伊尔命名。防御设施历经多个时期，今天看见的城墙包含修复重建部分。",
+      "observation": "先看山脊上的塔楼布局，再沿坡向下辨认城墙能够俯瞰的街区和湖面。",
+      "tip": "上坡街巷宜慢走，只走允许通行的城墙步道。先辨认城市全景，再分段拍摄塔楼。",
+      "routeSteps": [
+        "由上城门进入老城区。",
+        "沿萨穆伊洛瓦街上坡至堡垒入口。",
+        "循街巷标示下行至古剧场。"
+      ],
+      "manager": "奥赫里德文化古迹保护与博物馆研究所负责当地考古遗产的记录与保护，参观安排以堡垒入口公告为准。"
+    }
+  },
+  "ancient-theatre": {
+    "en": {
+      "history": "The theatre was built during the late Hellenistic period and adapted following Roman conquest. It is still used for performances, so the visitor layout can change with events.",
+      "observation": "Look at where the curved rows run into the hillside and how the stage relates to the contemporary street. From an open side entrance you can frame several rows without stepping on the seats.",
+      "tip": "Check the venue notice if you arrive near an evening performance. Use authorised steps rather than climbing across the rows.",
+      "routeSteps": [
+        "Start at Upper Gate.",
+        "Walk downhill on Ilindenska to the theatre access.",
+        "Continue towards the lower old town after viewing the seating."
+      ],
+      "manager": "The Ohrid Institute for Protection of Monuments of Culture and Museum covers archaeological conservation; event-day arrangements are set by the venue and organiser."
+    },
+    "zh": {
+      "history": "剧场建于希腊化晚期，罗马征服当地后曾对其改造。现代仍有演出，活动期间的参观动线可能调整。",
+      "observation": "看弧形座席怎样顺山坡展开，再辨认舞台与现代道路的关系。在开放侧入口，可不踩踏座席而拍到多层石阶。",
+      "tip": "临近晚间演出时请看场地公告，通行走开放台阶，避免跨越座席。",
+      "routeSteps": [
+        "从上城门出发。",
+        "沿伊林登斯卡街下坡至剧场入口。",
+        "看过座席后沿街下行至老城低处。"
+      ],
+      "manager": "奥赫里德文化古迹保护与博物馆研究所承担考古遗产保护，演出当天的通行安排由场地及主办方公布。"
+    }
+  },
+  "saint-sophia": {
+    "en": {
+      "history": "Saint Sophia served as the cathedral of the medieval Archbishopric of Ohrid. Its surviving wall paintings include important work from the eleventh century.",
+      "observation": "Read the rhythm of the façade from across the courtyard, then allow your eyes to adjust to the dim interior so details in the frescoes are easier to see.",
+      "tip": "Use the courtyard for a full view of the exterior. Ask before photographing indoors and avoid flash around paintings.",
+      "routeSteps": [
+        "Walk from Lower Gate along Tsar Samoil Street.",
+        "Enter the church courtyard from the signed approach.",
+        "Continue through the western lanes towards Kaneo."
+      ],
+      "manager": "The Ohrid Institute for Protection of Monuments of Culture and Museum is responsible for cultural heritage conservation. The church posts worship and visiting arrangements."
+    },
+    "zh": {
+      "history": "圣索菲亚曾是中世纪奥赫里德总主教区的主教座堂，现存壁画包括重要的十一世纪作品。",
+      "observation": "先在庭院另一侧辨认立面拱廊的节奏；入内后让眼睛适应较暗的光线，再细看壁画。",
+      "tip": "在庭院拍摄建筑全貌；入内拍照前先询问，壁画周边请勿使用闪光灯。",
+      "routeSteps": [
+        "从下城门沿沙皇萨穆伊尔街步行。",
+        "循指示进入教堂庭院。",
+        "沿老城西侧街巷继续前往卡内奥。"
+      ],
+      "manager": "奥赫里德文化古迹保护与博物馆研究所承担遗产保护，礼拜及参观安排由教堂现场公布。"
+    }
+  },
+  "plaosnik": {
+    "en": {
+      "history": "Plaošnik is associated with Saint Clement and his monastery. Excavated early Christian remains and the reconstructed Church of Saints Clement and Panteleimon show that the hill was used in different periods.",
+      "observation": "Look for foundations and mosaic areas visible from visitor paths, then compare their scale and outlines with the standing church.",
+      "tip": "Stay on marked paths around the excavations. Allow a separate stop here when walking between the fortress and Kaneo.",
+      "routeSteps": [
+        "Approach from the lanes below Samuel’s Fortress.",
+        "Follow the protected paths around the church and remains.",
+        "Take the signed path down towards Kaneo if accessible."
+      ],
+      "manager": "The Ohrid Institute for Protection of Monuments of Culture and Museum documents the archaeology at Plaošnik. Observe the access notices for the grounds and church separately."
+    },
+    "zh": {
+      "history": "普劳什尼克与圣克莱门特及其修道院有关。出土的早期基督教遗迹和重建的圣克莱门特与潘特莱蒙教堂，显示此地曾在不同时期使用。",
+      "observation": "先从游览道辨认可见的墙基和马赛克区域，再比较这些遗迹同现存教堂的尺度和轮廓。",
+      "tip": "在发掘区附近只走标示步道。从堡垒步行去卡内奥时，宜为此地单独留出停留时间。",
+      "routeSteps": [
+        "从萨穆伊尔堡垒下方街巷接近。",
+        "沿保护区步道查看教堂及遗迹。",
+        "下山小径开放时，可循标示前往卡内奥。"
+      ],
+      "manager": "奥赫里德文化古迹保护与博物馆研究所负责普劳什尼克遗址的考古记录；遗址区及教堂的开放安排请分别查看现场公告。"
+    }
+  },
+  "perivlepta": {
+    "en": {
+      "history": "Built in 1295, Perivlepta is particularly known for late Byzantine frescoes associated with Michael Astrapas and Eutychios.",
+      "observation": "Look at the composition of scenes across a complete interior wall rather than isolating a single painted figure. Outside, compare the brick ornament at different heights.",
+      "tip": "Pair the visit with the adjacent Icon Gallery and check both entrances for separate hours and photography rules.",
+      "routeSteps": [
+        "Start at Upper Gate and turn into the church precinct.",
+        "View the church exterior before entering if access is available.",
+        "Walk to the separate Icon Gallery entrance in the same precinct."
+      ],
+      "manager": "The Ohrid Institute for Protection of Monuments of Culture and Museum handles cultural conservation in Ohrid; confirm church access at the precinct."
+    },
+    "zh": {
+      "history": "佩里夫莱普塔教堂建于1295年，以与米哈伊尔·阿斯特拉帕斯和欧提基奥斯有关的拜占庭晚期壁画闻名。",
+      "observation": "室内可先观察整面墙上壁画场景的布局，再看单个形象。室外则可比较不同高度的砖饰。",
+      "tip": "可与邻近的圣像画廊一起安排，分别核对开放时间和拍摄规定。",
+      "routeSteps": [
+        "从上城门步行进入教堂院落。",
+        "先看建筑外墙，开放时再入内。",
+        "继续步行到院内独立的圣像画廊入口。"
+      ],
+      "manager": "奥赫里德文化古迹保护与博物馆研究所承担当地文物保护；教堂入内安排请在院落入口核实。"
+    }
+  },
+  "icon-gallery": {
+    "en": {
+      "history": "Ohrid’s Byzantine icon tradition is part of the case for World Heritage listing. The gallery places painted devotional panels in close reach of the churches with which the tradition is associated.",
+      "observation": "Compare the handling of faces, the backgrounds and the size of the panels. The neighbouring church offers a different scale and setting for the same visual tradition.",
+      "tip": "Read the display labels for dates and provenance. Current displays and photography rules may differ from those in the church next door.",
+      "routeSteps": [
+        "Approach from Upper Gate along Klimentov Univerzitet Street.",
+        "Locate the gallery entrance by Perivlepta.",
+        "Continue to the Ancient Theatre after leaving the precinct."
+      ],
+      "manager": "The Icon Gallery belongs to the Ohrid Institute for Protection of Monuments of Culture and Museum. Use its notices for current visit arrangements."
+    },
+    "zh": {
+      "history": "奥赫里德的拜占庭圣像传统是当地列入世界遗产的重要依据之一。画廊位于相关教堂附近，集中呈现木板宗教圣像。",
+      "observation": "可比较人物面部、背景和画板大小；邻近教堂则展示同一绘画传统在壁面尺度和空间上的不同运用。",
+      "tip": "通过展签核对年代与来源。现场展品和拍摄规则可能与隔壁教堂不同。",
+      "routeSteps": [
+        "由上城门沿克利门托夫大学街接近。",
+        "在佩里夫莱普塔教堂旁找到画廊入口。",
+        "离开院落后步行前往古剧场。"
+      ],
+      "manager": "圣像画廊隶属奥赫里德文化古迹保护与博物馆研究所，参观安排以馆方公告为准。"
+    }
+  },
+  "robev-house": {
+    "en": {
+      "history": "The Robev family house represents Ohrid’s nineteenth-century urban domestic architecture. It later became part of the city’s museum network.",
+      "observation": "Look up from the lane to compare the projecting upper floors with the narrow ground footprint. Inside, pay attention to carved ceilings when the relevant spaces are open.",
+      "tip": "Check the museum programme before committing to a visit. On the street, step aside from doorways and leave room for passing residents.",
+      "routeSteps": [
+        "Start at Lower Gate.",
+        "Follow Tsar Samoil Street to number 62.",
+        "Continue west to the courtyard of Saint Sophia."
+      ],
+      "manager": "The building is part of the Ohrid Institute for Protection of Monuments of Culture and Museum, which publishes its museum information."
+    },
+    "zh": {
+      "history": "罗贝夫家族宅邸是奥赫里德十九世纪城市民居的代表，随后成为当地博物馆的一部分。",
+      "observation": "在街巷抬头比较外挑的上层与狭窄的底层。室内相关空间开放时，可留意木雕天花板。",
+      "tip": "先看馆方展讯再安排到访。街面拍照时请避开门口，给居民留出通道。",
+      "routeSteps": [
+        "从下城门出发。",
+        "沿沙皇萨穆伊尔街步行至62号。",
+        "再向西走到圣索菲亚教堂庭院。"
+      ],
+      "manager": "宅邸隶属奥赫里德文化古迹保护与博物馆研究所，参观和展览信息由馆方公布。"
+    }
+  },
+  "upper-gate": {
+    "en": {
+      "history": "Upper Gate marks the hillside entrance to medieval Ohrid. The circuit linked the hilltop defences with the inhabited slopes towards the lake.",
+      "observation": "View the passage from both sides to see how it funnels the lane. Stand aside to look back at the masonry rather than pausing in the opening.",
+      "tip": "Stop here as part of a longer walk. This uphill entrance is distinct from the fortress ticket entrance farther along the rise.",
+      "routeSteps": [
+        "Reach Upper Gate from the north side of the old quarter.",
+        "Cross the gateway and take the lane towards the Ancient Theatre.",
+        "Turn uphill for Samuel’s Fortress if continuing the circuit."
+      ],
+      "manager": "Cultural conservation in the historic quarter falls within the mandate of the Ohrid Institute for Protection of Monuments of Culture and Museum."
+    },
+    "zh": {
+      "history": "上城门标示中世纪奥赫里德山坡一侧的入口。防御体系从山顶堡垒延伸至朝湖的居住斜坡。",
+      "observation": "从门道两端看道路如何在此收束。观察石砌墙体时宜侧身让开门洞。",
+      "tip": "适合纳入老城步行线路。此处是老城入口，堡垒的售票入口还在更高处。",
+      "routeSteps": [
+        "从老城区北侧抵达上城门。",
+        "穿过城门后沿街巷到古剧场。",
+        "若继续环游，可转向上坡前往萨穆伊尔堡垒。"
+      ],
+      "manager": "老城区文物保护属于奥赫里德文化古迹保护与博物馆研究所的职责范围。"
+    }
+  },
+  "saint-mary-bolnichka": {
+    "en": {
+      "history": "Saint Mary Bolnička belongs to the medieval church cluster near Lower Gate. Its association with this part of town is shared in the name of the neighbouring Saint Nicholas Bolnički.",
+      "observation": "Look for the low roof profile, enclosure and small opening towards the lane. Standing back helps distinguish the church from the houses around it.",
+      "tip": "Use the public lane when the enclosure is shut. Compare both churches from the street rather than assuming they share an entrance or opening hours.",
+      "routeSteps": [
+        "Enter the old town at Lower Gate.",
+        "Locate the Saint Mary enclosure in the adjacent church cluster.",
+        "Continue into the lanes towards Saint Nicholas and Robev Family House."
+      ]
+    },
+    "zh": {
+      "history": "圣母教堂属于下城门附近的中世纪教堂群，与毗邻的圣尼古拉教堂以相近的名称标示这片街区。",
+      "observation": "留意低矮的屋顶、围护院落和通向巷道的小门。退开几步，更容易辨认它与周围民居的关系。",
+      "tip": "院门关闭时可在公共街道观察。两座教堂宜分别寻找入口、查询开放，不必假定安排相同。",
+      "routeSteps": [
+        "经下城门走进老城。",
+        "在附近的小教堂群找到圣母教堂院落。",
+        "再沿巷道前往圣尼古拉教堂及罗贝夫家族宅邸。"
+      ]
+    }
+  },
+  "saint-nicholas-bolnichki": {
+    "en": {
+      "history": "This small medieval church is part of the historic group close to Lower Gate. Its dedication to Saint Nicholas distinguishes it from nearby Saint Mary Bolnička.",
+      "observation": "Begin by finding the double bell opening; then compare the edge of the roof and bell wall with the nearby church of Saint Mary.",
+      "tip": "Photograph it obliquely from the lane to include the bell openings. A wide lens or a small step back works better here than blocking the lane.",
+      "routeSteps": [
+        "Start beside Lower Gate.",
+        "Follow the small church cluster towards the Saint Nicholas bell wall.",
+        "Continue towards the lanes above Lower Gate for the little Saint Clement church."
+      ]
+    },
+    "zh": {
+      "history": "这座中世纪小教堂位于下城门附近的历史建筑群中，奉献给圣尼古拉，与邻近的圣母教堂各有其名。",
+      "observation": "先找并列的两个钟孔，再把屋檐轮廓和钟墙同附近的圣母教堂对照。",
+      "tip": "沿巷道从斜侧拍摄，能把两处钟孔都带入画面。可用稍广的镜头或退一步，避免占道。",
+      "routeSteps": [
+        "从下城门旁出发。",
+        "沿小教堂群找到圣尼古拉教堂的钟墙。",
+        "继续进入城门上方的街巷，找圣克莱门特小教堂。"
+      ]
+    }
+  },
+  "saint-clement-old-town": {
+    "en": {
+      "history": "This old-town church is one of Ohrid’s sites named for Saint Clement, whose work links the city to the history of Slavic Christian learning.",
+      "observation": "Take in the masonry and roofline from the approach lane. The tighter spatial relationship between houses and sanctuary is part of what makes this stop different from the Plaošnik hill site.",
+      "tip": "Search for the little old-town church near Lower Gate when planning on a map, and allow time for the uphill lanes and steps.",
+      "routeSteps": [
+        "Start at Lower Gate.",
+        "Follow the climbing lanes above the waterfront to the church.",
+        "Return to the lakeside by the same route if the lanes beyond are unfamiliar."
+      ]
+    },
+    "zh": {
+      "history": "这座老城小教堂是奥赫里德多处以圣克莱门特命名的遗址之一；这位圣人的活动使奥赫里德与斯拉夫基督教教育史紧密相连。",
+      "observation": "在入口街巷看砌体与屋顶轮廓。教堂与民宅之间的紧凑空间，是这里与普劳什尼克山丘遗址的明显区别。",
+      "tip": "地图上应查找下城门附近的老城小教堂，并为上坡街巷和台阶留出时间。",
+      "routeSteps": [
+        "由下城门出发。",
+        "沿湖岸上方的坡巷步行抵达教堂。",
+        "如不熟悉后续街巷，可原路回到湖岸。"
+      ]
+    }
+  },
+  "ali-pasha-mosque": {
+    "en": {
+      "history": "Ali Pasha Mosque preserves the bazaar’s Ottoman-era religious history alongside its commercial streets. It is one of several distinct places of worship in the old market area.",
+      "observation": "Use the street view to compare the width of the domed prayer hall with the slender vertical minaret and the lower roofline of the shops.",
+      "tip": "Observe worship times and check whether visitors are being admitted. Keep photography in public areas unless permission is given.",
+      "routeSteps": [
+        "Start at the lakeside end of the Old Bazaar.",
+        "Follow St Clement of Ohrid Street to the mosque.",
+        "Continue uphill along the bazaar to Chinar Square."
+      ]
+    },
+    "zh": {
+      "history": "阿里帕夏清真寺与商业街相邻，保留了老巴扎的奥斯曼时期宗教历史，是市场区内可分别辨认的礼拜场所之一。",
+      "observation": "在街道上比较带穹顶的礼拜厅、细长的宣礼塔和较低的店铺屋檐。",
+      "tip": "留意礼拜时段并询问游客能否入内；未经同意时请仅在公共区域拍摄。",
+      "routeSteps": [
+        "从老巴扎临湖一端出发。",
+        "沿奥赫里德圣克莱门特街走到清真寺。",
+        "沿巴扎街向上步行，继续前往奇纳尔广场。"
+      ]
+    }
+  },
+  "zeynel-abidin-mosque": {
+    "en": {
+      "history": "The Ottoman monument inventory places the origins of the tekke mosque probably in the late sixteenth century. The complex grew around religious gatherings and related communal functions.",
+      "observation": "From Chinar Square, look for the relationship between the minaret, entrance and adjacent structures. A tekke is a religious lodge, which explains why the precinct contains more than a prayer hall.",
+      "tip": "Use views from the square and check permission before entering any part of the religious complex.",
+      "routeSteps": [
+        "Reach Chinar Square through the Old Bazaar.",
+        "Use the square to locate the mosque and tekke entrance.",
+        "Walk to the plane tree for a wider view of the precinct."
+      ]
+    },
+    "zh": {
+      "history": "奥斯曼古迹目录将这座苏菲教团清真寺的起源推测为十六世纪晚期。建筑群随着宗教集会与社区活动逐步发展。",
+      "observation": "站在奇纳尔广场，辨认宣礼塔、入口与周边建筑的关系。这里兼具苏菲教团会所功能，院落因此包含礼拜厅以外的空间。",
+      "tip": "从广场取景；进入宗教建筑群内任何区域前，请确认是否允许游客参观。",
+      "routeSteps": [
+        "沿老巴扎走至奇纳尔广场。",
+        "在广场辨认清真寺与苏菲教团会所入口。",
+        "走到悬铃木旁看院落与街区的整体关系。"
+      ]
+    }
+  },
+  "old-plane-tree": {
+    "en": {
+      "history": "Ohrid’s Chinar is recorded as a natural monument in national planning material. In the Old Bazaar it marks a meeting point beside an Ottoman religious precinct.",
+      "observation": "Look at both the broad trunk and the way the crown spreads over the square. From farther down the bazaar, use the canopy to orient yourself among the lanes.",
+      "tip": "Walk around the square rather than climbing or touching protected parts of the tree. For a wider photo, include the approach from the market.",
+      "routeSteps": [
+        "Walk up the Old Bazaar towards Chinar Square.",
+        "Circle the square from the public paving.",
+        "View the tekke from the opposite side before returning towards the market."
+      ]
+    },
+    "zh": {
+      "history": "奥赫里德的奇纳尔悬铃木在国家规划资料中列为自然纪念物，所在广场也是老巴扎与奥斯曼宗教建筑区相接的会合点。",
+      "observation": "既看粗阔的树干，也看树冠如何铺展在广场上。从巴扎街稍远处，还可用树冠辨别巷道方向。",
+      "tip": "沿广场绕行，避免攀爬或触碰受保护部位。若想拍下整体空间，可把通往市场的街口纳入画面。",
+      "routeSteps": [
+        "沿老巴扎走向奇纳尔广场。",
+        "在公共铺装区域绕广场走一圈。",
+        "从广场另一侧看苏菲教团建筑群，再返回市场。"
+      ]
+    }
+  },
+  "ohrid-harbour": {
+    "en": {
+      "history": "The city map places Ohrid’s port on the southern waterfront, beside the old town’s main square. The quays connect a historic urban centre with today’s lake journeys.",
+      "observation": "At a clear point along the quay, trace the stepped line from boats and houses up to the fortress. Photograph from the pedestrian side rather than a working boarding edge.",
+      "tip": "Check the specific operator, departure point and return time in person; lakefront activity alone does not indicate a service is running.",
+      "routeSteps": [
+        "Start at Macedonia Square.",
+        "Walk to the pedestrian waterfront and identify the posted boarding point.",
+        "Follow the quay towards Lower Gate and the old town."
+      ]
+    },
+    "zh": {
+      "history": "城市地图将港口标在老城主要广场旁的南侧湖岸，码头将历史街区与今天的湖上出行连在一起。",
+      "observation": "在码头开阔位置从船只、临湖民居一路看向山顶堡垒。拍摄宜站在人行区，避开正在使用的登船边缘。",
+      "tip": "请现场核实运营方、具体登船点和返程时间。码头热闹程度不能代替船班信息。",
+      "routeSteps": [
+        "从马其顿广场出发。",
+        "走到湖岸人行区，辨认公告标示的登船点。",
+        "沿码头步行至下城门和老城区。"
+      ]
+    }
+  },
+  "kaneo-boardwalk": {
+    "en": {
+      "history": "This shore-level route passes below the old quarter and leads towards the historic fishing settlement at Kaneo. It offers a close view of how the former town edge meets the water.",
+      "observation": "Watch how the deck changes direction as it follows the rock face. From a wider part of the route, photograph the decking, rock and lake edge together.",
+      "tip": "Check nearby signs and turn back if the walkway is closed or slippery. Use the lanes above the shore as an alternative where available.",
+      "routeSteps": [
+        "Approach from the old town waterfront in the Potpesh direction.",
+        "Join the boardwalk only where the entrance is open.",
+        "Leave the shore approach through Kaneo village lanes."
+      ]
+    },
+    "zh": {
+      "history": "这段贴近水面的线路从老城下方通往卡内奥历史渔村街区，可以近距离看见老城边缘与湖水交会的方式。",
+      "observation": "留意木栈道随崖壁转折的形态。在较宽的路段，可将木板、岩岸和湖面同时纳入画面。",
+      "tip": "先查看路边标示；栈道关闭或湿滑时应折返，可改走开放的岸上街巷。",
+      "routeSteps": [
+        "从老城水岸向波特佩什方向出发。",
+        "在入口开放时步行上栈道。",
+        "经卡内奥的街巷离开临湖线路。"
+      ]
+    }
+  },
+  "potpesh-beach": {
+    "en": {
+      "history": "Potpesh sits on the shoreline below the historic town and along the approach to Kaneo. It gives a shore-level view of a district better known for its cliff-top landmarks.",
+      "observation": "Compare the close cliff and narrow pebble strip with the much wider waterfront around the city harbour. Keep sight of the shore path when choosing a photo point.",
+      "tip": "Expect the shoreline services to vary. If you plan to swim, check current notices and conditions on the day.",
+      "routeSteps": [
+        "Walk from Saint Sophia through the lower lanes.",
+        "Follow the lakeside approach to Potpesh.",
+        "Continue towards Kaneo only where the path is open."
+      ]
+    },
+    "zh": {
+      "history": "波特佩什位于老城下方、通往卡内奥的湖岸路线上，从水边便可观察这个以崖顶地标著称的街区。",
+      "observation": "比较这里贴近崖壁的狭窄卵石岸与城市港口开阔的水岸空间。挑选拍摄位置时留意通行路线。",
+      "tip": "岸边服务随季节变化。如计划下水，请以当天的公告和现场条件为准。",
+      "routeSteps": [
+        "从圣索菲亚教堂走入较低的街巷。",
+        "沿靠湖路径抵达波特佩什。",
+        "前方路径开放时可继续走向卡内奥。"
+      ]
+    }
+  },
+  "labino-beach": {
+    "en": {
+      "history": "Labino lies on the wooded shore beyond the Kaneo headland. The walk from the old town reveals a marked transition from built-up harbour frontage to a less developed stretch of the lake.",
+      "observation": "Frame the cove with the wooded bank on one side and open water on the other. From the trail, the shape of the headland is easier to see than from the pebbles.",
+      "tip": "Wear grip-soled shoes for uneven approaches and turn back if the access is closed. Services on this shore are limited and can vary.",
+      "routeSteps": [
+        "Start at the signed paths around Kaneo.",
+        "Follow the shore access towards Labino if open.",
+        "Return by the known path or use the signed route towards Plaošnik."
+      ]
+    },
+    "zh": {
+      "history": "拉比诺位于卡内奥岬角之外的林荫湖岸。从老城步行过来，可以看出港口建筑密集的岸线怎样逐渐过渡为较少开发的湖段。",
+      "observation": "取景时可将林坡与开阔湖面分置在海湾两侧；岬角形态从步道上比从卵石岸更容易辨认。",
+      "tip": "不平的临岸路段适合穿防滑鞋；入口关闭时应折返。这里岸边服务有限，也会随季节变化。",
+      "routeSteps": [
+        "从卡内奥附近有标示的步道出发。",
+        "湖岸入口开放时，循路走至拉比诺。",
+        "沿熟悉的原路返回，或按标示向普劳什尼克方向离开。"
+      ]
+    }
+  }
+}
