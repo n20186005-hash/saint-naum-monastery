@@ -43,16 +43,7 @@ export default function NearbyGuidePage({ locale, slug }: { locale: string; slug
       <main id="main-content" className="pt-16">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
         <section className="guide-hero">
-          <section className="max-w-6xl mx-auto px-6 pt-10" aria-labelledby="about-attraction">
-          <div className="guide-panel">
-            <h2 id="about-attraction" className="font-display text-2xl font-semibold mb-3">
-              {zh ? `关于${copy.title}` : `About ${copy.title}`}
-            </h2>
-            <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{manager}</p>
-            <p className="leading-relaxed mt-3" style={{ color: 'var(--text-secondary)' }}>{copy.intro}</p>
-          </div>
-        </section>
-        <div className="max-w-6xl mx-auto">
+          <div className="max-w-6xl mx-auto">
             <nav aria-label={locale === 'zh' ? '面包屑导航' : 'Breadcrumb'} className="text-sm mb-10">
               <Link href="/" className="hover:underline">{ui.home}</Link>
               <span className="mx-3" aria-hidden="true">/</span><span aria-current="page">{copy.title}</span>
@@ -61,6 +52,15 @@ export default function NearbyGuidePage({ locale, slug }: { locale: string; slug
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold max-w-4xl leading-tight mt-4 mb-6">{copy.title}</h1>
             <p className="text-lg sm:text-xl max-w-3xl leading-relaxed">{copy.subtitle}</p>
             <a href={map} className="inline-block mt-5 underline underline-offset-4">{text.map} →</a>
+          </div>
+        </section>
+        <section className="max-w-6xl mx-auto px-6 pt-10" aria-labelledby="about-attraction">
+          <div className="guide-panel">
+            <h2 id="about-attraction" className="font-display text-2xl font-semibold mb-3">
+              {zh ? `关于${copy.title}` : `About ${copy.title}`}
+            </h2>
+            <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{manager}</p>
+            <p className="leading-relaxed mt-3" style={{ color: 'var(--text-secondary)' }}>{copy.intro}</p>
           </div>
         </section>
         <div className="max-w-6xl mx-auto px-6 py-12 md:py-16 grid lg:grid-cols-[minmax(0,1.7fr)_minmax(260px,1fr)] gap-10 lg:gap-16">
