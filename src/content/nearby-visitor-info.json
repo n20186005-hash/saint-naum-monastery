@@ -1,0 +1,409 @@
+{
+  "kaneo": {
+    "duration": "30–45",
+    "zh": {
+      "type": "湖崖教堂",
+      "notice": "沿湖步道与下到水边的台阶高差明显，想轻松拍到教堂全景可走上方公共观景路。"
+    },
+    "en": {
+      "type": "Clifftop church",
+      "notice": "The lakeside approach has steeper steps. Use the upper public viewpoint for an easier exterior photo."
+    }
+  },
+  "samuel-fortress": {
+    "duration": "45–75",
+    "zh": {
+      "type": "中世纪城堡",
+      "notice": "上城门到堡垒仍需上坡。城墙有高差，开放范围以现场标示为准。"
+    },
+    "en": {
+      "type": "Medieval fortress",
+      "notice": "The climb continues beyond Upper Gate. Follow signed limits on the raised ramparts."
+    }
+  },
+  "ancient-theatre": {
+    "duration": "20–40",
+    "zh": {
+      "type": "古剧场遗址",
+      "notice": "演出布置可能改变入口和座席通行。只走开放石阶，雨后留意湿滑。"
+    },
+    "en": {
+      "type": "Ancient theatre",
+      "notice": "Event setup can change entrances and seating access. Keep to open steps and watch for slick stone after rain."
+    }
+  },
+  "saint-sophia": {
+    "duration": "25–45",
+    "zh": {
+      "type": "历史主教座堂",
+      "notice": "若想看内壁画，抵达先查看入内与摄影规则；庭院可另看建筑立面。"
+    },
+    "en": {
+      "type": "Historic cathedral",
+      "notice": "Check entry and photo rules before planning to see the frescoes. The courtyard offers a separate exterior view."
+    }
+  },
+  "plaosnik": {
+    "duration": "40–60",
+    "zh": {
+      "type": "教堂与考古遗址",
+      "notice": "教堂、发掘区与相邻遗址各有参观边界，按标示在公共区域观察。"
+    },
+    "en": {
+      "type": "Church and archaeological site",
+      "notice": "The church and excavation areas have separate visitor boundaries. Observe from the signed public paths."
+    }
+  },
+  "perivlepta": {
+    "duration": "25–45",
+    "zh": {
+      "type": "拜占庭壁画教堂",
+      "notice": "教堂和圣像画廊是两个参观点，分开确认入口、开放和购票。"
+    },
+    "en": {
+      "type": "Byzantine fresco church",
+      "notice": "The church and Icon Gallery are separate visits. Confirm entrances, hours and tickets for each."
+    }
+  },
+  "icon-gallery": {
+    "duration": "30–60",
+    "zh": {
+      "type": "圣像画廊",
+      "notice": "从圣母教堂院区找画廊自己的入口，并按展室标识确认摄影规定。"
+    },
+    "en": {
+      "type": "Icon gallery",
+      "notice": "Look for the gallery’s own door in the church precinct and check the exhibition-room photography rules."
+    }
+  },
+  "robev-house": {
+    "duration": "30–60",
+    "zh": {
+      "type": "民居博物馆",
+      "notice": "历史宅邸有楼层和室内楼梯，行动不便者可先问馆方可进入的展室。"
+    },
+    "en": {
+      "type": "House museum",
+      "notice": "The historic house has several storeys and interior stairs. Ask the museum which rooms you can reach."
+    }
+  },
+  "upper-gate": {
+    "duration": "10–20",
+    "zh": {
+      "type": "城门遗址",
+      "notice": "门洞仍用于通行。拍照时退到路侧，不在门洞正中停留。"
+    },
+    "en": {
+      "type": "Historic city gate",
+      "notice": "The gateway is still a passage. Step to the side for photographs and keep the opening clear."
+    }
+  },
+  "saint-mary-bolnichka": {
+    "duration": "10–25",
+    "zh": {
+      "type": "老城小教堂",
+      "notice": "两座博尔尼奇教堂距离很近，用入口名称或地图地标确认目标。"
+    },
+    "en": {
+      "type": "Old-town chapel",
+      "notice": "The two Bolnička churches are close together. Check the entrance label or the individual map listing."
+    }
+  },
+  "saint-nicholas-bolnichki": {
+    "duration": "10–25",
+    "zh": {
+      "type": "老城小教堂",
+      "notice": "双钟孔适合从街面仰看，若院门关闭，可沿公共街道继续游览。"
+    },
+    "en": {
+      "type": "Old-town chapel",
+      "notice": "The twin bell opening is visible from the street. If the gate is closed, continue on the public lanes."
+    }
+  },
+  "saint-clement-old-town": {
+    "duration": "15–25",
+    "zh": {
+      "type": "纪念性小教堂",
+      "notice": "院门前巷道狭窄，建议步行，勿将车辆导航到教堂门口。"
+    },
+    "en": {
+      "type": "Small memorial church",
+      "notice": "The approach is a narrow lane. Walk the last stretch and avoid routing a car to the church door."
+    }
+  },
+  "ali-pasha-mosque": {
+    "duration": "15–30",
+    "zh": {
+      "type": "历史清真寺",
+      "notice": "礼拜期间给信众留出通行空间，入内和拍摄先现场询问。"
+    },
+    "en": {
+      "type": "Historic mosque",
+      "notice": "Leave room for worshippers during prayers and ask before entering or taking photographs."
+    }
+  },
+  "zeynel-abidin-mosque": {
+    "duration": "15–30",
+    "zh": {
+      "type": "清真寺与苏菲会所",
+      "notice": "可从广场观察建筑群；内部参观先征询现场人员。"
+    },
+    "en": {
+      "type": "Mosque and tekke",
+      "notice": "The square gives a view of the complex. Ask on site about visiting any interiors."
+    }
+  },
+  "old-plane-tree": {
+    "duration": "10–20",
+    "zh": {
+      "type": "古树与市集广场",
+      "notice": "从广场外缘观赏树干和树冠，留意周围行人及临街出入口。"
+    },
+    "en": {
+      "type": "Historic tree and market square",
+      "notice": "View the trunk and canopy from the edge of the square, keeping neighbouring entrances clear."
+    }
+  },
+  "ohrid-harbour": {
+    "duration": "20–40",
+    "zh": {
+      "type": "城市港口",
+      "notice": "船票应核对登船码头、返程和是否含停靠门票；港口散步与乘船分开安排。"
+    },
+    "en": {
+      "type": "City harbour",
+      "notice": "Confirm the pier, return and any included site admission with your operator. Allow separate time for a quay walk."
+    }
+  },
+  "kaneo-boardwalk": {
+    "duration": "15–30",
+    "zh": {
+      "type": "临湖木栈道",
+      "notice": "风浪、维修或路面湿滑时改走老城上方街巷，狭窄处让行。"
+    },
+    "en": {
+      "type": "Lakeside boardwalk",
+      "notice": "If waves, maintenance or wet decking affect access, use the upper lanes. Give way on narrow stretches."
+    }
+  },
+  "potpesh-beach": {
+    "duration": "25–60",
+    "zh": {
+      "type": "卵石湖滩",
+      "notice": "岸边空间不大，查阅当日水域与浴场告示，再决定是否下水。"
+    },
+    "en": {
+      "type": "Pebble beach",
+      "notice": "Space on the shore is limited. Check the current bathing notices before entering the water."
+    }
+  },
+  "labino-beach": {
+    "duration": "25–60",
+    "zh": {
+      "type": "林坡湖湾",
+      "notice": "回程走岬角路径，尽量天黑前离开湖岸。"
+    },
+    "en": {
+      "type": "Wooded cove",
+      "notice": "Allow time to return around the headland before dark."
+    }
+  },
+  "peshtani": {
+    "duration": "30–60",
+    "zh": {
+      "type": "湖岸村庄",
+      "notice": "村内有居民出入口，沿开放湖边路参观，通往博物馆另找入口。"
+    },
+    "en": {
+      "type": "Lakeside village",
+      "notice": "Use public shoreline paths past homes. The museum has a separate access point."
+    }
+  },
+  "trpejca": {
+    "duration": "45–90",
+    "zh": {
+      "type": "山坡村庄与湖滩",
+      "notice": "从公路下到湖岸后需原路爬坡，时间估算应包含回程。"
+    },
+    "en": {
+      "type": "Hillside village and beach",
+      "notice": "The walk down from the main road requires a climb back up. Include it in your timing."
+    }
+  },
+  "ljubanista-beach": {
+    "duration": "45–90",
+    "zh": {
+      "type": "湖滩",
+      "notice": "停车、浴场和躺椅等设施可能另收费，入口公告最适合核实。"
+    },
+    "en": {
+      "type": "Lake beach",
+      "notice": "Parking, beach facilities and loungers may charge separately. Check notices at the entrance."
+    }
+  },
+  "velestovo": {
+    "duration": "30–60",
+    "zh": {
+      "type": "山麓村庄",
+      "notice": "村巷有坡度，拍照取景避开私人院落及车辆转弯处。"
+    },
+    "en": {
+      "type": "Foothill village",
+      "notice": "Village lanes are steep. Choose viewpoints away from private yards and turning vehicles."
+    }
+  },
+  "magaro": {
+    "duration": "180–300",
+    "zh": {
+      "type": "国家公园山峰",
+      "notice": "这是单独的山地徒步。向公园核实道路和步道开放，带离线地图并为折返预留时间。"
+    },
+    "en": {
+      "type": "National park summit",
+      "notice": "Treat this as a separate mountain hike. Check road and trail access with the park, carry an offline map and allow time to turn back."
+    }
+  },
+  "golem-grad": {
+    "duration": "120–240",
+    "zh": {
+      "type": "湖岛与考古遗址",
+      "notice": "预先核实可用船只、允许登岛处和返航安排；天气可能影响出航。"
+    },
+    "en": {
+      "type": "Lake island and archaeological remains",
+      "notice": "Confirm an authorised boat, landing location and return arrangements in advance. Weather can affect sailings."
+    }
+  },
+  "kalista-monastery": {
+    "duration": "35–60",
+    "zh": {
+      "type": "湖畔修道院",
+      "notice": "洞窟教堂需要走台阶，先核实开放；想少走台阶可先看临湖院区。"
+    },
+    "en": {
+      "type": "Lakeside monastery",
+      "notice": "Check access before taking the steps to the cave chapel. The lakeside precinct is a shorter alternative."
+    }
+  },
+  "radozda-cave-church": {
+    "duration": "40–70",
+    "zh": {
+      "type": "山坡洞窟教堂",
+      "notice": "从村内确认可走的上坡入口，雨后留意岩面和踏步。"
+    },
+    "en": {
+      "type": "Hillside cave church",
+      "notice": "Confirm the open uphill approach in the village. Watch for wet rock and steps after rain."
+    }
+  },
+  "black-drin-outflow": {
+    "duration": "20–40",
+    "zh": {
+      "type": "河流出湖口",
+      "notice": "用桥上的人行区域观察，沿岸留在护栏内。"
+    },
+    "en": {
+      "type": "River outlet",
+      "notice": "Use pedestrian space on the bridge and stay behind railings along the banks."
+    }
+  },
+  "vevcani-springs": {
+    "duration": "45–75",
+    "zh": {
+      "type": "泉群与林间步道",
+      "notice": "泉区木桥和湿石会滑，沿步道走并避开水渠边缘。"
+    },
+    "en": {
+      "type": "Springs and wooded paths",
+      "notice": "Bridges and wet stone can be slippery. Keep to the paths and away from channel edges."
+    }
+  },
+  "drilon": {
+    "duration": "45–90",
+    "zh": {
+      "type": "泉水公园",
+      "notice": "先走园内桥和水渠，再确认划船等单独运营项目的开放安排。"
+    },
+    "en": {
+      "type": "Spring park",
+      "notice": "Explore the park bridges and channels first. Check separately operated services such as boating on arrival."
+    }
+  },
+  "tushemisht": {
+    "duration": "30–60",
+    "zh": {
+      "type": "湖边村庄",
+      "notice": "通过公共村巷在水渠与村中心间步行，村民院落仍作日常使用。"
+    },
+    "en": {
+      "type": "Lakeside village",
+      "notice": "Walk the public lanes between the channels and village centre. Respect residential courtyards."
+    }
+  },
+  "lin-basilica": {
+    "duration": "30–60",
+    "zh": {
+      "type": "早期基督教遗址",
+      "notice": "马赛克可能采取覆盖保护，先核实当日能看到哪些区域。"
+    },
+    "en": {
+      "type": "Early Christian archaeological site",
+      "notice": "Mosaics may be protected by coverings. Check what is visible before making a dedicated climb."
+    }
+  },
+  "pogradec-waterfront": {
+    "duration": "30–60",
+    "zh": {
+      "type": "市区滨水步道",
+      "notice": "以湖滨步行为主。去城堡山需另留上坡和返回时间。"
+    },
+    "en": {
+      "type": "Urban waterfront promenade",
+      "notice": "Treat this as a shore walk. Allow separate ascent and descent time for the castle hill."
+    }
+  },
+  "pogradec-castle": {
+    "duration": "60–100",
+    "zh": {
+      "type": "山城遗址",
+      "notice": "先问清开放的上坡入口，沿允许通行处行走，避开遗址墙体边缘。"
+    },
+    "en": {
+      "type": "Hilltop fortification ruins",
+      "notice": "Confirm the open uphill approach and keep to permitted paths away from exposed ruin edges."
+    }
+  },
+  "saint-naum-springs": {
+    "duration": "40–70",
+    "zh": {
+      "type": "喀斯特泉群",
+      "notice": "有意乘船时先问清等候时间和价格，岸上步行可独立安排。"
+    },
+    "en": {
+      "type": "Karst springs",
+      "notice": "Check waiting time and fare before boarding. The shore walk can be visited on its own."
+    }
+  },
+  "bay-of-bones": {
+    "duration": "45–75",
+    "zh": {
+      "type": "水上考古博物馆",
+      "notice": "木栈桥临水，雨后路面湿滑；闭馆时不可自行进入水上展区。"
+    },
+    "en": {
+      "type": "Museum on water",
+      "notice": "The timber walkway is exposed and may be slippery after rain. Do not enter the exhibit area when closed."
+    }
+  },
+  "galicica-national-park": {
+    "duration": "180–360",
+    "zh": {
+      "type": "国家公园",
+      "notice": "高处路线和跨山公路受天气影响，出发前向游客中心确认通行。"
+    },
+    "en": {
+      "type": "National park",
+      "notice": "Weather affects high routes and the cross-mountain road. Check access with the visitor centre before leaving."
+    }
+  }
+}

@@ -2,6 +2,7 @@ import { nearbyPlaces as legacyPlaces } from './nearbyLegacy';
 import { nearbyExtra } from './nearbyExtra';
 import content from '@/content/nearby.json';
 import lake from '@/content/lake-ohrid.json';
+import visitorInfo from '@/content/nearby-visitor-info.json';
 import detailContent from '@/content/nearby-details.json';
 import photos from '@/content/nearby-photos.json';
 import type { Locale } from '@/i18n/routing';
@@ -212,6 +213,23 @@ function sourcesFor(group: Group, slug: string) {
   }
 }
 
+const stayByGroup: Record<Group, LocalText> = {
+  city: { zh: '以奥赫里德老城下部或港口一带为落脚点，便于步行串联老城景点。订房前核对上坡路段和停车位置。', en: 'Base yourself near the lower Old Town or harbour for a walking itinerary. Check slopes and parking before booking.' },
+  south: { zh: '想串联沿湖村庄，可住佩什塔尼；需要更多餐饮和返程选择，可回奥赫里德市区住宿。', en: 'Consider Peštani for a shore-road itinerary, or stay in Ohrid for more dining and onward travel options.' },
+  park: { zh: '从奥赫里德出发适合西侧山地行程；若主要游览普雷斯帕湖一侧，按已确认的登山口或码头选择落脚点。', en: 'Ohrid is a practical base for the western side. For a Prespa-side trip, choose a base once you have confirmed your trailhead or boat departure.' },
+  west: { zh: '斯特鲁加市区适合串联湖西岸和黑德林河。计划留在村镇时，提前确认住宿与返程交通。', en: 'Base yourself in Struga to combine the western shore with the Black Drin. Check accommodation and return transport before staying in a village.' },
+  albania: { zh: '波格拉德茨市区可作为阿尔巴尼亚湖岸行程的落脚点。若要早晨游览泉区，可优先考虑图舍米什特附近。', en: 'Pogradec is a practical base for this stretch of the Albanian shore. Consider a stay near Tushemisht if you want an early visit to the springs.' },
+};
+
+const museumHours: Record<string, { winter: string; summer: string; url: string }> = {
+  'bay-of-bones': { winter: '09:00–15:30', summer: '09:00–16:30', url: 'https://muzejohrid.mk/museum-on-water/' },
+  'robev-house': { winter: '09:00–15:30', summer: '09:00–20:00', url: 'https://muzejohrid.mk/house-of-robev-family/' },
+  'icon-gallery': { winter: '09:00–14:00', summer: '09:00–17:00', url: 'https://muzejohrid.mk/galerija-na-ikoni/' },
+};
+const parkTickets = { url: 'https://galicica.org.mk/en/e-prodavnica/', zh: '国家公园官方门票目录', en: 'Official national park ticket listings' };
+const museumFees = { url: 'https://muzejohrid.mk/images/oglasi/' + encodeURIComponent('Одлука за утврдување на висина на цените на влезните билети (2022).pdf'),
+  zh: '奥赫里德博物馆公布的 2022 年票价决定', en: 'Ohrid Museum’s published 2022 admission decision' };
+
 export function guide(locale: Locale, slug: string) {
   const details = (detailContent as Record<string, Record<Locale, LocalDetails>>)[slug]?.[locale];
   const regionalSource = regionalSources[slug];
@@ -240,6 +258,12 @@ export function guide(locale: Locale, slug: string) {
   } : old![locale];
   const photo = (photos as Record<string, Photo>)[slug];
   const policy = access[kind];
+  const visitor = visitorInfo[slug as keyof typeof visitorInfo];
+  const museum = museumHours[slug];
+  const visitSources = [
+    ...(museum ? [{ url: museum.url, zh: '馆方开放公告', en: 'Museum opening hours' }, museumFees] : []),
+    ...(['galicica-national-park', 'magaro'].includes(slug) ? [parkTickets] : []),
+  ];
   const preservation = (group === 'city' || group === 'west') && ['church', 'heritage', 'museum'].includes(kind)
     ? (locale === 'zh'
       ? '奥赫里德文化古迹保护研究所与博物馆负责湖区的文保工作。参观入口与现场开放安排请以景点公告为准。'
@@ -256,12 +280,15 @@ export function guide(locale: Locale, slug: string) {
     manager: visit.operator?.[locale] ?? regionalOperators[slug]?.[locale] ?? details?.manager ?? preservation ?? legacyCopy?.management ?? policy.manager[locale],
     hours: legacyCopy?.hours ?? policy.hours[locale],
     tickets: legacyCopy?.tickets ?? policy.tickets[locale],
+    visitor: { ...visitor[locale], duration: visitor.duration, stay: stayByGroup[group][locale] },
+    museum,
+    parkTicket: ['galicica-national-park', 'magaro'].includes(slug) ? parkTickets.url : undefined,
     legacyCopy,
     extra,
     photo,
     path: '/nearby/' + slug,
     map: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(visit.map),
-    sources: [...(old?.sources ?? sourcesFor(group, slug)), ...(regionalSource ? [regionalSource] : []), ...(legacy && !old?.sources.some(({ url }) => url === legacy.source) ? [{ url: legacy.source, en: 'Additional visitor information', zh: '补充参观资料' }] : [])],
+    sources: [...(old?.sources ?? sourcesFor(group, slug)), ...visitSources, ...(regionalSource ? [regionalSource] : []), ...(legacy && !old?.sources.some(({ url }) => url === legacy.source) ? [{ url: legacy.source, en: 'Additional visitor information', zh: '补充参观资料' }] : [])],
     ui: labels(locale),
   };
 }
