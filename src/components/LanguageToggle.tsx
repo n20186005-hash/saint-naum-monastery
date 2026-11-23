@@ -1,5 +1,6 @@
 'use client';
 
+import { useParams } from 'next/navigation';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from '@/i18n/navigation';
 import { routing, type Locale } from '@/i18n/routing';
@@ -14,6 +15,7 @@ export default function LanguageToggle() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const { slug } = useParams<{ slug?: string }>();
   const [open, setOpen] = useState(false);
   const [isPending, startTransition] = useTransition();
   const ref = useRef<HTMLDivElement>(null);
@@ -34,8 +36,11 @@ export default function LanguageToggle() {
     if (next === locale) return;
 
     startTransition(() => {
-      // @ts-ignore
-      router.replace(pathname, { locale: next });
+      if (pathname === '/nearby/[slug]' && slug) {
+        router.replace({ pathname, params: { slug } }, { locale: next });
+      } else if (pathname !== '/nearby/[slug]') {
+        router.replace(pathname, { locale: next });
+      }
     });
   }
 

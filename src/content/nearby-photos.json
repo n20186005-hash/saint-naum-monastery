@@ -1,0 +1,265 @@
+{
+  "kaneo": {
+    "path": "/nearby/kaneo.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_St._John_at_Kaneo_6.jpg",
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "samuel-fortress": {
+    "path": "/nearby/samuel-fortress.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Samuel%27s_Fortress_Ohrid_1.jpg",
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "ancient-theatre": {
+    "path": "/nearby/ancient-theatre.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Ancient_Macedonian_Theatre_of_Ohrid_3.jpg",
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "saint-sophia": {
+    "path": "/nearby/saint-sophia.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Sophia_Ohrid.JPG",
+    "artist": "Brams",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "plaosnik": {
+    "path": "/nearby/plaosnik.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Saint_Panteleimon_Ohrid.jpg",
+    "artist": "Markus Bernet",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "perivlepta": {
+    "path": "/nearby/perivlepta.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Church_of_Sveta_Bogorodica_Perivlepta%2C_Ohrid.jpg",
+    "artist": "Explorer1940",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "icon-gallery": {
+    "path": "/nearby/icon-gallery.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:St._Marina_killing_the_devil%2C_around_1711%2C_Icon_Gallery-Ohrid_2.jpg",
+    "artist": "Unknown author",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "alt": {
+      "zh": "奥赫里德圣像画廊收藏的圣玛丽娜木板圣像",
+      "en": "Painted icon of Saint Marina in the Ohrid Icon Gallery collection"
+    }
+  },
+  "robev-house": {
+    "path": "/nearby/robev-house.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Robevi_House%2C_Ohrid%2C_Macedonia.jpg",
+    "artist": "BrankaVV",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "upper-gate": {
+    "path": "/nearby/upper-gate.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohrid_Upper_Gate_close-up.jpg",
+    "artist": "Cplakidas",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ali-pasha-mosque": {
+    "path": "/nearby/ali-pasha-mosque.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohrid%2C_North_Macedonia_2022-8_-_Ali_Pasha_Mosque_seen_from_street_of_shops.jpg",
+    "artist": "Sharon Hahn Darlin",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "zeynel-abidin-mosque": {
+    "path": "/nearby/zeynel-abidin-mosque.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Xhamia_e_Zejnel_Abedin_Pash%C3%ABs_n%C3%AB_Oh%C3%ABr_6.JPG",
+    "artist": "Alboholic",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "potpesh-beach": {
+    "path": "/nearby/potpesh-beach.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohrid-Potpesh_beach.JPG",
+    "artist": "Elif.s",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "trpejca": {
+    "path": "/nearby/trpejca.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A2%D1%80%D0%BF%D0%B5%D1%98%D1%86%D0%B0_%D1%81%D0%BE_%D0%9E%D1%85%D1%80%D0%B8%D0%B4%D1%81%D0%BA%D0%BE%D1%82%D0%BE_%D0%95%D0%B7%D0%B5%D1%80%D0%BE.jpg",
+    "artist": "Kiril Simeonovski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "ljubanista-beach": {
+    "path": "/nearby/ljubanista-beach.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Wild_beach-selo_Ljubanista_Ohrid.jpg",
+    "artist": "Original uploader was Niboj at sr.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "bay-of-bones": {
+    "path": "/nearby/bay-of-bones.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Bay_of_the_bones_in_Ohrid.jpg",
+    "artist": "Виолетова",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "galicica-national-park": {
+    "path": "/nearby/galicica-national-park.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BD%D0%BE%D1%80%D0%B0%D0%BC%D0%B0_%D0%BE%D0%B4_%D0%9A%D1%80%D1%81%D1%82%D0%B5%D1%86.jpg",
+    "artist": "Silfiriel",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "saint-mary-bolnichka": {
+    "path": "/nearby/saint-mary-bolnichka.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Bogoroditsa_Bolnichka_Ohrid.jpg",
+    "artist": "a.dombrowski",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "saint-nicholas-bolnichki": {
+    "path": "/nearby/saint-nicholas-bolnichki.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A6%D1%80%D0%BA%D0%B2%D0%B0_%E2%80%9E%D0%A1%D0%B2._%D0%9D%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0_%D0%91%D0%BE%D0%BB%D0%BD%D0%B8%D1%87%D0%BA%D0%B8%E2%80%9C.jpg",
+    "artist": "Ivka20",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "old-plane-tree": {
+    "path": "/nearby/old-plane-tree.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohrid_plane_tree%2C_Kru%C5%A1evo_Republic_Square_05.jpg",
+    "artist": "Liridon",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "magaro": {
+    "path": "/nearby/magaro.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Galicica_Magaro.jpg",
+    "artist": "Pero Veliki",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "golem-grad": {
+    "path": "/nearby/golem-grad.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9E%D1%81%D1%82%D1%80%D0%BE%D0%B2_%D0%93%D0%BE%D0%BB%D0%B5%D0%BC_%D0%93%D1%80%D0%B0%D0%B4_-_%D0%9F%D1%80%D0%B5%D1%81%D0%BF%D0%B0%2C_%D0%B2%D0%B8%D0%B4%D0%B5%D0%BD_%D0%BE%D0%B4_%D0%B2%D0%BE%D0%B7%D0%B4%D1%83%D1%85_1.jpg",
+    "artist": "Бојан Тренчевски",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "kalista-monastery": {
+    "path": "/nearby/kalista-monastery.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D0%BB%D0%B8%D1%88%D0%BA%D0%B8_%D0%BC%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_3.jpg",
+    "artist": "Kiril Simeonovski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "radozda-cave-church": {
+    "path": "/nearby/radozda-cave-church.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:SaintArchangelMichael.jpg",
+    "artist": "PMK1",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+  },
+  "vevcani-springs": {
+    "path": "/nearby/vevcani-springs.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B5%D0%B2%D1%87%D0%B0%D0%BD%D1%81%D0%BA%D0%B8_%D0%B8%D0%B7%D0%B2%D0%BE%D1%80%D0%B8%2C_%D0%BC%D0%B0%D1%98_%287%29.JPG",
+    "artist": "MacedonianBoy",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "tushemisht": {
+    "path": "/nearby/tushemisht.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Tushemisht%28Qend%C3%ABr%29.jpg",
+    "artist": "Drenisa",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "lin-basilica": {
+    "path": "/nearby/lin-basilica.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Mozaiku_i_Linit.jpg",
+    "artist": "SualdoDino",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pogradec-castle": {
+    "path": "/nearby/pogradec-castle.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Pogradec_Castle%2C_Albania_2018_04.jpg",
+    "artist": "Pasztilla aka Attila Terbócs",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "saint-clement-old-town": {
+    "path": "/nearby/saint-clement-old-town.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Crkva_Mal_Sv.Kliment_vo_Ohrid.jpg",
+    "artist": "Македонец",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "ohrid-harbour": {
+    "path": "/nearby/ohrid-harbour.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Puerto_de_Ohrid%2C_Macedonia%2C_2014-04-17%2C_DD_61.JPG",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "kaneo-boardwalk": {
+    "path": "/nearby/kaneo-boardwalk.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Ohrid_Boardwalk_1.jpg",
+    "artist": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "labino-beach": {
+    "path": "/nearby/labino-beach.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Second_part_of_Labino_Beach%2C_Ohrid%2C_Macedonia_-_panoramio.jpg",
+    "artist": "Razvigor",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "peshtani": {
+    "path": "/nearby/peshtani.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D0%B3%D0%BB%D0%B5%D0%B4_%D0%BD%D0%B0_%D0%9F%D0%B5%D1%88%D1%82%D0%B0%D0%BD%D0%B8.jpg",
+    "artist": "Kiril Simeonovski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "velestovo": {
+    "path": "/nearby/velestovo.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Velestovo_01.JPG",
+    "artist": "Rašo",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "black-drin-outflow": {
+    "path": "/nearby/black-drin-outflow.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Crni_Drim_Struga.jpg",
+    "artist": "Alan Grant",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "drilon": {
+    "path": "/nearby/drilon.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Drilon_Park.jpg",
+    "artist": "M.mir.m",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pogradec-waterfront": {
+    "path": "/nearby/pogradec-waterfront.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Pogradec_promenade.jpg",
+    "artist": "Leeturtle",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "saint-naum-springs": {
+    "path": "/nearby/saint-naum-springs.webp",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_Drim_wells.jpg",
+    "artist": "Original uploader was Niboj at sr.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  }
+}

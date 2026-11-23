@@ -8,10 +8,7 @@ export const routing = defineRouting({
   },
   pathnames: {
     '/': '/',
-    '/nearby/saint-naum-springs': '/nearby/saint-naum-springs',
-    '/nearby/bay-of-bones': '/nearby/bay-of-bones',
-    '/nearby/galicica-national-park': '/nearby/galicica-national-park',
-
+    '/nearby/[slug]': '/nearby/[slug]',
     '/petrovaradin-fortress-clock': '/petrovaradin-fortress-clock',
     '/petrovaradin-fortress-clock/privacy-policy': '/petrovaradin-fortress-clock/privacy-policy',
     '/petrovaradin-fortress-clock/terms-of-service': '/petrovaradin-fortress-clock/terms-of-service',

@@ -1,0 +1,954 @@
+{
+  "kaneo": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Church of St John at Kaneo",
+      "location": "Kaneo cliff, Ohrid",
+      "subtitle": "A medieval church above the fishing quarter",
+      "intro": "The lakeside bluff gives the church its distinctive setting. Compare the compact brick-and-stone exterior and the tall drum with the open sweep of the lake.",
+      "route": "Walk up from the Kaneo waterfront, circle the exterior on the public path, then continue uphill toward Plaošnik.",
+      "view": "Use the path uphill of the church to frame the roof against the lake.",
+      "faq": {
+        "q": "Can I see the classic lake view without entering?",
+        "a": "Yes. The public uphill approach gives a view of the church and the lake even when the interior is closed."
+      }
+    },
+    "zh": {
+      "title": "卡内奥圣约翰教堂",
+      "location": "奥赫里德卡内奥湖崖",
+      "subtitle": "渔村上方的中世纪湖崖教堂",
+      "intro": "教堂坐落在昔日渔村上方的湖崖。先近看砖石相间的墙面和抬高的穹顶鼓座，再退到高处观察建筑与湖面的比例。",
+      "route": "从卡内奥水边拾级而上，沿开放小径绕看外墙，再向上衔接普劳什尼克。",
+      "view": "在教堂上方的小径取景，把屋顶与湖面收进同一画面。",
+      "faq": {
+        "q": "不进教堂也能看到经典湖景吗？",
+        "a": "可以。即使室内关闭，教堂上方开放路径也能看到建筑和湖面。"
+      }
+    }
+  },
+  "samuel-fortress": {
+    "group": "city",
+    "kind": "museum",
+    "en": {
+      "title": "Samuel’s Fortress",
+      "location": "Samuilova Street, Ohrid",
+      "subtitle": "Ramparts overlooking the old town",
+      "intro": "The hilltop walls mark the defensive centre of medieval Ohrid. Read the towers and wall walks as parts of a ridge-top enclosure, with the old town spreading down the slope beneath them.",
+      "route": "Climb from Upper Gate, check access at the fortress entrance, and descend toward the theatre.",
+      "view": "Frame the wall crenellations against the lake from a permitted platform.",
+      "faq": {
+        "q": "Where should I start the climb?",
+        "a": "Upper Gate is a useful starting point because it avoids climbing all the way from the waterfront."
+      }
+    },
+    "zh": {
+      "title": "萨穆伊尔堡垒",
+      "location": "奥赫里德萨穆伊洛瓦街山顶",
+      "subtitle": "俯瞰老城的山顶城垣",
+      "intro": "山顶城垣标示着中世纪奥赫里德的防御中心。沿墙看塔楼和城垣怎样围合山脊，老城则顺着下方坡地铺展。",
+      "route": "由上城门登坡，抵达堡垒入口后查看通行范围，下山可接古剧场。",
+      "view": "在开放平台用城垛作前景拍摄湖面。",
+      "faq": {
+        "q": "从哪里开始爬坡？",
+        "a": "可选上城门，免去从湖边一路上坡的部分路程。"
+      }
+    }
+  },
+  "ancient-theatre": {
+    "group": "city",
+    "kind": "heritage",
+    "en": {
+      "title": "Ancient Theatre of Ohrid",
+      "location": "Ilindenska, Ohrid Old Town",
+      "subtitle": "An ancient auditorium in the lanes below the fortress",
+      "intro": "The theatre belongs to ancient Lychnidos. Its surviving stone seating follows the slope. Modern event equipment may be present when the venue is in use.",
+      "route": "Enter from Ilindenska where access is open, compare the upper and lower sightlines, then walk to Upper Gate.",
+      "view": "Show the curve of the seating from one side of the auditorium.",
+      "faq": {
+        "q": "Does an event change how I can visit?",
+        "a": "Yes. A performance may restrict access to the stage and seating. Check notices on Ilindenska before entering."
+      }
+    },
+    "zh": {
+      "title": "奥赫里德古剧场",
+      "location": "奥赫里德老城伊林登斯卡街",
+      "subtitle": "堡垒下方街巷中的古剧场",
+      "intro": "剧场属于古城利赫尼多斯时期的遗存。石座顺着坡势布置，举办活动时还可看到现代舞台设施。",
+      "route": "由伊林登斯卡街的开放入口进入，比对上排和下排视线，再走向上城门。",
+      "view": "从观众席侧边拍出石座的弧线。",
+      "faq": {
+        "q": "演出会影响参观吗？",
+        "a": "可能会限制舞台及座席区域，进入前看伊林登斯卡街入口公告。"
+      }
+    }
+  },
+  "saint-sophia": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Church of Saint Sophia",
+      "location": "Tsar Samoil, Ohrid Old Town",
+      "subtitle": "The former cathedral of the Ohrid archbishopric",
+      "intro": "The former cathedral preserves medieval frescoes and an imposing arcaded exterior. The long facade reads especially clearly from the courtyard.",
+      "route": "Approach from the lakeside lanes, walk the courtyard first, and enter only when visiting is permitted.",
+      "view": "Use the courtyard edge for the repeated arches and shadow lines.",
+      "faq": {
+        "q": "What can I observe from outside?",
+        "a": "Use the courtyard to see how the arches and upper windows are arranged across the long facade."
+      }
+    },
+    "zh": {
+      "title": "圣索菲亚教堂",
+      "location": "奥赫里德老城沙皇萨穆伊尔街",
+      "subtitle": "昔日奥赫里德大主教区主教座堂",
+      "intro": "昔日主教座堂保存中世纪壁画，外墙的连续拱廊也值得停留。从院内观察，较容易看清长立面的构成。",
+      "route": "从湖边街巷进入，先看庭院和外墙，室内开放时再入内。",
+      "view": "从庭院边缘拍连续拱门及其投影。",
+      "faq": {
+        "q": "只看外观有什么看点？",
+        "a": "从庭院观察连续拱廊和上层窗洞在长立面上的排列。"
+      }
+    }
+  },
+  "plaosnik": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Saint Panteleimon at Plaošnik",
+      "location": "Plaošnik, west of Ohrid Old Town",
+      "subtitle": "Saint Clement’s legacy on the hill above Kaneo",
+      "intro": "The hill is associated with Saint Clement and early Slavic learning. The present church and the archaeological remains around it tell different chapters of the site’s history.",
+      "route": "Arrive from the fortress-side lanes, compare the church with the visible foundations, then descend to Kaneo.",
+      "view": "Frame the church and the foundations together to show the layers of the site.",
+      "faq": {
+        "q": "Is the church the same as the archaeological site?",
+        "a": "The church stands within the broader Plaošnik site, which also has visible remains from other periods."
+      }
+    },
+    "zh": {
+      "title": "普劳什尼克圣潘捷列伊蒙教堂",
+      "location": "奥赫里德老城西部普劳什尼克遗址区",
+      "subtitle": "卡内奥上方的圣克莱门特遗迹",
+      "intro": "这里与圣克莱门特及早期斯拉夫教育传统有关。现存教堂和周围考古遗迹分别反映了这片山坡不同时期的历史。",
+      "route": "从堡垒一侧的街巷到达，比较教堂与可见遗址，随后下行至卡内奥。",
+      "view": "把教堂和地基遗存放入同一画面。",
+      "faq": {
+        "q": "教堂和普劳什尼克遗址是同一地点吗？",
+        "a": "教堂位于较大的普劳什尼克遗址区内，周边还有其他时期的可见遗存。"
+      }
+    }
+  },
+  "perivlepta": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Holy Mother of God Perivlepta",
+      "location": "Near Upper Gate, Ohrid Old Town",
+      "subtitle": "A church known for its late Byzantine wall paintings",
+      "intro": "The church dates from 1295. The painted interior is a major reason to visit, and the exterior rewards a look at the alternating masonry before entering.",
+      "route": "Walk down from Upper Gate into the church precinct. Visit the neighbouring Icon Gallery separately if it is open.",
+      "view": "Photograph the brick and stone exterior and check rules before taking any interior photo.",
+      "faq": {
+        "q": "How does this stop differ from the Icon Gallery?",
+        "a": "The church is known for paintings on its walls. The gallery next door displays painted panels."
+      }
+    },
+    "zh": {
+      "title": "佩里夫莱普塔圣母教堂",
+      "location": "奥赫里德老城上城门附近",
+      "subtitle": "以拜占庭晚期壁画知名的教堂",
+      "intro": "教堂建于1295年，室内壁画是重点。入内前也可观察外墙交错排列的砖石材料。",
+      "route": "从上城门走进教堂院区，邻近圣像画廊如开放可另行参观。",
+      "view": "拍摄外墙砖石，室内先核实拍摄规则。",
+      "faq": {
+        "q": "这里与圣像画廊有什么区别？",
+        "a": "教堂以墙面壁画见长，隔壁画廊展示的是木板圣像。"
+      }
+    }
+  },
+  "icon-gallery": {
+    "group": "city",
+    "kind": "museum",
+    "en": {
+      "title": "Ohrid Icon Gallery",
+      "location": "Klimentov Univerzitet Street, Perivlepta precinct, Ohrid",
+      "subtitle": "Portable icons beside a frescoed church",
+      "intro": "The gallery brings together painted panels associated with Ohrid’s Orthodox heritage. Compare the individual panels with the fixed wall paintings in the church next door.",
+      "route": "Start at Upper Gate and identify the gallery’s own entrance in the church precinct. Check admission there.",
+      "view": "Use the gallery approach as the exterior photo and follow exhibition rules indoors.",
+      "faq": {
+        "q": "Where do I look for the gallery entrance?",
+        "a": "Look for the separate gallery sign in the Perivlepta precinct near Upper Gate."
+      }
+    },
+    "zh": {
+      "title": "奥赫里德圣像画廊",
+      "location": "奥赫里德克利门托夫大学街、佩里夫莱普塔教堂旁",
+      "subtitle": "壁画教堂旁的中世纪圣像收藏",
+      "intro": "画廊集中展示与奥赫里德东正教传统相关的木板圣像，可和隔壁教堂绘在墙上的壁画对照观看。",
+      "route": "从上城门步行至教堂院区，找到画廊独立入口并核对入场信息。",
+      "view": "在画廊入口外取景，展室内遵守馆方规定。",
+      "faq": {
+        "q": "画廊入口在哪里？",
+        "a": "在上城门附近的佩里夫莱普塔院区找画廊独立标示。"
+      }
+    }
+  },
+  "robev-house": {
+    "group": "city",
+    "kind": "museum",
+    "en": {
+      "title": "Robev Family House",
+      "location": "62 Tsar Samoil, Ohrid Old Town",
+      "subtitle": "Archaeology in a nineteenth-century townhouse",
+      "intro": "The multi-storey house shows how Ohrid builders gained space above narrow streets. The museum’s collections trace a longer history of settlement around the lake. Check the museum’s current exhibition notices before planning an archaeology visit.",
+      "route": "Follow Tsar Samoil from the harbour. Look up at the projecting floors before checking the museum entrance.",
+      "view": "Step back where the lane widens to show the projecting upper storeys.",
+      "faq": {
+        "q": "Why are the upper floors wider?",
+        "a": "Projecting upper storeys create extra floor space above the narrow street footprint."
+      }
+    },
+    "zh": {
+      "title": "罗贝夫家族宅邸博物馆",
+      "location": "奥赫里德老城沙皇萨穆伊尔街62号",
+      "subtitle": "十九世纪民居里的考古展览",
+      "intro": "多层宅邸展示了奥赫里德工匠如何在狭窄街巷上方取得空间。馆藏反映了更长的湖区聚落史，计划参观考古展前请先查阅馆方展览公告。",
+      "route": "由港口沿沙皇萨穆伊尔街步行，进馆前先仰看向街上伸出的楼层。",
+      "view": "在街巷较宽处后退拍出上层出挑的轮廓。",
+      "faq": {
+        "q": "为什么越往上的楼层越宽？",
+        "a": "外挑楼层利用窄巷上方的空间，增加了室内面积。"
+      }
+    }
+  },
+  "upper-gate": {
+    "group": "city",
+    "kind": "heritage",
+    "en": {
+      "title": "Upper Gate of Ohrid",
+      "location": "Gorna Porta, uphill end of the Old Town",
+      "subtitle": "An old town entrance at the top of the lanes",
+      "intro": "Gorna Porta marks an entrance in Ohrid’s old defensive circuit. The bend through the gateway helps explain how the wall and steep streets shaped movement into town.",
+      "route": "Approach uphill from the theatre, pass through the arch on foot and continue to Perivlepta or the fortress.",
+      "view": "Shoot the arch from the inside lane, out of the vehicle passage.",
+      "faq": {
+        "q": "Is this the entrance to the fortress itself?",
+        "a": "The old town gate is a landmark on the approach. The hilltop fortress has its own entrance farther uphill."
+      }
+    },
+    "zh": {
+      "title": "奥赫里德上城门",
+      "location": "奥赫里德老城上坡端上城门",
+      "subtitle": "老城坡道顶端的历史入口",
+      "intro": "上城门是奥赫里德旧防御线的入口之一。穿过门洞的转向能帮助理解城墙和陡坡如何组织进城动线。",
+      "route": "从古剧场上坡，步行穿过门洞，再走向佩里夫莱普塔教堂或堡垒。",
+      "view": "从城门内侧街巷取景，避开通车位置。",
+      "faq": {
+        "q": "从上城门进去就是堡垒吗？",
+        "a": "这是老城区城门，堡垒入口还在更高处。"
+      }
+    }
+  },
+  "saint-mary-bolnichka": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Saint Mary Bolnička",
+      "location": "Lower Gate quarter, Ohrid Old Town",
+      "subtitle": "A small church near the old lakeside entrance",
+      "intro": "The church belongs to the cluster of medieval religious buildings near Lower Gate. Its low enclosure and compact roofline are easy to miss from the busy lane.",
+      "route": "Start at Lower Gate and check the church name before continuing to neighbouring Saint Nicholas.",
+      "view": "Use a straight view from the lane to record the enclosure and roofline.",
+      "faq": {
+        "q": "How do I distinguish it from Saint Nicholas?",
+        "a": "Read the entrance signs and compare the roofs. Saint Nicholas is recognisable by the twin bell opening."
+      }
+    },
+    "zh": {
+      "title": "博尔尼奇卡圣母教堂",
+      "location": "奥赫里德老城下城门街区",
+      "subtitle": "老城临湖入口附近的小教堂",
+      "intro": "教堂属于下城门附近的中世纪宗教建筑群。院墙和屋顶都不高，走在热闹街巷里容易错过。",
+      "route": "从下城门出发，先看本座教堂的名称标示，再前往邻近的圣尼古拉教堂。",
+      "view": "从街巷正面取景，保留院墙和屋顶轮廓。",
+      "faq": {
+        "q": "怎么与隔壁圣尼古拉教堂区分？",
+        "a": "核对入口名称并比较屋顶，圣尼古拉教堂有双钟孔。"
+      }
+    }
+  },
+  "saint-nicholas-bolnichki": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Saint Nicholas Bolnički",
+      "location": "Lower Gate quarter, Ohrid Old Town",
+      "subtitle": "A medieval chapel with a distinctive bell opening",
+      "intro": "The church is close to Saint Mary Bolnička. Look up at its distinctive twin bell opening and compare the two churches from the public lane.",
+      "route": "Walk over from Lower Gate and compare the exterior with its neighbour before continuing toward the harbour.",
+      "view": "Frame the bell opening and masonry from the street.",
+      "faq": {
+        "q": "What detail is visible from the street?",
+        "a": "Look for the twin bell opening, which is useful for identifying this church in the pair."
+      }
+    },
+    "zh": {
+      "title": "博尔尼奇基圣尼古拉教堂",
+      "location": "奥赫里德老城下城门街区",
+      "subtitle": "以钟墙造型见长的中世纪教堂",
+      "intro": "教堂与博尔尼奇卡圣母教堂相邻。沿公共街道观察两座建筑，特别留意此处独特的双钟孔。",
+      "route": "从下城门步行，在去港口前和邻近圣母教堂的外观作对照。",
+      "view": "在街上取景，把双钟孔和砖石细节一起拍下。",
+      "faq": {
+        "q": "从街上看哪个细节最容易辨认？",
+        "a": "抬头找成对的钟孔，这是与相邻教堂区分的线索。"
+      }
+    }
+  },
+  "saint-clement-old-town": {
+    "group": "city",
+    "kind": "church",
+    "en": {
+      "title": "Saint Clement’s Little Church",
+      "location": "Lanes above Lower Gate, Ohrid",
+      "subtitle": "A small old town church dedicated to Ohrid’s patron",
+      "intro": "This small church belongs to the dense group of religious sites near Lower Gate. Its scale and narrow approach offer a different experience from the large church at Plaošnik.",
+      "route": "Follow the short lane above the Bolnička churches and use the map name to identify the dedicated site.",
+      "view": "Photograph the approach from publicly accessible lanes.",
+      "faq": {
+        "q": "Is this the large church at Plaošnik?",
+        "a": "This smaller church is above the Lower Gate lanes. For the church at Plaošnik, head toward the hill west of the old town."
+      }
+    },
+    "zh": {
+      "title": "老城圣克莱门特小教堂",
+      "location": "奥赫里德下城门上方街巷",
+      "subtitle": "献给奥赫里德主保圣人的老城小教堂",
+      "intro": "小教堂属于下城门附近密集的宗教建筑群。窄巷和小尺度的建筑，与普劳什尼克的大教堂形成鲜明对照。",
+      "route": "沿两座博尔尼奇教堂上方的短巷步行，以地图名称和现场标示确认。",
+      "view": "在开放街巷拍摄教堂入口。",
+      "faq": {
+        "q": "这是普劳什尼克的大教堂吗？",
+        "a": "这座小教堂在下城门上方，普劳什尼克教堂在老城西侧山坡。"
+      }
+    }
+  },
+  "ali-pasha-mosque": {
+    "group": "city",
+    "kind": "faith",
+    "en": {
+      "title": "Ali Pasha Mosque",
+      "location": "Old Bazaar, St Clement of Ohrid Street",
+      "subtitle": "An Ottoman-era mosque in the bazaar",
+      "intro": "The mosque stands beside the commercial lanes. Look for the domed prayer hall and minaret where the bazaar’s roofline opens up.",
+      "route": "Walk up the bazaar from the lakefront and pause at the public approach outside prayer time.",
+      "view": "Use the bazaar lane for the contrast between everyday shopfronts and the minaret.",
+      "faq": {
+        "q": "Can I stop during a bazaar walk?",
+        "a": "Yes. The minaret and dome are visible from the market street; check separately if you hope to go inside."
+      }
+    },
+    "zh": {
+      "title": "阿里帕夏清真寺",
+      "location": "奥赫里德老巴扎圣克莱门特街",
+      "subtitle": "老巴扎里的奥斯曼时期清真寺",
+      "intro": "清真寺紧靠商业街巷。在街景开阔处可一同观察礼拜殿穹顶和宣礼塔。",
+      "route": "从湖边沿巴扎步行，在礼拜时段以外停留于开放入口。",
+      "view": "从巴扎街巷取景，对比店面与宣礼塔。",
+      "faq": {
+        "q": "逛巴扎时可以顺道看吗？",
+        "a": "可以。商业街上就能看见宣礼塔和穹顶，入内需另外核实。"
+      }
+    }
+  },
+  "zeynel-abidin-mosque": {
+    "group": "city",
+    "kind": "faith",
+    "en": {
+      "title": "Zeynel Abidin Mosque and Tekke",
+      "location": "Chinar Square, Ohrid Old Bazaar",
+      "subtitle": "A religious complex by the old plane tree",
+      "intro": "The mosque and tekke illustrate the religious and communal history of the bazaar quarter. The public square gives the clearest view of the complex in its urban setting.",
+      "route": "Walk to the northern end of the bazaar and look across the square before checking any entrance notices.",
+      "view": "Include the square and the plane tree to locate the complex in the bazaar.",
+      "faq": {
+        "q": "What landmark helps locate the entrance?",
+        "a": "Use the old plane tree and Chinar Square to orient yourself at the northern end of the bazaar."
+      }
+    },
+    "zh": {
+      "title": "宰内尔·阿比丁清真寺与苏菲会所",
+      "location": "奥赫里德老巴扎悬铃木广场",
+      "subtitle": "古悬铃木旁的宗教建筑群",
+      "intro": "清真寺和苏菲会所见证巴扎街区的宗教与社区历史。从公共广场可以看清建筑和周边街道的关系。",
+      "route": "步行到巴扎北端，在查阅入口告示前先从广场对面观察建筑。",
+      "view": "把广场和古树一起纳入画面，交代建筑的位置。",
+      "faq": {
+        "q": "找入口时认什么地标？",
+        "a": "走到巴扎北端，以古悬铃木和广场定位。"
+      }
+    }
+  },
+  "old-plane-tree": {
+    "group": "city",
+    "kind": "outdoor",
+    "en": {
+      "title": "Old Plane Tree of Ohrid",
+      "location": "Chinar Square, Ohrid Old Bazaar",
+      "subtitle": "A landmark tree at the upper end of the market street",
+      "intro": "The Chinar anchors the open square where the bazaar lanes meet. Its broad trunk and canopy are local reference points for finding the neighbouring religious buildings.",
+      "route": "Walk up the pedestrian market street and stop in the square to see how the lanes converge.",
+      "view": "Frame the trunk with the square behind it to show the scale.",
+      "faq": {
+        "q": "Is the tree near the waterfront?",
+        "a": "Walk inland along the bazaar from the waterfront toward Chinar Square."
+      }
+    },
+    "zh": {
+      "title": "奥赫里德古悬铃木",
+      "location": "奥赫里德老巴扎悬铃木广场",
+      "subtitle": "市集街北端的地标古树",
+      "intro": "古树所在的广场汇合了几条巴扎街巷。粗大的树干和树冠也是辨认邻近宗教建筑的参照。",
+      "route": "沿步行商业街上行，在广场停留观察街巷交汇的位置。",
+      "view": "用广场背景衬出树干的体量。",
+      "faq": {
+        "q": "古树靠近湖岸吗？",
+        "a": "从湖边沿巴扎朝内陆走，到悬铃木广场。"
+      }
+    }
+  },
+  "ohrid-harbour": {
+    "group": "city",
+    "kind": "outdoor",
+    "en": {
+      "title": "Ohrid City Harbour",
+      "location": "Lakefront by Macedonia Square, Ohrid",
+      "subtitle": "The starting point for lake excursions",
+      "intro": "The harbour connects the old town with the lake’s passenger boats. Along the quay, the hilltop fortress and the line of lakeside houses show how the town rises from the water.",
+      "route": "Start in the main square, check the boarding pier and return details with your operator, and walk along the public quay.",
+      "view": "Photograph the boats from the quay with the old town behind them.",
+      "faq": {
+        "q": "Is the harbour the endpoint for every lake trip?",
+        "a": "Operators use different boarding and return arrangements. Ask for the precise pier before departure."
+      }
+    },
+    "zh": {
+      "title": "奥赫里德城市港口",
+      "location": "奥赫里德马其顿广场湖畔",
+      "subtitle": "湖上游览的出发地",
+      "intro": "港口连接老城与湖上客船。沿码头可同时观察水边民居和高处堡垒，辨认城镇由湖岸向山上延伸的层次。",
+      "route": "从广场到湖边，先向运营方核对登船点和返程，再沿开放岸边散步。",
+      "view": "从岸边用船只作前景拍摄老城。",
+      "faq": {
+        "q": "所有游船都从同一码头往返吗？",
+        "a": "登船和返回安排视运营方而异，出发前问清具体码头。"
+      }
+    }
+  },
+  "kaneo-boardwalk": {
+    "group": "city",
+    "kind": "outdoor",
+    "en": {
+      "title": "Kaneo Cliffside Boardwalk",
+      "location": "Below the Old Town, toward Potpesh, Ohrid",
+      "subtitle": "A timber walkway between the cliff and lake",
+      "intro": "The boardwalk provides a low, lakeside approach to Potpesh and Kaneo. Look back from the promenade to see how the timber path fits against the rocky shore.",
+      "route": "Find the lakeside entrance below the old town. If the boardwalk is closed, use the upper public streets toward Kaneo.",
+      "view": "Use the curve of the walkway as a leading line without blocking foot traffic.",
+      "faq": {
+        "q": "Can I still reach Kaneo if the walkway closes?",
+        "a": "Yes. Follow the public streets uphill and descend toward the church from the old town."
+      }
+    },
+    "zh": {
+      "title": "卡内奥悬崖栈道",
+      "location": "奥赫里德老城下方通往波特佩什湖滩的湖岸",
+      "subtitle": "岩壁与湖水之间的木栈道",
+      "intro": "栈道沿水面通往波特佩什和卡内奥。沿步道回望，可看清木结构贴着岩石岸线的走向。",
+      "route": "从老城下方找湖边入口。若栈道关闭，则沿上方公共街巷前往卡内奥。",
+      "view": "以步道转折作引导线，并给行人留出通道。",
+      "faq": {
+        "q": "栈道关闭还能去卡内奥吗？",
+        "a": "可以，经老城上方公共街巷绕行，再走向教堂。"
+      }
+    }
+  },
+  "potpesh-beach": {
+    "group": "city",
+    "kind": "outdoor",
+    "en": {
+      "title": "Potpesh Beach",
+      "location": "Below Ohrid Old Town, on the Kaneo approach",
+      "subtitle": "A small pebble beach below the old town",
+      "intro": "The small beach sits on the lakeside approach to Kaneo. The cliff and narrow shore give it a sheltered feel, although available space and services vary with the season.",
+      "route": "Approach on foot along the lower lake path and check the exit before settling near the water.",
+      "view": "From the shore, include the cliff edge and clear shallows.",
+      "faq": {
+        "q": "Is the shore broad enough for a long walk?",
+        "a": "This is a compact beach. Continue on the public path toward Kaneo if you want a longer walk."
+      }
+    },
+    "zh": {
+      "title": "波特佩什湖滩",
+      "location": "奥赫里德老城下方、卡内奥步行线路上",
+      "subtitle": "老城下方的小型卵石湖滩",
+      "intro": "湖滩位于通往卡内奥的湖岸路上。岩壁与狭窄的卵石岸线使空间较为紧凑，设施和可用空间会随季节变化。",
+      "route": "沿下层湖边步道步行抵达，临水停留前先确认回程出口。",
+      "view": "从岸上取景，把旁边岩壁和浅水同时拍入。",
+      "faq": {
+        "q": "滩面够长，能沿岸走很久吗？",
+        "a": "湖滩范围较小，想多走一段可沿公共路径继续前往卡内奥。"
+      }
+    }
+  },
+  "labino-beach": {
+    "group": "city",
+    "kind": "outdoor",
+    "en": {
+      "title": "Labino Beach",
+      "location": "West of Kaneo, Ohrid",
+      "subtitle": "A quieter cove beyond the Kaneo headland",
+      "intro": "Labino lies beyond the busier old town waterfront. Its small shoreline is a good place to see how the wooded slope meets the lake after the rocky Kaneo headland.",
+      "route": "Follow the public path from the Kaneo area and retrace the route before dark.",
+      "view": "Look along the cove from the edge of the path with the wooded shore in frame.",
+      "faq": {
+        "q": "Which side of Kaneo should I head for?",
+        "a": "Follow public paths west of the headland. Potpesh lies back toward the old town."
+      }
+    },
+    "zh": {
+      "title": "拉比诺湖滩",
+      "location": "奥赫里德卡内奥以西湖岸",
+      "subtitle": "卡内奥岬角后方的安静湖湾",
+      "intro": "拉比诺位于热闹的老城水岸之外。越过卡内奥岩岬后，可以在这个小湖湾观察林坡与湖岸相接的地形。",
+      "route": "从卡内奥走开放小径，天黑前原路返回。",
+      "view": "从小径边沿湖湾取景，保留林木覆盖的岸线。",
+      "faq": {
+        "q": "从卡内奥往哪边走？",
+        "a": "沿岬角以西的公共小径前往。波特佩什在靠老城的一侧。"
+      }
+    }
+  },
+  "peshtani": {
+    "group": "south",
+    "kind": "outdoor",
+    "en": {
+      "title": "Peštani Village",
+      "location": "Eastern Lake Ohrid shore, Municipality of Ohrid",
+      "subtitle": "A lakeshore village on the road to Bay of Bones",
+      "intro": "In Peštani the road, buildings and narrow lake edge sit close together. The village is a useful place to pause and read the shoreline before the museum site farther south.",
+      "route": "Leave the lakeshore road at a signed village access and continue on foot to the open shore.",
+      "view": "Photograph the lake edge and shoreline houses from an open public spot.",
+      "faq": {
+        "q": "Is the village the same stop as the museum?",
+        "a": "Peštani has its own village waterfront. The Museum on Water is farther south near Gradište."
+      }
+    },
+    "zh": {
+      "title": "佩什塔尼村",
+      "location": "奥赫里德市辖区、奥赫里德湖东岸",
+      "subtitle": "通往骨头湾路上的湖岸村庄",
+      "intro": "佩什塔尼的公路、民居与窄湖岸相距很近。继续南下参观水上博物馆前，可以先在村里观察沿湖聚落的布局。",
+      "route": "从沿湖公路驶入有标示的村口，再步行走到开放岸段。",
+      "view": "在开放公共岸段拍水边民居与湖岸。",
+      "faq": {
+        "q": "村中心就是水上博物馆吗？",
+        "a": "村里有自己的湖岸，水上博物馆在更南边的格拉迪什特附近。"
+      }
+    }
+  },
+  "trpejca": {
+    "group": "south",
+    "kind": "outdoor",
+    "en": {
+      "title": "Trpejca Village and Beach",
+      "location": "Eastern Lake Ohrid shore, Municipality of Ohrid",
+      "subtitle": "A hillside village above a narrow pebble shore",
+      "intro": "The village descends sharply from the road to the water. Observe how the steps, hillside houses and small beach fit into the slope before deciding how far to walk down.",
+      "route": "Arrive via the east-shore road, use the signed village access and allow time for the return climb.",
+      "view": "Pause above the shore for a photo that shows the stepped layout.",
+      "faq": {
+        "q": "What changes if I arrive by road?",
+        "a": "The main road sits above the village shoreline, so plan for the climb back from the beach."
+      }
+    },
+    "zh": {
+      "title": "特尔佩伊察村与湖滩",
+      "location": "奥赫里德市辖区、奥赫里德湖东岸",
+      "subtitle": "窄卵石湖滩上方的山坡村落",
+      "intro": "村落由公路陡降至湖边。下行前可先观察台阶、坡地民居和窄湖滩如何顺应地形。",
+      "route": "由东岸公路进入村口，步行下到水边时预留回程爬坡时间。",
+      "view": "在岸边上方拍摄，展示村庄阶梯式布局。",
+      "faq": {
+        "q": "驾车去要注意什么？",
+        "a": "公路在村内湖滩上方，从湖边返回时要预留爬坡时间。"
+      }
+    }
+  },
+  "ljubanista-beach": {
+    "group": "south",
+    "kind": "outdoor",
+    "en": {
+      "title": "Ljubaništa Beach",
+      "location": "Ljubaništa village, southern end of Lake Ohrid",
+      "subtitle": "An open shoreline close to Saint Naum",
+      "intro": "The broad lakeside setting contrasts with Trpejca’s steep village shore. Walk the open public sections to see the lake and the slopes of Galičica in one view.",
+      "route": "Use the signed Ljubaništa road turnoff. Confirm public access at the beach entrance before walking along the shore.",
+      "view": "Use low light to frame the shallow edge and the mountains in the same composition.",
+      "faq": {
+        "q": "Can I pair the beach with Saint Naum?",
+        "a": "Yes. Keep the beach and monastery entrances separate when navigating and confirm your return transport."
+      }
+    },
+    "zh": {
+      "title": "柳巴尼什塔湖滩",
+      "location": "奥赫里德湖南端柳巴尼什塔村",
+      "subtitle": "圣瑙姆附近较开阔的湖岸",
+      "intro": "开阔湖岸与特尔佩伊察的陡坡地形形成对照。沿开放岸段散步时，可以同时观察湖面和加利奇察山坡。",
+      "route": "走有标示的柳巴尼什塔岔路，到湖滩入口先核实开放通道再沿岸步行。",
+      "view": "利用低角度日光，将浅水岸线和山影拍入同一画面。",
+      "faq": {
+        "q": "可以和圣瑙姆安排在同一天吗？",
+        "a": "可以。导航时分别选择湖滩和修道院入口，并核实返程交通。"
+      }
+    }
+  },
+  "velestovo": {
+    "group": "park",
+    "kind": "outdoor",
+    "en": {
+      "title": "Velestovo Village",
+      "location": "Above Ohrid on the Galičica foothills",
+      "subtitle": "A hillside village overlooking Ohrid",
+      "intro": "Velestovo offers a higher view of the town and lake. From public lanes, observe the spread of the city below and the change from the urban shore to the mountain landscape.",
+      "route": "Take the signed uphill road from Ohrid, then walk the village lanes without entering private courtyards.",
+      "view": "Find an unobstructed public viewpoint with Ohrid and its shoreline below.",
+      "faq": {
+        "q": "Do I need to start on a mountain trail?",
+        "a": "No. The public village lanes are enough for views; check park guidance if continuing onto trails."
+      }
+    },
+    "zh": {
+      "title": "韦莱斯托沃村",
+      "location": "奥赫里德上方加利奇察山麓",
+      "subtitle": "俯瞰奥赫里德的山坡村庄",
+      "intro": "韦莱斯托沃提供俯瞰湖城的高处视角。从村内公共街巷可以辨认市区范围和湖岸转向山地的地形变化。",
+      "route": "从奥赫里德走有标示的上坡公路，在村内沿公共街巷步行。",
+      "view": "在视线开阔的公共地点拍摄下方城区和岸线。",
+      "faq": {
+        "q": "需要走登山步道吗？",
+        "a": "村内开放街巷已经能看到湖城景色，若继续走山径再按公园指引。"
+      }
+    }
+  },
+  "magaro": {
+    "group": "park",
+    "kind": "park",
+    "en": {
+      "title": "Mount Magaro",
+      "location": "Galičica ridge between Lakes Ohrid and Prespa",
+      "subtitle": "An exposed summit route above two lake basins",
+      "intro": "Magaro is an upper Galičica outing with an exposed ridge and open views in clear weather. Mountain access depends on trail, season and road conditions.",
+      "route": "Ask the park about the signed trailhead and current road status. Follow the marked route and set a turnaround time.",
+      "view": "Photograph the lake basins from a stable point on the marked route.",
+      "faq": {
+        "q": "Can I use the summit pin as a driving destination?",
+        "a": "Use the park’s current trailhead advice for driving. The summit itself is reached on foot."
+      }
+    },
+    "zh": {
+      "title": "马加罗峰",
+      "location": "奥赫里德湖与普雷斯帕湖之间的加利奇察山脊",
+      "subtitle": "两座湖盆之间的高处登山路线",
+      "intro": "马加罗峰位于加利奇察高处，山脊较为暴露，天气晴朗时视野开阔。能否出发取决于步道、季节与道路状况。",
+      "route": "向公园确认标记步道入口及道路状况，沿标记行走并提前设定折返点时间。",
+      "view": "在标记路线的安全平稳处拍摄两侧湖盆。",
+      "faq": {
+        "q": "能直接驾车导航至山顶吗？",
+        "a": "驾车请用公园当前建议的步道起点，山顶需徒步抵达。"
+      }
+    }
+  },
+  "golem-grad": {
+    "group": "park",
+    "kind": "park",
+    "en": {
+      "title": "Golem Grad Island",
+      "location": "Lake Prespa, Galičica National Park",
+      "subtitle": "A Prespa island with ruins and a protected shoreline",
+      "intro": "Golem Grad belongs to the Prespa side of Galičica. Archaeological remains and vegetation lie above a rocky shoreline that makes landing conditions important.",
+      "route": "Confirm permitted landing and boat arrangements with the park before leaving for the Prespa shore.",
+      "view": "Take a shoreline panorama from the boat or a permitted stopping point.",
+      "faq": {
+        "q": "Which lake should I travel to for boarding?",
+        "a": "The island lies in Lake Prespa. Confirm your authorised boat departure on the Prespa side."
+      }
+    },
+    "zh": {
+      "title": "戈莱姆格拉德岛",
+      "location": "普雷斯帕湖、加利奇察国家公园",
+      "subtitle": "普雷斯帕湖上的遗址与保护岛屿",
+      "intro": "戈莱姆格拉德岛位于加利奇察的普雷斯帕湖一侧。岛上有考古遗迹与植被，岩质岸线让登岛条件尤为重要。",
+      "route": "去普雷斯帕湖岸前，先向公园核实允许的登陆点和船只安排。",
+      "view": "从船上或许可停留点拍摄岛屿岸线全景。",
+      "faq": {
+        "q": "需要去哪座湖乘船？",
+        "a": "岛在普雷斯帕湖，先确认该湖岸获准使用的发船点。"
+      }
+    }
+  },
+  "kalista-monastery": {
+    "group": "west",
+    "kind": "church",
+    "en": {
+      "title": "Kališta Monastery",
+      "location": "Kališta, Municipality of Struga",
+      "subtitle": "A lakeside monastery with a rock church",
+      "intro": "The active monastery is set between the lake and a rocky slope. Its older cave church and the waterfront parts of the complex make distinct stops during a visit.",
+      "route": "Follow the lake road south of Struga to Kališta and check the monastery’s signs before taking the steps to the cave area.",
+      "view": "Photograph the contrast of waterfront, buildings and rock slope from the open approach.",
+      "faq": {
+        "q": "Can I visit without climbing to the rock church?",
+        "a": "Yes. The lakeside precinct is a distinct stop; cave access depends on steps and local arrangements."
+      }
+    },
+    "zh": {
+      "title": "卡利什塔修道院",
+      "location": "斯特鲁加市辖区卡利什塔村",
+      "subtitle": "带岩壁洞窟教堂的湖畔修道院",
+      "intro": "修道院仍有宗教活动，坐落于湖岸和岩坡之间。旧洞窟教堂与临湖院区各有看点。",
+      "route": "由斯特鲁加走沿湖公路向南，抵达后查阅院方标示，再决定是否走台阶前往洞窟区。",
+      "view": "从开放入口拍摄湖岸、建筑与岩坡的对照。",
+      "faq": {
+        "q": "不爬台阶也能参观吗？",
+        "a": "可以先看湖畔院区，洞窟教堂需走台阶并以现场安排为准。"
+      }
+    }
+  },
+  "radozda-cave-church": {
+    "group": "west",
+    "kind": "church",
+    "en": {
+      "title": "Archangel Michael Cave Church",
+      "location": "Above Radožda village, Municipality of Struga",
+      "subtitle": "A rock chapel above the western shore",
+      "intro": "The cave church is set into the slope over Radožda. Its elevated approach offers a view back toward the village and explains how the chapel uses the rock face.",
+      "route": "Start in Radožda village and follow the local signs uphill. Confirm whether the interior can be visited before climbing.",
+      "view": "Use an open point on the approach for a photograph of the slope and lake.",
+      "faq": {
+        "q": "Can I see the chapel from the village waterfront?",
+        "a": "The chapel sits above the village. Follow the signed hill approach for a closer view when it is open."
+      }
+    },
+    "zh": {
+      "title": "拉多日达圣米迦勒洞窟教堂",
+      "location": "斯特鲁加市辖区拉多日达村上方",
+      "subtitle": "西岸村庄上方的岩壁洞窟教堂",
+      "intro": "教堂嵌在拉多日达村上方的坡面。登高时回看村落，可以理解洞窟空间如何借用岩壁。",
+      "route": "从拉多日达村跟随标示上坡，登坡前先问清室内是否开放。",
+      "view": "从上坡路开放位置同时拍摄岩坡和湖面。",
+      "faq": {
+        "q": "站在村边湖岸能近看教堂吗？",
+        "a": "教堂位于村落上方，通行开放时按标示上坡近看。"
+      }
+    }
+  },
+  "black-drin-outflow": {
+    "group": "west",
+    "kind": "outdoor",
+    "en": {
+      "title": "Black Drin Outflow",
+      "location": "Lakefront bridges, Struga",
+      "subtitle": "Where Lake Ohrid becomes the Black Drin",
+      "intro": "The outlet is the transition from open lake to the urban river channel. The bridges let you compare its broad lakeward view with the built-up banks downstream.",
+      "route": "Start at the lakefront and cross on a public bridge before continuing along one of the river banks.",
+      "view": "Use the bridge’s pedestrian area to take separate views upstream and downstream.",
+      "faq": {
+        "q": "Which way does the water leave the lake?",
+        "a": "Look from the lakeside bridge toward the channel running through Struga."
+      }
+    },
+    "zh": {
+      "title": "黑德林河出湖口",
+      "location": "斯特鲁加湖畔桥梁一带",
+      "subtitle": "奥赫里德湖汇入黑德林河的水口",
+      "intro": "这里是开阔湖面过渡到城区河道的位置。从公共桥梁可对比湖面方向的宽阔视野与下游两岸的街区。",
+      "route": "从湖畔上公共桥梁，过桥后沿一侧河岸继续步行。",
+      "view": "在桥梁人行区分别向出湖方向和下游取景。",
+      "faq": {
+        "q": "河水从湖往哪里流？",
+        "a": "在湖边桥上朝穿过斯特鲁加市区的河道方向观察。"
+      }
+    }
+  },
+  "vevcani-springs": {
+    "group": "west",
+    "kind": "outdoor",
+    "en": {
+      "title": "Vevčani Springs",
+      "location": "Upper Vevčani village, west of Struga",
+      "subtitle": "Streams and channels at the foot of Mount Jablanica",
+      "intro": "Water drops through a wooded area above the village. The walk makes it easy to compare the spring channels and the older lanes built around the flow further downhill.",
+      "route": "Walk uphill through Vevčani to the spring entrance and return to the village along the open path.",
+      "view": "Frame a small cascade from a bridge or path edge, without stepping into the channel.",
+      "faq": {
+        "q": "Where does the spring walk begin?",
+        "a": "Use the uphill village lanes. The springs are above the built-up streets."
+      }
+    },
+    "zh": {
+      "title": "韦夫查尼泉群",
+      "location": "斯特鲁加以西韦夫查尼村上方",
+      "subtitle": "亚布拉尼察山脚的泉溪与水渠",
+      "intro": "泉水穿过村庄上方的林地向下流。沿路可对照泉区水渠和下方顺水流形成的旧街巷。",
+      "route": "从村里步行上坡到泉区入口，再沿开放路径返回。",
+      "view": "在桥面或步道边缘拍小瀑流，避免踏入水渠。",
+      "faq": {
+        "q": "从哪里开始泉群步行路线？",
+        "a": "沿村巷上坡，泉群在集中的民居上方。"
+      }
+    }
+  },
+  "drilon": {
+    "group": "albania",
+    "kind": "outdoor",
+    "en": {
+      "title": "Drilon Springs and Park",
+      "location": "Near Tushemisht, Pogradec, Albania",
+      "subtitle": "Karst channels by the Albanian lake shore",
+      "intro": "Clear spring water travels through shaded park channels before reaching Lake Ohrid. Cross the small bridges to compare enclosed water views with the open lake nearby.",
+      "route": "Reach the park via the Pogradec–Tushemisht road and follow the open paths around the channels.",
+      "view": "Photograph reflections from a bridge without blocking the crossing.",
+      "faq": {
+        "q": "Can I combine this with Tushemisht?",
+        "a": "Yes. They are nearby on the Albanian shore, and each has its own access point."
+      }
+    },
+    "zh": {
+      "title": "德里隆泉水公园",
+      "location": "阿尔巴尼亚波格拉德茨市辖区图舍米什特附近",
+      "subtitle": "阿尔巴尼亚湖岸旁的喀斯特泉渠",
+      "intro": "清澈泉水穿过公园林荫水渠后流入奥赫里德湖。走过小桥可以对比内侧渠道与外侧湖面的不同景观。",
+      "route": "沿波格拉德茨至图舍米什特公路到公园，再循开放步道绕看水渠。",
+      "view": "从桥侧拍树木倒影，保持通道畅通。",
+      "faq": {
+        "q": "可以和图舍米什特一起玩吗？",
+        "a": "可以，两者都在阿尔巴尼亚湖岸且相距很近，各有独立入口。"
+      }
+    }
+  },
+  "tushemisht": {
+    "group": "albania",
+    "kind": "outdoor",
+    "en": {
+      "title": "Tushemisht Village",
+      "location": "East of Pogradec, Albania",
+      "subtitle": "A village of stone lanes and spring water",
+      "intro": "Tushemisht sits between the springs of Drilon and the border near Saint Naum. Follow the village lanes past water channels and look for the public tribute to the film character Teto Ollga.",
+      "route": "Start from the village centre on the Albanian shore and leave time to walk to Drilon if the route is open.",
+      "view": "Frame the stone facades with the water channels visible at street level.",
+      "faq": {
+        "q": "Where is the film tribute?",
+        "a": "Look around the public village lanes for the figure of Teto Ollga before heading toward Drilon."
+      }
+    },
+    "zh": {
+      "title": "图舍米什特村",
+      "location": "阿尔巴尼亚波格拉德茨以东",
+      "subtitle": "石巷与泉水相伴的湖边村庄",
+      "intro": "图舍米什特位于德里隆泉区与圣瑙姆附近边境之间。沿着有水渠的村巷散步，可寻找纪念电影角色泰托·奥尔加的公共雕塑。",
+      "route": "从阿尔巴尼亚湖岸一侧进入村中心，步道开放时可预留时间徒步去德里隆。",
+      "view": "拍村巷石墙时带上路边水渠，保留村落特征。",
+      "faq": {
+        "q": "电影纪念雕塑在哪里找？",
+        "a": "先在开放村巷找泰托·奥尔加雕塑，再前往德里隆。"
+      }
+    }
+  },
+  "lin-basilica": {
+    "group": "albania",
+    "kind": "heritage",
+    "en": {
+      "title": "Early Christian Basilica of Lin",
+      "location": "Upper Lin Peninsula, Pogradec, Albania",
+      "subtitle": "A sixth-century site above the Lin peninsula",
+      "intro": "The early Christian basilica is known for its mosaic floors. Its elevated setting looks over the village and illustrates the lakeside spread of early Christian buildings across the region.",
+      "route": "Walk uphill from Lin village to the archaeological entrance and check which parts are open.",
+      "view": "Photograph the peninsula from the permitted approach. Follow signs around protected mosaics.",
+      "faq": {
+        "q": "Will I always see the mosaics uncovered?",
+        "a": "Their visibility depends on conservation arrangements. Check the entrance and stay behind protective barriers."
+      }
+    },
+    "zh": {
+      "title": "林村早期基督教长方形教堂遗址",
+      "location": "阿尔巴尼亚波格拉德茨林村半岛高处",
+      "subtitle": "俯瞰林村半岛的六世纪遗址",
+      "intro": "早期基督教教堂以地面马赛克闻名。遗址位于村落上方，与湖对岸的同类建筑共同反映了早期基督教建筑在湖区的传播。",
+      "route": "从林村上坡到考古遗址入口，现场查看哪些区域开放。",
+      "view": "从允许通行的上坡路拍摄半岛，在马赛克保护区域遵守指示。",
+      "faq": {
+        "q": "马赛克会一直揭开供人参观吗？",
+        "a": "可见范围依保护安排而定，请在入口核实并留在围护线外。"
+      }
+    }
+  },
+  "pogradec-waterfront": {
+    "group": "albania",
+    "kind": "outdoor",
+    "en": {
+      "title": "Pogradec Waterfront",
+      "location": "Rruga 1 Qershori, Pogradec, Albania",
+      "subtitle": "A promenade on the Albanian shore",
+      "intro": "The waterfront is where the street grid opens onto Lake Ohrid. From the promenade you can compare the town beach, open lake and hills above the city without climbing.",
+      "route": "Walk from the central streets to the lakeside promenade and follow the open public waterfront.",
+      "view": "Look along the promenade for the curve of the shore and mountain backdrop.",
+      "faq": {
+        "q": "Can I visit without climbing to the castle?",
+        "a": "Yes. The waterfront is reached from the town grid; the castle hill is a separate uphill stop."
+      }
+    },
+    "zh": {
+      "title": "波格拉德茨湖滨步道",
+      "location": "阿尔巴尼亚波格拉德茨六月一日街湖滨",
+      "subtitle": "奥赫里德湖阿尔巴尼亚一侧的城市步道",
+      "intro": "湖滨是街道通向奥赫里德湖的开阔地带。沿步道即可观察城镇湖滩、开阔水面和后方山体，不必登高。",
+      "route": "从市中心街道走向湖边，沿开放公共步道游览。",
+      "view": "沿步道方向拍摄湖岸曲线及山体背景。",
+      "faq": {
+        "q": "不去城堡山能游湖滨吗？",
+        "a": "可以，从市区街道直接到湖边，城堡山是另一段上坡行程。"
+      }
+    }
+  },
+  "pogradec-castle": {
+    "group": "albania",
+    "kind": "heritage",
+    "en": {
+      "title": "Pogradec Castle Hill",
+      "location": "Hill southwest of central Pogradec, Albania",
+      "subtitle": "Fortification remains above Pogradec",
+      "intro": "The site occupies a hill above the southern shore and survives as archaeological remains. The view explains why the position was useful for watching the land and lake approaches.",
+      "route": "Ask locally about the open uphill approach. Allow time for the descent to central Pogradec.",
+      "view": "Use a clear point on the permitted path to photograph the town and lake below.",
+      "faq": {
+        "q": "Will I see a standing castle building?",
+        "a": "Expect archaeological remains and a hilltop setting. The terrain and view are part of the visit."
+      }
+    },
+    "zh": {
+      "title": "波格拉德茨城堡山",
+      "location": "阿尔巴尼亚波格拉德茨市中心西南山坡",
+      "subtitle": "波格拉德茨城镇上方的防御遗迹",
+      "intro": "遗址位于湖南岸高地，现可见考古遗存。从山上望去，可以理解这里如何同时观察陆路与湖面。",
+      "route": "在当地核实开放的登山入口，并给下山返回城区留足时间。",
+      "view": "从开放步道的视野开阔处拍摄下方城镇与湖面。",
+      "faq": {
+        "q": "山顶有完整城堡可以参观吗？",
+        "a": "现场以考古遗存及山顶地形为主，登高视野也是看点。"
+      }
+    }
+  }
+}
