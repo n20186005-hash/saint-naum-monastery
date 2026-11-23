@@ -57,26 +57,37 @@ export default function NearbyGuidePage({ locale, slug }: { locale: string; slug
   };
   return (
     <>
-      <Header solid />
-      <main id="main-content" className="pt-16">
+      <Header />
+      <main id="main-content">
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replace(/</g, '\\u003c') }} />
         <section className="guide-hero">
-          <div className="max-w-6xl mx-auto">
+          {/* The per-attraction photo is already resized and hosted locally. */}
+          {photo && <img src={photo.path} alt={photo.alt?.[locale] ?? copy.title} className="guide-hero-image" fetchPriority="high" />}
+          <div className="guide-hero-shade" aria-hidden="true" />
+          <div className="relative max-w-6xl mx-auto w-full">
             <nav aria-label={locale === 'zh' ? '面包屑导航' : 'Breadcrumb'} className="text-sm mb-10">
               <Link href="/" className="hover:underline">{ui.home}</Link>
               <span className="mx-3" aria-hidden="true">/</span><span aria-current="page">{copy.title}</span>
             </nav>
             <p className="guide-kicker">{groups[group][locale]}</p>
-            <h1 className="font-display text-4xl sm:text-5xl md:text-6xl font-semibold max-w-4xl leading-tight mt-4 mb-6">{copy.title}</h1>
-            <p className="text-lg sm:text-xl max-w-3xl leading-relaxed">{copy.subtitle}</p>
+            <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold max-w-4xl leading-tight mt-4 mb-6">{copy.title}</h1>
+            <p className="text-lg sm:text-xl max-w-3xl leading-relaxed text-white/90">{copy.subtitle}</p>
             <div className="flex flex-wrap gap-x-6 gap-y-3 mt-5">
-              <a href={map} className="underline underline-offset-4">{data.map} →</a>
-              <a href="#guide-hours" className="underline underline-offset-4">{text.hours}</a>
-              <a href="#guide-reviews" className="underline underline-offset-4">{text.reviews}</a>
+              <a href={map} className="guide-hero-action">{data.map} →</a>
+              <a href="#guide-hours" className="guide-hero-action">{text.hours}</a>
+              <a href="#guide-reviews" className="guide-hero-action">{text.reviews}</a>
             </div>
           </div>
         </section>
         <div className="max-w-6xl mx-auto px-6 pt-10">
+          {photo && (
+              <p className="text-sm mb-5" style={{ color: 'var(--text-secondary)' }}>
+                {text.photo} {' · '}<a className="underline" href={photo.page}>
+                  {photo.artist === 'Unknown author' && zh ? '作者不详' : photo.artist}
+                </a>
+                {' · '}<a className="underline" href={photo.licenseUrl}>{photo.license}</a>{' · '}{text.resized}
+              </p>
+          )}
           <div className="max-w-3xl mb-7">
             <h2 className="font-display text-2xl font-semibold mb-3">{data.discover}</h2>
             <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{copy.intro}</p>
@@ -96,17 +107,6 @@ export default function NearbyGuidePage({ locale, slug }: { locale: string; slug
         </div>
         <div className="max-w-6xl mx-auto px-6 py-12 md:py-16 grid lg:grid-cols-[minmax(0,1.7fr)_minmax(260px,1fr)] gap-10 lg:gap-16">
           <article className="min-w-0">
-            {photo && <figure className="mb-9">
-              {/* The local image has already been resized for this layout. */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={photo.path} alt={photo.alt?.[locale] ?? copy.title} className="w-full aspect-[3/2] object-cover rounded-xl" />
-              <figcaption className="text-sm mt-2">
-                {text.photo} {' · '}<a className="underline" href={photo.page}>
-                  {zh && photo.artist === 'Unknown author' ? '作者不详' : photo.artist}
-                </a>
-                {' · '}<a className="underline" href={photo.licenseUrl}>{photo.license}</a>{' · '}{text.resized}
-              </figcaption>
-            </figure>}
             <section className="guide-panel mb-9" aria-labelledby="guide-basic">
               <h2 id="guide-basic" className="font-display text-2xl font-semibold mb-4">{text.basics}</h2>
               <table aria-labelledby="guide-basic" className="w-full text-sm sm:text-base">

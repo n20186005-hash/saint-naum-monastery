@@ -199,11 +199,39 @@ html { scroll-padding-top: 5rem; scrollbar-gutter: stable; }
 .guide-card:hover { border-color: var(--accent); transform: translateY(-3px); }
 .guide-number { display: block; color: var(--text-muted); font-family: var(--font-display); font-size: 2rem; margin-bottom: 1.4rem; }
 .guide-action { margin-top: auto; color: var(--accent); font-size: .875rem; font-weight: 600; }
-.guide-hero { padding: 2rem 1.5rem 4rem; border-bottom: 1px solid var(--border-color); background: linear-gradient(130deg, var(--bg-tertiary), var(--bg-secondary)); }
-.guide-hero nav, .guide-hero > div > p:last-child { color: var(--text-secondary); }
+.guide-hero {
+  position: relative;
+  isolation: isolate;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  min-height: clamp(30rem, 70svh, 51rem);
+  padding: 6rem 1.5rem 3rem;
+  background: #172e32;
+  color: white;
+}
+.guide-hero-image, .guide-hero-shade { position: absolute; inset: 0; width: 100%; height: 100%; }
+.guide-hero-image { object-fit: cover; z-index: -2; }
+.guide-hero-shade {
+  z-index: -1;
+  background: linear-gradient(180deg, #111d25cc 0%, #111d2533 35%, #111d25f5 100%), var(--hero-overlay);
+}
+.guide-hero .guide-kicker { color: white; }
+.guide-hero-action {
+  display: inline-flex;
+  align-items: center;
+  padding: .55rem 1rem;
+  border-radius: 999px;
+  background: #18252c80;
+  border: 1px solid #ffffff73;
+  color: white;
+  font-weight: 600;
+  font-size: .875rem;
+}
+.guide-hero-action:hover { background: #263943; }
 .guide-panel { padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 1rem; background: var(--card-bg); overflow-wrap: anywhere; }
 .guide-faq { border-top: 1px solid var(--border-color); padding: 1.1rem 0; }
 .guide-faq:last-child { border-bottom: 1px solid var(--border-color); }
 .guide-faq summary { cursor: pointer; font-weight: 600; line-height: 1.6; }
 #nearby-explore { scroll-margin-top: 4rem; }
-@media (min-width: 768px) { .guide-hero { padding: 2.5rem 2rem 5rem; } }
+@media (min-width: 768px) { .guide-hero { padding: 6rem 2rem 4.5rem; } }

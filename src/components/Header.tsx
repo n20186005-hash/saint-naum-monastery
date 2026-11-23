@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
 export default function Header({ solid = false }: { solid?: boolean }) {
   const activeLocale = useLocale();
   const t = useTranslations('header');
-  const tPetro = useTranslations('hero');
+  const hero = useTranslations('hero');
   const [scrolled, setScrolled] = useState(false);
 
   const surface = solid || scrolled;
@@ -31,7 +31,7 @@ export default function Header({ solid = false }: { solid?: boolean }) {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         <Link href="/" className="font-display text-lg font-semibold tracking-tight" style={{ color: surface ? 'var(--text-primary)' : '#fff' }}>
-          {tPetro('title')}
+          {hero('title')}
         </Link>
 
         <nav className="hidden md:flex items-center gap-6">
@@ -40,7 +40,7 @@ export default function Header({ solid = false }: { solid?: boolean }) {
           {(['gallery', 'reviews', 'map'] as const).map((section) => (
             <a
               key={section}
-              href={`/${activeLocale}#${section}`}
+              href={(activeLocale === 'en' ? '/en' : '/') + '#' + section}
               className="text-sm font-medium transition-colors"
               style={{ color: surface ? 'var(--text-secondary)' : 'rgba(255,255,255,0.85)' }}
             >

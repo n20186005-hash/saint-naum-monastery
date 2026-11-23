@@ -63,7 +63,7 @@ export default function LanguageToggle() {
           <line x1="2" y1="12" x2="22" y2="12"/>
           <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
         </svg>
-        {labels[locale]}
+        <span lang={locale === 'zh' ? 'zh-CN' : 'en'}>{labels[locale]}</span>
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className={`transition-transform ${open ? 'rotate-180' : ''}`}>
           <polyline points="6 9 12 15 18 9"/>
         </svg>
@@ -78,6 +78,7 @@ export default function LanguageToggle() {
           {routing.locales.map((loc) => (
             <button
               key={loc}
+              lang={loc === 'zh' ? 'zh-CN' : 'en'}
               onClick={() => switchLocale(loc)}
               className="w-full text-left px-4 py-2.5 text-sm transition-colors"
               style={{
